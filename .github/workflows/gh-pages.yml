@@ -23,10 +23,15 @@ jobs:
           hugo-version: '0.119.0'
           extended: true
 
+      - name: Setup Hugpo autoprefixer
+        run: npm install --save-dev autoprefixer
+
       - name: Setup Hugpo postcss-cli
-        run: npm install postcss-cli
+        run: npm install --save-dev postcss-cli
 
-
+      - name: Setup Hugpo postcss
+        run: npm install -D postcss
+        
       - name: Build
         run: hugo --minify
 
