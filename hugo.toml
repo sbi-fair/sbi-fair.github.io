@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "Gregor"
+title = "SBI-FAIR"
 publishDir = "./public"
 
 # Language settings
