@@ -1,6 +1,6 @@
 # Docsy Example
 
-12345
+123456
 
 [Docsy][] is a [Hugo theme module][] for technical documentation sites, providing easy
 site navigation, structure, and more. This **Docsy Example Project** uses the Docsy
