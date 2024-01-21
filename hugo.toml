@@ -54,14 +54,14 @@ anchor = "smart"
 
 # Language configuration
 
-[languages]
-[languages.en]
-languageName ="English"
+#[languages]
+#[languages.en]
+#languageName ="English"
 # Weight used for sorting.
-weight = 1
-[languages.en.params]
-title = "Goldydocs"
-description = "A Docsy example site"
+#weight = 1
+#[languages.en.params]
+#title = "Goldydocs"
+#description = "A Docsy example site"
 
 [markup]
   [markup.goldmark]
