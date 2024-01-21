@@ -14,9 +14,7 @@ sudo dpkg -i hugo_extended_0.121.2_linux-amd64.deb
 ```bash
 sudo apt install nodejs
 nvm install --lts
-npm install --save-dev autoprefixer
-npm install --save-dev postcss-cli
-npm install -D postcss
+
 ```
 
 ## Run locally
@@ -25,7 +23,15 @@ Create local repo
 
 ```bash
 git clone --depth 1 git@github.com:sbi-fair/sbi-fair.github.io.git
+sbi-fair.github.io
+
+npm install --save-dev autoprefixer
+npm install --save-dev postcss-cli
+npm install -D postcss
 npm install
+```
+
+```bash
 hugo server
 ```
 
