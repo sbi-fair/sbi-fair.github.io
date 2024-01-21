@@ -35,9 +35,6 @@ jobs:
           # https://github.com/actions/setup-node/blob/main/docs/advanced-usage.md#caching-packages-data
           cache-dependency-path: '**/package-lock.json'
 
-      - name: Setup ci
-         run: npm ci
-
        - name: Setup autoprefixer
          run: npm install -D autoprefixer
          
