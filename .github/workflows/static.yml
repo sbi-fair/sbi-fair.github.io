@@ -17,32 +17,25 @@ jobs:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: '0.119.0'
-          extended: true
+      - name: Download Hugo
+        run: wget https://github.com/gohugoio/hugo/releases/download/v0.121.2/hugo_extended_0.121.2_linux-amd64.deb
+     
+      - name: Install Hugo
+        run: sudo dpkg -i hugo_extended_0.121.2_linux-amd64.deb 
 
-      - name: Build
-        run: hugo --minify
+      - name: Instale nodejs
+        run: apt install nodejs
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/main'
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-
-      - name: Setup Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: '18'
-          cache: 'npm'
-          # The action defaults to search for the dependency file (package-lock.json,
-          # npm-shrinkwrap.json or yarn.lock) in the repository root, and uses its
-          # hash as a part of the cache key.
-          # https://github.com/actions/setup-node/blob/main/docs/advanced-usage.md#caching-packages-data
-          cache-dependency-path: '**/package-lock.json'
+      #- name: Setup Node
+      #  uses: actions/setup-node@v3
+      #  with:
+      #    node-version: '18'
+      #    cache: 'npm'
+      #    # The action defaults to search for the dependency file (package-lock.json,
+      #    # npm-shrinkwrap.json or yarn.lock) in the repository root, and uses its
+      #    # hash as a part of the cache key.
+      #    # https://github.com/actions/setup-node/blob/main/docs/advanced-usage.md#caching-packages-data
+      #    cache-dependency-path: '**/package-lock.json'
     
       - name: Setup autoprefixer
         run: npm install -D autoprefixer
