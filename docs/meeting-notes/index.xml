@@ -1,0 +1,59 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SBI-FAIR – Meeting Notes</title><link>/docs/meeting-notes/</link><description>Recent content in Meeting Notes on SBI-FAIR</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="/docs/meeting-notes/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Meeting Notes 02-20-2021</title><link>/docs/meeting-notes/01-20-2021/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/meeting-notes/01-20-2021/</guid><description>
+&lt;h2 id="university-of-tennessee-knoxville">University of Tennessee Knoxville&lt;/h2>
+&lt;ul>
+&lt;li>Deborah Penchoff joining the team&lt;/li>
+&lt;li>UTK Schema&lt;/li>
+&lt;li>MLFlow &amp;ndash; reproducibility&lt;/li>
+&lt;li>Is training repeatable&lt;/li>
+&lt;li>Need to have a group on this&lt;/li>
+&lt;li>UTK have their own surrogates science and performance&lt;/li>
+&lt;li>Storage&lt;/li>
+&lt;li>Uq&lt;/li>
+&lt;li>Hardware&lt;/li>
+&lt;/ul>
+&lt;h2 id="rutgers-university">Rutgers University&lt;/h2>
+&lt;ul>
+&lt;li>Performance of surrogates&lt;/li>
+&lt;li>What does it mean&lt;/li>
+&lt;li>Gordon bell prizes&lt;/li>
+&lt;li>Deepdrivemd greatly advanced&lt;/li>
+&lt;li>Working with Princeton Gordon Bell&lt;/li>
+&lt;li>2 billion paper&lt;/li>
+&lt;/ul>
+&lt;h2 id="argonne-national-laboratory">Argonne National Laboratory&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>Clear plans&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Candle&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Paper creates a surrogate howto &amp;ndash; GCF forgets this&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>DOE_FAIR2020-Surrogates&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="github-site-infrastructure">Github site infrastructure&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>Web site built on Github - Possible Hugo web site&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Form Google group&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Form working groups&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Infrastructure &amp;amp; Benchmarking Tech&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Metadata/FAIR&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Surrogates&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>All meet once a month&lt;/p></description></item></channel></rss>

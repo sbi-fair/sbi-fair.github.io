@@ -1,1 +1,355 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SBI-FAIR – Documentation</title><link>/docs/</link><description>Recent content in Documentation on SBI-FAIR</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="/docs/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SBI-FAIR – Documentation</title><link>/docs/</link><description>Recent content in Documentation on SBI-FAIR</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Metadata Subgroup</title><link>/docs/subgroups/metadata/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/subgroups/metadata/</guid><description>
+&lt;p>This subgroup is lead but University of Tennessee, Knoxville.&lt;/p>
+&lt;h1 id="schema-development">Schema Development&lt;/h1>
+&lt;p>As part of the logging, reporting activities, this subgroup is tasked to create
+appropriate schema to follow the FAIR principles. Below is a general overview
+of the major hierarchy of data that needs to be recorded for reproducibility.&lt;/p>
+&lt;ul>
+&lt;li>Hardware specifications
+&lt;ul>
+&lt;li>Compute: CPUs, Accelerators&lt;/li>
+&lt;li>Memory: caches, NUMA&lt;/li>
+&lt;li>Network: on-node CPU and accelerator coherency, NIC and off-node switches&lt;/li>
+&lt;li>Peripherals&lt;/li>
+&lt;li>Storage: primary (SSD), secondary (HDD), tertiary (RAID/remote)&lt;/li>
+&lt;li>Firmware: ID/release date&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Software stack
+&lt;ul>
+&lt;li>Compiler: GCC, Clang, vendor&lt;/li>
+&lt;li>AI framework: TensorFlow, PyTorch, Keras, MxNet&lt;/li>
+&lt;li>Tensor backend: JAX, TVM&lt;/li>
+&lt;li>Runtime: JVM, OpenMP, CUDA&lt;/li>
+&lt;li>Messaging API: MPI, NCCL, RCCL&lt;/li>
+&lt;li>OS: Linux&lt;/li>
+&lt;li>Container: Singularity, Docker, CharlieCloud&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Input data
+&lt;ul>
+&lt;li>Data sets (version, size)
+&lt;ul>
+&lt;li>Image: MNIST digits/fashion, CIFAR 10/100, ImageNet, VGG&lt;/li>
+&lt;li>Language: Transformer&lt;/li>
+&lt;li>Science: instrument, simulation&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Annotations&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Model data
+&lt;ul>
+&lt;li>Release date, ID, repo/branch/tag/hash, URL&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Output data
+&lt;ul>
+&lt;li>Performance rate: training, inference&lt;/li>
+&lt;li>Power draw: training, inference&lt;/li>
+&lt;li>Energy consumption&lt;/li>
+&lt;li>Convergence: epochs&lt;/li>
+&lt;li>Accuracy, recall&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Team</title><link>/docs/team/team/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/team/team/</guid><description>
+&lt;ul>
+&lt;li>Geoffrey Fox, Indiana University (Principal Investigator)&lt;/li>
+&lt;li>Vikram Jadhao, Indiana University (Co-Investigator)&lt;/li>
+&lt;li>Gregor von Laszewski, Indiana University (Co-Investigator),
+&lt;a href="mailto:laszewski@gmail.com">laszewski@gmail.com&lt;/a>, &lt;a href="https://laszewski.github.io">https://laszewski.github.io&lt;/a>&lt;/li>
+&lt;li>Rick Stevens, Argonne National Laboratory (Co-Investigator)&lt;/li>
+&lt;li>Peter Beckman, Argonne National Laboratory (Co-Investigator)&lt;/li>
+&lt;li>Kamil Iskra, Argonne National Laboratory (Co-Investigator)&lt;/li>
+&lt;li>Min Si, Argonne National Laboratory (Co-Investigator)&lt;/li>
+&lt;li>Jack Dongarra, University of Tennessee, Knoxville (Co-Investigator)&lt;/li>
+&lt;li>Piotr Luszczek, University of Tennessee, Knoxville (Co-Investigator)&lt;/li>
+&lt;li>Shantenu Jha, Rutgers University (Co-Investigator)&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Fully ionized plasma fluid model closures</title><link>/docs/surogates/ionized-plasma/</link><pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate><guid>/docs/surogates/ionized-plasma/</guid><description>
+&lt;p>Fully ionized plasma fluid model closures (Argonne):&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> The closure
+problem in fluid modeling is a well-known challenge to modelers aiming
+to accurately describe their system of interest. Analytic formulations
+in a wide range of regimes exist but a practical, generalized fluid
+closure for magnetized plasmas remains an elusive goal. There are
+scenarios where complex physics prevents a simple closure being
+assumed, and the question as to what closure to employ has a
+non-trivial answer. In a proof-of-concept study, Argonne researchers
+turned to machine learning to try to construct surrogate closure
+models that map the known macroscopic variables in a fluid model to
+the higher-order moments that must be closed. In their study, the
+researchers considered three closures: Braginskii, Hammett-Perkins,
+and Guo-Tang; for each of them, they tried three types of ANNs:
+locally connected, convolutional, and fully connected. Applying a
+physics-informed machine learning approach, they found that there is a
+benefit to tailoring a specific network architecture informed by the
+physics of the plasma regime each closure is designed for, rather than
+carelessly applying an unnecessarily complex general network
+architecture. will choose one of the surrogates and bring it up an
+early example for SBI with reference implementation and tutorial
+documentation. As a follow-up, the Argonne team will tackle more
+challenging problems.&lt;/p>
+&lt;h2 id="refernces">Refernces&lt;/h2>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>R. Maulik, N. A. Garland, X.-Z. Tang, and P. Balaprakash,
+“Neural network representability of fully ionized plasma fluid
+model closures,” arXiv [physics.comp-ph], 10-Feb-2020
+[Online]. Available: &lt;a href="http://arxiv.org/abs/2002.04106">http://arxiv.org/abs/2002.04106&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>Docs: Ions in nanoconfinement</title><link>/docs/surogates/ions-in-nanoconfinement/</link><pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate><guid>/docs/surogates/ions-in-nanoconfinement/</guid><description>
+&lt;img src="/docs/surogates/ions-in-nanoconfinement/featured-ion1_hu54f46d044c4e12dbdf720fb8ecb29dcc_251133_640x0_resize_catmullrom_3.png" width="640" height="176"/>
+&lt;p>Metadata: &lt;a href="https://github.com/icl-utk-edu/sabath/blob/main/var/sabath/assets/sabath/models/n/nanoconfinement.json">nanoconfinement.json&lt;/a>&lt;/p>
+&lt;p>Ions in nanoconfinement(IU): This application &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup> &lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup> studies
+ionic structure in electrolyte solutions in nanochannels with planar
+uncharged surfaces and can use multiple molecular dynamics (MD) codes
+including LAMMPS &lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup> which run on HPC supercomputers with OpenMP and
+MPI parallelization.&lt;/p>
+&lt;p>A dense neural-net (NN) was used to learn 150 final state
+characteristics based on the input of 5 parameters with typical
+results shown in fig. 2(b) with the NN results for three important
+densities tracking well the MD simulation results for a wide range of
+unseen input system parameters. Fig. 3(a,b) shows two typical density
+profiles with again the NN prediction tracking well the
+simulation. Input quantities were confinement length, positive ion
+valency, negative ion valency, salt concentration, and ion
+diameter. Figure 2(a) shows the runtime architecture for dynamic use
+and update of the NN and our middleware discussed in Sec. 3.2.6 will
+generalize this. The inference time for this on a single core is 104
+times faster than the parallel code which is itself 100 times the
+sequential code. This surrogate approach is the first-of-its-kind in
+the area of simulating charged soft-matter systems and there are many
+other published papers in both biomolecular and material science
+presenting similar successful surrogates &lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup> with a NN architecture
+similar to fig. 3(c).&lt;/p>
+&lt;figure class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 610px">
+&lt;img class="card-img-top" src="/docs/surogates/ions-in-nanoconfinement/featured-ion1_hu54f46d044c4e12dbdf720fb8ecb29dcc_251133_600x300_fill_catmullrom_smart1_3.png" width="600" height="300">
+&lt;figcaption class="card-body px-0 pt-2 pb-0">
+&lt;p class="card-text">
+Fig. 2 a) Architecture of dynamic training of ML surrogate and b)
+Comparison of three final state densities (peak, contact, and center)
+between MD simulations and NN surrogate predictions [^5] [^51].
+&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 610px">
+&lt;img class="card-img-top" src="/docs/surogates/ions-in-nanoconfinement/featured-ion2_hu04e0f7269f76594d4a25e14f4e4eee06_144655_600x300_fill_catmullrom_smart1_3.png" width="600" height="300">
+&lt;figcaption class="card-body px-0 pt-2 pb-0">
+&lt;p class="card-text">
+Fig. 3 (a,b) Two density profiles of confined ions for very different
+input parameters and comparing MD and NN. (c) Fully connected deep
+learning network used to learn the final densities. ReLU activation
+units are in the 512 and 256 node hidden layers. The output values
+were learned on 150 nodes.
+&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;h2 id="refernces">Refernces&lt;/h2>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>JCS Kadupitiya , Geoffrey C. Fox , and Vikram Jadhao, “Machine
+learning for performance enhancement of molecular dynamics
+simulations,” in International Conference on Computational
+Science ICCS2019, Faro, Algarve, Portugal, 2019
+[Online]. Available:
+&lt;a href="http://dsc.soic.indiana.edu/publications/ICCS8.pdf">http://dsc.soic.indiana.edu/publications/ICCS8.pdf&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2">
+&lt;p>J. C. S. Kadupitiya, F. Sun, G. Fox, and V. Jadhao, “Machine
+learning surrogates for molecular dynamics simulations of soft
+materials,” J. Comput. Sci., vol. 42, p. 101107, Apr. 2020
+[Online]. Available:
+&lt;a href="http://www.sciencedirect.com/science/article/pii/S1877750319310609">http://www.sciencedirect.com/science/article/pii/S1877750319310609&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3">
+&lt;p>“Molecular Dynamics for Nanoconfinement.” [Online]. Available:
+&lt;a href="https://github.com/softmaterialslab/nanoconfinement-md">https://github.com/softmaterialslab/nanoconfinement-md&lt;/a>. [Accessed: 11-May-2020]&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:4">
+&lt;p>S. Plimpton, “Fast Parallel Algorithms for Short Range
+Molecular Dynamics,” J. Comput. Phys., vol. 117, pp. 1–19, 1995
+[Online]. Available:
+&lt;a href="http://faculty.chas.uni.edu/~rothm/Modeling/Parallel/Plimpton.pdf">http://faculty.chas.uni.edu/~rothm/Modeling/Parallel/Plimpton.pdf&lt;/a>&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:5">
+&lt;p>Geoffrey Fox, Shantenu Jha, “Learning Everywhere: A Taxonomy for
+the Integration of Machine Learning and Simulations,” in IEEE
+eScience 2019 Conference, San Diego, California
+[Online]. Available: &lt;a href="https://arxiv.org/abs/1909.13340">https://arxiv.org/abs/1909.13340&lt;/a>&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>Docs: Molecule docking</title><link>/docs/surogates/molecule-docking/</link><pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate><guid>/docs/surogates/molecule-docking/</guid><description>
+&lt;p>Molecule docking: Docking small molecules to a protein’s
+binding site is often one of the first steps for virtual screening
+&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. Although many open-source and commercial packages exist for
+docking, AI approaches can be equally powerful (and computationally
+more efficient) for docking studies &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>. Utilizing advances in
+control from reinforcement learning (RL), Argonne researchers trained
+an agent to drive the docking of a rigid ligand into a flexible
+protein pocket. The RL agent treats the ligand as a rigid body to
+which it can move through affine transformations along the
+protein. This procedure bypasses sampling on a grid as the agent is
+trained to optimize the pose against OpenEye Fred docking function
+&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>, and/or other openly available docking tools such as UCSF DOCK,
+Autodock/Vina. The challenge of this approach is that there is a need
+to train the agent based on the protein target, which can still take
+considerable time on single-GPU systems. This area comes from the
+major Argonne CANDLE &lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup> project and other applications (DeepDriveMD)
+will come from this project in the new submissions category.&lt;/p>
+&lt;h2 id="refernces">Refernces&lt;/h2>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>P. D. Lyne, “Structure-based virtual screening: an overview,”
+Drug Discov. Today, vol. 7, no. 20, pp. 1047–1055, Oct. 2002
+[Online]. Available:
+&lt;a href="http://dx.doi.org/10.1016/s1359-6446(02)02483-2">http://dx.doi.org/10.1016/s1359-6446(02)02483-2&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2">
+&lt;p>J. Li, A. Fu, and L. Zhang, “An overview of scoring functions
+used for protein&amp;ndash;ligand interactions in molecular docking,”
+Interdiscip. Sci., pp. 1–9, 2019 [Online]. Available:
+&lt;a href="https://idp.springer.com/authorize/casa?redirect_uri=https://link.springer.com/article/10.1007/s12539-019-00327-w&amp;amp;casa_token=Usuqtf4tu-4AAAAA:VD0uKAo49lSwaEEpmufft87cpUtbmE9MSdlR_Wpv880jHArsLIfLy8PQPAaN6ODJIArQ9GMz15wJ6lSX">https://idp.springer.com/authorize/casa?redirect_uri=https://link.springer.com/article/10.1007/s12539-019-00327-w&amp;amp;casa_token=Usuqtf4tu-4AAAAA:VD0uKAo49lSwaEEpmufft87cpUtbmE9MSdlR_Wpv880jHArsLIfLy8PQPAaN6ODJIArQ9GMz15wJ6lSX&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3">
+&lt;p>M. McGann, “FRED pose prediction and virtual screening
+accuracy,” J. Chem. Inf. Model., vol. 51, no. 3, pp. 578–596,
+Mar. 2011 [Online]. Available:
+&lt;a href="http://dx.doi.org/10.1021/ci100436p">http://dx.doi.org/10.1021/ci100436p&lt;/a>&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:4">
+&lt;p>“CANDLE Exascale Deep Learning and Simulation Enabled Precision
+Medicine for Cancer.” [Online]. Available:
+&lt;a href="https://candle.cels.anl.gov/">https://candle.cels.anl.gov/&lt;/a>. [Accessed: 01-May-2020]&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>Docs: Particle dynamics</title><link>/docs/surogates/particle-dynamics/</link><pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate><guid>/docs/surogates/particle-dynamics/</guid><description>
+&lt;p>Recurrent Neural Nets as a Particle Dynamics Integrator (IU)&lt;/p>
+&lt;p>The second IU initial application shows a rather different type of
+surrogate and illustrates an SBI goal to collect benchmarks covering a
+range of surrogate designs. Molecular dynamics simulations rely on
+numerical integrators such as Verlet to solve Newton&amp;rsquo;s equations of
+motion. Using a sufficiently small time step to avoid discretization
+errors, Verlet integrators generate a trajectory of particle positions
+as solutions to the equations of motions. In &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup> &lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>, the IU team
+introduces an integrator based on recurrent neural networks that is
+trained on trajectories generated using the Verlet integrator and
+learns to propagate the dynamics of particles with timestep up to 4000
+times larger compared to the Verlet timestep. As shown in Fig. 4
+(right) the error does not increase as one evolves the system for the
+surrogate while standard Verlet integration in Fig. 4 (left) has
+unacceptable errors even for time steps of just 10 times that used in
+an accurate simulation. The surrogate demonstrates a significant net
+speedup over Verlet of up to 32000 for few-particle (1 - 16) 3D
+systems and over a variety of force fields including the Lennard-Jones
+(LJ) potential. This application uses a recurrent plus dense neural
+network architecture and illustrates an important approach to learning
+evolution operators which can be applied across a variety of fields
+including Earthquake science (IU work in progress) and Fusion &lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>.&lt;/p>
+&lt;figure class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 610px">
+&lt;img class="card-img-top" src="/docs/surogates/particle-dynamics/fetured-particle_hua979a54266f85630f033cca2147d9725_81454_600x300_fill_catmullrom_smart1_3.png" width="600" height="300">
+&lt;figcaption class="card-body px-0 pt-2 pb-0">
+&lt;p class="card-text">
+Fig. 4: Average error in position updates for 16 particles interacting
+with an LJ potential, The left figure is standard MD with error
+increasing for ∆t as 10, 40, or 100 times robust choice (0.001). On
+the right is the LSTM network with modest error up to t = 106 even for
+∆t = 4000 times the robust MD choice.
+&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;h2 id="refernces">Refernces&lt;/h2>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>JCS Kadupitiya, Geoffrey C. Fox, Vikram Jadhao, “GitHub
+repository for Simulating Molecular Dynamics with Large
+Timesteps using Recurrent Neural Networks.”
+[Online]. Available:
+&lt;a href="https://github.com/softmaterialslab/RNN-MD">https://github.com/softmaterialslab/RNN-MD&lt;/a>. [Accessed: 01-May-2020]&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2">
+&lt;p>J. C. S. Kadupitiya, G. C. Fox, and V. Jadhao, “Simulating
+Molecular Dynamics with Large Timesteps using Recurrent Neural
+Networks,” arXiv [physics.comp-ph], 12-Apr-2020
+[Online]. Available: &lt;a href="http://arxiv.org/abs/2004.06493">http://arxiv.org/abs/2004.06493&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3">
+&lt;p>J. C. S. Kadupitiya, G. Fox, and V. Jadhao, “Recurrent Neural
+Networks Based Integrators for Molecular Dynamics Simulations,”
+in APS March Meeting 2020, 2020 [Online]. Available:
+&lt;a href="http://meetings.aps.org/Meeting/MAR20/Session/L45.2">http://meetings.aps.org/Meeting/MAR20/Session/L45.2&lt;/a>. [Accessed: 23-Feb-2020]&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:4">
+&lt;p>J. Kates-Harbeck, A. Svyatkovskiy, and W. Tang, “Predicting
+disruptive instabilities in controlled fusion plasmas through
+deep learning,” Nature, vol. 568, no. 7753, pp. 526–531,
+Apr. 2019 [Online]. Available:
+&lt;a href="https://doi.org/10.1038/s41586-019-1116-4">https://doi.org/10.1038/s41586-019-1116-4&lt;/a>&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>Docs: Meeting Notes 02-20-2021</title><link>/docs/meeting-notes/01-20-2021/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/meeting-notes/01-20-2021/</guid><description>
+&lt;h2 id="university-of-tennessee-knoxville">University of Tennessee Knoxville&lt;/h2>
+&lt;ul>
+&lt;li>Deborah Penchoff joining the team&lt;/li>
+&lt;li>UTK Schema&lt;/li>
+&lt;li>MLFlow &amp;ndash; reproducibility&lt;/li>
+&lt;li>Is training repeatable&lt;/li>
+&lt;li>Need to have a group on this&lt;/li>
+&lt;li>UTK have their own surrogates science and performance&lt;/li>
+&lt;li>Storage&lt;/li>
+&lt;li>Uq&lt;/li>
+&lt;li>Hardware&lt;/li>
+&lt;/ul>
+&lt;h2 id="rutgers-university">Rutgers University&lt;/h2>
+&lt;ul>
+&lt;li>Performance of surrogates&lt;/li>
+&lt;li>What does it mean&lt;/li>
+&lt;li>Gordon bell prizes&lt;/li>
+&lt;li>Deepdrivemd greatly advanced&lt;/li>
+&lt;li>Working with Princeton Gordon Bell&lt;/li>
+&lt;li>2 billion paper&lt;/li>
+&lt;/ul>
+&lt;h2 id="argonne-national-laboratory">Argonne National Laboratory&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>Clear plans&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Candle&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Paper creates a surrogate howto &amp;ndash; GCF forgets this&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>DOE_FAIR2020-Surrogates&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="github-site-infrastructure">Github site infrastructure&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>Web site built on Github - Possible Hugo web site&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Form Google group&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Form working groups&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Infrastructure &amp;amp; Benchmarking Tech&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Metadata/FAIR&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Surrogates&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>All meet once a month&lt;/p></description></item></channel></rss>
