@@ -3,7 +3,7 @@ name: GitHub Pages
 on:
   push:
     branches:
-      - main
+      - main  # Set a branch to deploy
   pull_request:
 
 jobs:
@@ -23,6 +23,15 @@ jobs:
           hugo-version: '0.119.0'
           extended: true
 
+      - name: Build
+        run: hugo --minify
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
 
       - name: Setup Node
         uses: actions/setup-node@v3
@@ -34,18 +43,18 @@ jobs:
           # hash as a part of the cache key.
           # https://github.com/actions/setup-node/blob/main/docs/advanced-usage.md#caching-packages-data
           cache-dependency-path: '**/package-lock.json'
-
-       - name: Setup autoprefixer
-         run: npm install -D autoprefixer
+    
+      - name: Setup autoprefixer
+        run: npm install -D autoprefixer
          
       - name: Setup postcss-cli
-         run: npm install -D postcss-cli
+        run: npm install -D postcss-cli
       
       - name: Setup postcss
-         run: npm install -D postcss
+        run: npm install -D postcss
       
       - name: Setup hugo
-         run: hugo --minify
+        run: hugo --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
