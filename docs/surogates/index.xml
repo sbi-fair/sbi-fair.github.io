@@ -1,12 +1,6 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SBI-FAIR – Surrogates</title><link>/docs/surogates/</link><description>Recent content in Surrogates on SBI-FAIR</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="/docs/surogates/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: OSMI</title><link>/docs/surogates/osmi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/surogates/osmi/</guid><description>
 &lt;h2 id="heading">Heading&lt;/h2>
-&lt;p>Edit this template to create your new page.&lt;/p>
-&lt;ul>
-&lt;li>Give it a good name, ending in &lt;code>.md&lt;/code> - e.g. &lt;code>getting-started.md&lt;/code>&lt;/li>
-&lt;li>Edit the &amp;ldquo;front matter&amp;rdquo; section at the top of the page (weight controls how its ordered amongst other pages in the same directory; lowest number first).&lt;/li>
-&lt;li>Add a good commit message at the bottom of the page (&amp;lt;80 characters; use the extended description field for more detail).&lt;/li>
-&lt;li>Create a new branch so you can preview your new file and request a review via Pull Request.&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Fully ionized plasma fluid model closures</title><link>/docs/surogates/ionized-plasma/</link><pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate><guid>/docs/surogates/ionized-plasma/</guid><description>
+&lt;p>Edit this template to create your new page.&lt;/p></description></item><item><title>Docs: Fully ionized plasma fluid model closures</title><link>/docs/surogates/ionized-plasma/</link><pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate><guid>/docs/surogates/ionized-plasma/</guid><description>
 &lt;p>Fully ionized plasma fluid model closures (Argonne):&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> The closure
 problem in fluid modeling is a well-known challenge to modelers aiming
 to accurately describe their system of interest. Analytic formulations
