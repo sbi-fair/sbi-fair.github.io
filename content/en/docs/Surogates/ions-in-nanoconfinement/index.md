@@ -40,15 +40,14 @@ other published papers in both biomolecular and material science
 presenting similar successful surrogates [^2] with a NN architecture
 similar to fig. 3(c). 
 
-
-{{< imgproc ion1 Fill "600x300" >}}
+{{< imgproc ion1 Fill "925x254" >}}
 Fig. 2 a) Architecture of dynamic training of ML surrogate and b)
 Comparison of three final state densities (peak, contact, and center)
 between MD simulations and NN surrogate predictions [^5] [^51].
 {{< /imgproc >}}
 
 
-{{< imgproc ion2 Fill "600x300" >}}
+{{< imgproc ion2 Fill "938x222" >}}
 Fig. 3 (a,b) Two density profiles of confined ions for very different
 input parameters and comparing MD and NN. (c) Fully connected deep
 learning network used to learn the final densities. ReLU activation
