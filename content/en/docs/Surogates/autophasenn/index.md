@@ -10,18 +10,22 @@ resources:
   - src: "**.{png,jpg}"
     title: "Image #:counter"
     params:
-        byline: "Image from: Yao, Y. et al / CC-BY"
+      byline: "Image from: Yao, Y. et al / CC-BY "
 ---
 
 ---
 
-### Metadata
+## Metadata
+
+---
 
 **Model** [autophasenn.json](https://github.com/icl-utk-edu/sabath/blob/main/var/sabath/assets/sabath/models/a/autophasenn.json)
 
 **Datasets** [autoPhaseNN_aicdi.json](https://github.com/icl-utk-edu/sabath/blob/main/var/sabath/assets/sabath/datasets/a/autoPhaseNN_aicdi.json)
 
 ---
+
+> Adapted from Yao, Y. _et. al_ [^1] under CC-BY [^2]
 
 AutoPhaseNN [^1], a physics-aware unsupervised deep convolutional neural network
 (CNN) that learns to solve the phase problem without ever being shown real space
@@ -52,6 +56,7 @@ estimated diffraction pattern is obtained from the FT of the current estimation
 of the real space image.
 {{< /imgproc >}}
 
-
 ## References
+
 [^1]: Yao, Y., Chan, H., Sankaranarayanan, S. et al. AutoPhaseNN: unsupervised physics-aware deep learning of 3D nanoscale Bragg coherent diffraction imaging. npj Comput Mater 8, 124 (2022). https://doi.org/10.1038/s41524-022-00803-w
+[^2]: http://creativecommons.org/licenses/by/4.0/
