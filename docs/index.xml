@@ -1530,4 +1530,21 @@ of the real space image.
 &lt;p>&lt;a href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
+&lt;/div></description></item><item><title>Docs: PtychoNN: deep learning network for ptychographic imaging that predicts sample amplitude and phase from diffraction data.</title><link>/docs/surogates/ptychonn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/surogates/ptychonn/</guid><description>
+&lt;hr>
+&lt;h2 id="metadata">Metadata&lt;/h2>
+&lt;hr>
+&lt;p>&lt;strong>Model&lt;/strong> &lt;a href="https://github.com/icl-utk-edu/sabath/blob/main/var/sabath/assets/sabath/models/p/ptychonn.json">ptychonn.json&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Datasets&lt;/strong> &lt;a href="https://github.com/icl-utk-edu/sabath/blob/main/var/sabath/assets/sabath/datasets/p/ptychonn_20191008_39.json">ptychonn_20191008_39.json&lt;/a>&lt;/p>
+&lt;hr>
+&lt;p>PtychoNN, uses a deep convolutional neural network to predict realspace structure and phase from far-field diffraction data. It recovers high fidelity amplitude and phase contrast images of a real sample hundreds of times faster
+than current ptychography reconstruction packages and reduces sampling requirements &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="references">References&lt;/h2>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>Mathew J. Cherukara, Tao Zhou, Youssef Nashed, Pablo Enfedaque, Alex Hexemer, Ross J. Harder, Martin V. Holt; AI-enabled high-resolution scanning coherent diffraction imaging. Appl. Phys. Lett. 27 July 2020; 117 (4): 044103. &lt;a href="https://doi.org/10.1063/5.0013065">https://doi.org/10.1063/5.0013065&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
 &lt;/div></description></item></channel></rss>
