@@ -297,6 +297,28 @@ Medicine for Cancer.” [Online]. Available:
 &lt;a href="https://candle.cels.anl.gov/">https://candle.cels.anl.gov/&lt;/a>. [Accessed: 01-May-2020]&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
+&lt;/div></description></item><item><title>Docs: mniWeatherML</title><link>/docs/surogates/miniweatherml/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/surogates/miniweatherml/</guid><description>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>MiniWeatherML is a playground for learning and developing Machine Learning (ML) surrogate models and workflows. It is based on a simplified weather model simulating flows such as supercells that are realistic enough to be challenging and simple enough for rapid prototyping in:&lt;/p>
+&lt;ul>
+&lt;li>Data generation and curation&lt;/li>
+&lt;li>Machine Learning model training&lt;/li>
+&lt;li>ML model deployment and analysis&lt;/li>
+&lt;li>End-to-end workflows&lt;/li>
+&lt;/ul>
+&lt;img src="https://camo.githubusercontent.com/f7d00138e4e45ee24367fc16bc6f7de194c1c5a1ceebb03f85fb0c1cdcc4e314/68747470733a2f2f6d726e6f726d616e2e6769746875622e696f2f737570657263656c6c5f6d696e69576561746865724d4c2e676966">
+&lt;p>&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="references">References&lt;/h2>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>&lt;a href="https://github.com/mrnorman/miniWeatherML">https://github.com/mrnorman/miniWeatherML&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2">
+&lt;p>&lt;a href="https://github.com/mrnorman/miniWeatherML/wiki">https://github.com/mrnorman/miniWeatherML/wiki&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
 &lt;/div></description></item><item><title>Docs: OSMI</title><link>/docs/surogates/osmi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/surogates/osmi/</guid><description>
 &lt;h2 id="overview">Overview&lt;/h2>
 &lt;p>We explore the relationship between certain network configurations and
