@@ -386,7 +386,7 @@ Management with Cloudmesh. &lt;a href="https://doi.org/10.48550/ARXIV.2210.16941
 &lt;/li>
 &lt;/ol>
 &lt;/div></description></item><item><title>Docs: Particle dynamics</title><link>/docs/surogates/particle-dynamics/</link><pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate><guid>/docs/surogates/particle-dynamics/</guid><description>
-&lt;p>Recurrent Neural Nets as a Particle Dynamics Integrator (IU)&lt;/p>
+&lt;p>Recurrent Neural Nets as a Particle Dynamics Integrator&lt;/p>
 &lt;p>The second IU initial application shows a rather different type of
 surrogate and illustrates an SBI goal to collect benchmarks covering a
 range of surrogate designs. Molecular dynamics simulations rely on
