@@ -1,6 +1,88 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SBI-FAIR – Surrogates</title><link>/docs/surogates/</link><description>Recent content in Surrogates on SBI-FAIR</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="/docs/surogates/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: OSMI</title><link>/docs/surogates/osmi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/surogates/osmi/</guid><description>
 &lt;h2 id="heading">Heading&lt;/h2>
-&lt;p>Edit this template to create your new page.&lt;/p></description></item><item><title>Docs: Fully ionized plasma fluid model closures</title><link>/docs/surogates/ionized-plasma/</link><pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate><guid>/docs/surogates/ionized-plasma/</guid><description>
+&lt;p>Edit this template to create your new page.&lt;/p>
+&lt;p>We explore the relationship between certain network configurations and
+the performance of distributed Machine Learning systems. We build upon
+the Open Surrogate Model Inference (OSMI) Benchmark, a distributed
+inference benchmark for analyzing the performance of machine-learned
+surrogate models developed by Wes Brewer et. Al. We focus on analyzing
+distributed machine-learning systems, via machine-learned surrogate
+models, across varied hardware environments. By deploying the OSMI
+Benchmark on platforms like Rivanna HPC, WSL, and Ubuntu, we offer a
+comprehensive study of system performance under different
+configurations. The paper presents insights into optimizing
+distributed machine learning systems, enhancing their scalability and
+efficiency. We also develope a framework for automating the OSMI
+benchmark.&lt;/p>
+&lt;h2 id="introdcution">Introdcution&lt;/h2>
+&lt;p>With the proliferation of machine learning as a tool for science, the
+need for efficient and scalable systems is paramount. This paper
+explores the Open Surrogate Model Inference (OSMI) Benchmark, a tool
+for testing the performance of machine-learning systems via
+machine-learned surrogate models. The OSMI Benchmark, originally
+created by Wes Brewer and colleagues, serves to evaluate various
+configurations and their impact on system performance.&lt;/p>
+&lt;p>Our research pivots around the deployment and analysis of the OSMI
+Benchmark across various hardware platforms, including the
+high-performance computing (HPC) system Rivanna, Windows Subsystem for
+Linux (WSL), and Ubuntu environments.&lt;/p>
+&lt;p>In each experiment, there are a variable number of TensorFlow model
+server instances, overseen by a HAProxy load balancer that distributes
+inference requests among the servers. Each server instance operates on
+a dedicated GPU, choosing between the V100 or A100 GPUs available on
+Rivanna. This setup mirrors real-world scenarios where load balancing
+is crucial for system efficiency.&lt;/p>
+&lt;p>On the client side, we initiate a variable number of concurrent
+clients executing the OSMI benchmark to simulate different levels of
+system load and analyze the corresponding inference throughput.&lt;/p>
+&lt;p>On top of the original OSMI-Bench, we implemented an object-oriented
+interface in Python for running experiments with ease, streamlining
+the process of benchmarking and analysis. The experiments rely on
+custom-built images based on NVIDIA&amp;rsquo;s tensorflow image. The code works
+on several hardwares, assuming the proper images are built.&lt;/p>
+&lt;p>Additionally, We develop a script for launching simultaneous
+experiments with permutations of pre-defined parameters with Cloudmesh
+Experiment-Executor. The Experiment Executor is a tool that automates
+the generation and execution of experiment variations with different
+parameters. This automation is crucial for conducting tests across a
+spectrum of scenarios.&lt;/p>
+&lt;p>Finally, we analyze the inference throughput and total time for each
+experiment. By graphing and examining these results, we draw critical
+insights into the performance dynamics of distributed machine learning
+systems.&lt;/p>
+&lt;p>In summary, a comprehensive examination of the OSMI Benchmark in
+diverse distributed ML systems is provided. We aim to contribute to
+the optimization of these systems, by providing a framework for
+finding the best performant system configuration for a given use
+case. Our findings pave the way for more efficient and scalable
+distributed computing environments.&lt;/p>
+&lt;p>&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="references">References&lt;/h2>
+&lt;ol start="2021">
+&lt;li>&lt;a href="https://ieeexplore.ieee.org/abstract/document/9652868">https://ieeexplore.ieee.org/abstract/document/9652868&lt;/a>. Note
+that OSMI-Bench differs from SMI-Bench described in the paper only in
+that the models that are used in OSMI are trained on synthetic data,
+whereas the models in SMI were trained using data from proprietary CFD
+simulations. Also, the OSMI medium and large models are very similar
+architectures as the SMI medium and large models, but not identical.&lt;/li>
+&lt;/ol>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>Brewer, Wesley, Daniel Martinez, Mathew Boyer, Dylan Jude, Andy
+Wissink, Ben Parsons, Junqi Yin, and Valentine Anantharaj. &amp;ldquo;Production
+Deployment of Machine-Learned Rotorcraft Surrogate Models on HPC.&amp;rdquo; In
+2021 IEEE/ACM Workshop on Machine Learning in High Performance
+Computing Environments (MLHPC), pp. 21-32. IEEE,&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2">
+&lt;p>Gregor von Laszewski, J. P. Fleischer, and Geoffrey
+C. Fox. 2022. Hy- brid Reusable Computational Analytics Workflow
+Management with Cloudmesh. &lt;a href="https://doi.org/10.48550/ARXIV.2210.16941">https://doi.org/10.48550/ARXIV.2210.16941&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>Docs: Fully ionized plasma fluid model closures</title><link>/docs/surogates/ionized-plasma/</link><pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate><guid>/docs/surogates/ionized-plasma/</guid><description>
 &lt;p>Fully ionized plasma fluid model closures (Argonne):&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> The closure
 problem in fluid modeling is a well-known challenge to modelers aiming
 to accurately describe their system of interest. Analytic formulations
