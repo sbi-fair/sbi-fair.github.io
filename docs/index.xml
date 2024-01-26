@@ -1,4 +1,15 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SBI-FAIR – Documentation</title><link>/docs/</link><description>Recent content in Documentation on SBI-FAIR</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: AutoPhaseNN: unsupervised physics-aware deep learning of 3D nanoscale Bragg coherent diffraction imaging</title><link>/docs/surogates/autophasenn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/surogates/autophasenn/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SBI-FAIR – Documentation</title><link>/docs/</link><description>Recent content in Documentation on SBI-FAIR</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Links</title><link>/docs/notes/links/</link><pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate><guid>/docs/notes/links/</guid><description>
+&lt;p>&lt;strong>Overall Project Links&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Google-group:&lt;/strong> &lt;a href="https://groups.google.com/g/sbi-fair">https://groups.google.com/g/sbi-fair&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Website:&lt;/strong> &lt;a href="https://sbi-fair.github.io/">https://sbi-fair.github.io/&lt;/a>
+&lt;ul>
+&lt;li>&lt;strong>Publications:&lt;/strong> &lt;a href="https://sbi-fair.github.io/docs/publications/">https://sbi-fair.github.io/docs/publications/&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>The directory from proposal writing:&lt;/strong> &lt;a href="https://drive.google.com/drive/folders/1z1lGt8k3uqt6JGHL4mLgRSZQr9Y2oTHQ?usp=sharing">DOE_FAIR2020-Surrogates&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Directory for this proposal:&lt;/strong> &lt;a href="https://drive.google.com/drive/folders/1lGc-hlJu7-uRk0MII-_nEXAnwWMc5uEI?usp=sharing">Afteraward&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Docs: AutoPhaseNN: unsupervised physics-aware deep learning of 3D nanoscale Bragg coherent diffraction imaging</title><link>/docs/surogates/autophasenn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/surogates/autophasenn/</guid><description>
 &lt;hr>
 &lt;h2 id="metadata">Metadata&lt;/h2>
 &lt;hr>
@@ -451,7 +462,20 @@ Apr. 2019 [Online]. Available:
 &lt;a href="https://doi.org/10.1038/s41586-019-1116-4">https://doi.org/10.1038/s41586-019-1116-4&lt;/a>&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/div></description></item><item><title>Docs: Meeting Notes 10-30-2023</title><link>/docs/notes/2023-10-30/</link><pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate><guid>/docs/notes/2023-10-30/</guid><description>
+&lt;/div></description></item><item><title>Docs: Meeting Notes 01-08-2024</title><link>/docs/notes/2024-01-08/</link><pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate><guid>/docs/notes/2024-01-08/</guid><description>
+&lt;p>&lt;strong>Present:&lt;/strong> Geoffrey Fox, Gregor von Laszewski, Przemek Porebski, Piotr Luszczek, Shantenu Jha&lt;/p>
+&lt;p>&lt;strong>Apologies&lt;/strong> Vikram Jadhao&lt;/p>
+&lt;ul>
+&lt;li>Shantenu described the background to the PI meeting for ASCR in February that was modeled on successful SCIDAC-wide meetings. It is not clear if sessions will be plenary or organized around Program manager portfolios.&lt;/li>
+&lt;li>Virginia started a list of surrogates that would help prepare any poster necessary&lt;/li>
+&lt;li>&lt;a href="https://docs.google.com/presentation/d/1LonfbydMlQyLBv5vh8tjATv9BxdN7GmjuU8RFyuK5aw/edit#slide=id.g2acfd0f37ff_1_151">https://docs.google.com/presentation/d/1LonfbydMlQyLBv5vh8tjATv9BxdN7GmjuU8RFyuK5aw/edit#slide=id.g2acfd0f37ff_1_151&lt;/a>&lt;/li>
+&lt;li>Argonne would add work on I/O, compression, and second-order methods.&lt;/li>
+&lt;li>Rutgers has surrogates to list, plus work on effective performance and their taxonomy of surrogate types.&lt;/li>
+&lt;li>Indiana was not available due to travel, but has work on data dependence and surrogates for sustainability (a new paper).&lt;/li>
+&lt;li>Tennessee has two surrogates, MiniWeatherML and Performance. Also has SABATH&lt;/li>
+&lt;li>We did not set a next meeting until the PI meeting was clearer.&lt;/li>
+&lt;li>Later email from DOE set the poster deadline as January 29.&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Meeting Notes 10-30-2023</title><link>/docs/notes/2023-10-30/</link><pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate><guid>/docs/notes/2023-10-30/</guid><description>
 &lt;p>&lt;strong>Minutes of SBI-FAIR October 30 2023, Meeting&lt;/strong>&lt;/p>
 &lt;p>&lt;strong>Present:&lt;/strong> Geoffrey Fox, Gregor von Laszewski, Przemek Porebski, Piotr Luszczek, Vikram Jadhao,** **Shantenu Jha, Margaret Lentz&lt;/p>
 &lt;ul>
