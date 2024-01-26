@@ -4,14 +4,14 @@ title: "Particle dynamics"
 linkTitle: "Particle dynamics"
 weight: 60 
 description: >
-  Recurrent Neural Nets as a Particle Dynamics Integrator (IU)
+  Recurrent Neural Nets as a Particle Dynamics Integrator
 author: TBD 
 resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"
 ---
 
-Recurrent Neural Nets as a Particle Dynamics Integrator (IU)
+Recurrent Neural Nets as a Particle Dynamics Integrator
 
 The second IU initial application shows a rather different type of
 surrogate and illustrates an SBI goal to collect benchmarks covering a
