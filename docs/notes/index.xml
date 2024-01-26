@@ -1,4 +1,991 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SBI-FAIR – Meeting Notes</title><link>/docs/notes/</link><description>Recent content in Meeting Notes on SBI-FAIR</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="/docs/notes/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Meeting Notes 02-20-2021</title><link>/docs/notes/01-20-2021/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/notes/01-20-2021/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SBI-FAIR – Meeting Notes</title><link>/docs/notes/</link><description>Recent content in Meeting Notes on SBI-FAIR</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="/docs/notes/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Meeting Notes 10-30-2023</title><link>/docs/notes/2023-10-30/</link><pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate><guid>/docs/notes/2023-10-30/</guid><description>
+&lt;p>&lt;strong>Minutes of SBI-FAIR October 30 2023, Meeting&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Present:&lt;/strong> Geoffrey Fox, Gregor von Laszewski, Przemek Porebski, Piotr Luszczek, Vikram Jadhao,** **Shantenu Jha, Margaret Lentz&lt;/p>
+&lt;ul>
+&lt;li>AI for Science report &lt;a href="https://www.anl.gov/ai-for-science-report">AI for Science, Energy, and Security Report | Argonne National Laboratory&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://science.osti.gov/ascr/ascac/Meetings/202309">ASCAC Advanced Scientific Comput&amp;hellip; | U.S. DOE Office of Science(SC)&lt;/a>&lt;/li>
+&lt;li>Hal Finkel’s (Director Research ASCR Advanced Scientific Computing talk &lt;a href="https://science.osti.gov/-/media/ascr/ascac/pdf/meetings/202309/Finkel-ASCAC-Sept2023.pdf">ASCR Research Priorities&lt;/a> is important&lt;/li>
+&lt;li>Anticipated Solicitations in FY 2024
+&lt;ul>
+&lt;li>Compared to FY 2023, expect a smaller number of larger, more-broadly-scoped solicitations driving innovation across ASCR’s research community.&lt;/li>
+&lt;li>In appropriate areas, ASCR will expand its strategy of solicitating longer-term projects and, in most areas, encouraging partnerships between DOE National Laboratories, academic institutions, and industry.&lt;/li>
+&lt;li>ASCR will continue to seek opportunities to expand the set of institutions represented in our portfolio and encourages our entire community to assist in this process by actively exploring potential collaborations with a diverse set of potential partners.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Areas of interest include, but are not limited to:
+&lt;ul>
+&lt;li>Applied mathematics and computer science targeting quantum computing across the full software stack.&lt;/li>
+&lt;li>Applied mathematics and computer science focused on key topics in AI for Science, including scientific foundation models, decision support for complex systems, privacy-preserving federated AI systems, AI for digital twins, and AI for scientific programming.&lt;/li>
+&lt;li>Microelectronics co-design combining innovation in materials, devices, systems, architectures, algorithms, and software (including through Microelectronics Research Centers).&lt;/li>
+&lt;li>Correctness for scientific computing, data reduction, new visualization and collaboration paradigms, parallel discrete-event simulation, neuromorphic computing, and advanced wireless for science.&lt;/li>
+&lt;li>Continued evolution of the scientific software ecosystem enabling community participation in exascale innovation, adoption of AI techniques, and accelerated research productivity.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>She noted the Executive order today, &lt;a href="https://www.whitehouse.gov/briefing-room/presidential-actions/2023/10/30/executive-order-on-the-safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence/">Executive Order on the Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence | The White House&lt;/a>, and this message (trustworthiness) will be reflected in DOE programs.&lt;/li>
+&lt;li>Microelectronics will be a thrust&lt;/li>
+&lt;li>NAIRR $140M is important&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Rutgers&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>Shantenu Jha gave a thorough presentation
+There were four items below with status given in **bold**
+&lt;/code>&lt;/pre>
+&lt;ol>
+&lt;li>Develop and Characterize Surrogates in the Context of NVBL Pipeline
+&lt;ol>
+&lt;li>Published in Scientific Reports: Performance of Surrogate models without loss of accuracy (Stage 1 of NVBL Drug discovery pipeline) &lt;strong>(Done)&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>Performance &amp;amp; taxonomy of surrogates coupled to HPC (paper in a month)
+2. Survey surrogates coupled to HPC simulations (Almost complete 2023-Q3)
+3. Generalized framework of surrogate performance (Ongoing 2023-Q4)
+1. Optimal Decision making in the DD pipeline (published)&lt;/li>
+&lt;li>Tools &lt;strong>(Ongoing)&lt;/strong>
+4. Preliminary work on mini-apps under review; extend to FAIR mini-apps for surrogates taxonomy
+5. Deployed on DOE leadership class machines&lt;/li>
+&lt;li>Interact with MLCommons** (Anticipate start in 2023/Q4)** &lt;br>
+6. Benchmarks for surrogate coupled to HPC workflows&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>Indiana&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Vikram Jadhao presented&lt;/li>
+&lt;li>Accuracy speed up tradeoff for molecular dynamics surrogates&lt;/li>
+&lt;li>Looking for datasets with errors&lt;/li>
+&lt;li>Followed up with later discussions with Rutgers so can feed into software&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Tennessee&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Piotr Luszczek gave presentation&lt;/li>
+&lt;li>He reported on progress with SAbath and MiniWeatherML&lt;/li>
+&lt;li>He is giving several presentations&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Virginia&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>**Presentation **&lt;/li>
+&lt;li>We discussed progress with surrogates and enhancements to Sabath&lt;/li>
+&lt;li>We discussed repository and noted that different models need different specific environments
+&lt;ul>
+&lt;li>Requirements.txt will specify this&lt;/li>
+&lt;li>Different target hardware needs to be supported&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>OSMIBench will be released before end of year&lt;/li>
+&lt;li>Support separate repositories in the future&lt;/li>
+&lt;li>We discussed papers and, in particular, a poster at the Oak Ridge OLCF users meeting.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Argonne&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Finished the contract but will, of course, complete their papers.&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Meeting Notes 09-25-2023</title><link>/docs/notes/2023-09-25/</link><pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate><guid>/docs/notes/2023-09-25/</guid><description>
+&lt;p>&lt;strong>Minutes of SBI-FAIR September 25 2023, Meeting&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Present:&lt;/strong> Geoffrey Fox, Gregor von Laszewski, Przemek Porebski, Piotr Luszczek, Vikram Jadhao&lt;/p>
+&lt;p>&lt;strong>Apologies:&lt;/strong> Shantenu Jha, Kamil Iskra, Margaret Lentz&lt;/p>
+&lt;p>&lt;strong>Virginia&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>**Presentation **&lt;/li>
+&lt;li>Repository&lt;/li>
+&lt;li>Specific environments are needed for different models&lt;/li>
+&lt;li>Requirements.txt&lt;/li>
+&lt;li>Different hardware support&lt;/li>
+&lt;li>Copy MLCommons approach&lt;/li>
+&lt;li>MLCube as a target&lt;/li>
+&lt;li>Tools to generate targets&lt;/li>
+&lt;li>Release before supercomputing&lt;/li>
+&lt;li>Add MLCommons benchmarks&lt;/li>
+&lt;li>Separate repositories in version 2&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Argonne&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Finished the contract but will, of course, complete their papers.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Tennessee&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Piotr presented&lt;/li>
+&lt;li>SABATH updates&lt;/li>
+&lt;li>IBM-NASA Foundation model has multi-part datasets&lt;/li>
+&lt;li>Cloudmesh uses SABATH&lt;/li>
+&lt;li>Smokey Mountain presentation tomorrow&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Rutgers&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>See end of&lt;/li>
+&lt;li>The first mini-app is ready&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Indiana&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Will update the nanoconfinement app and Nanohub version still used&lt;/li>
+&lt;li>Second surrogate being worked on&lt;/li>
+&lt;li>Soft label work continuing&lt;/li>
+&lt;li>Interested in AI for Instruments&lt;/li>
+&lt;li>Surrogates help Sustainability as save energy&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Meeting Notes 08-25-2023</title><link>/docs/notes/2023-08-25/</link><pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate><guid>/docs/notes/2023-08-25/</guid><description>
+&lt;p>&lt;strong>Minutes of SBI-FAIR August 28 2023, Meeting&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Monday, September 25, 2023, &lt;a href="https://virginia.zoom.us/my/gc.fox">https://virginia.zoom.us/my/gc.fox&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Present:&lt;/strong> Geoffrey Fox, Gregor von Laszewski, Przemek Porebski, Kamil Iskra,, Baixi Sun. Piotr Luszczek,&lt;/p>
+&lt;p>&lt;strong>Apologies:&lt;/strong> Shantenu Jha, Vikram Jadhao, Margaret Lentz (Rutgers and Indiana not presented)&lt;/p>
+&lt;p>&lt;strong>Virginia&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;/li>
+&lt;li>SABATH extensions&lt;/li>
+&lt;li>OSMIBench improved&lt;/li>
+&lt;li>Experiment Executor added in Cloudmesh&lt;/li>
+&lt;li>Argonne surrogates supported&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Argonne&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Baixi presented their new work&lt;/li>
+&lt;li>SOLAR paper with artifacts submitted&lt;/li>
+&lt;li>The communication bottleneck in the second order method K-FAC addressed with compression and sparsification methods with SSO Framework&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Tennessee&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Piotr described Virginia&amp;rsquo;s enhancements&lt;/li>
+&lt;li>IBM-NASA multi-part datasets in Foundation model&lt;/li>
+&lt;li>Smokey Mountain Conference&lt;/li>
+&lt;li>Integration with MLCommons Croissant using Schema.org&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Meeting Notes 07-31-2023</title><link>/docs/notes/2023-07-31/</link><pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate><guid>/docs/notes/2023-07-31/</guid><description>
+&lt;p>&lt;strong>Minutes of SBI-FAIR July 31 2023, Meeting&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Monday, August 28, 2023, &lt;a href="https://virginia.zoom.us/my/gc.fox">https://virginia.zoom.us/my/gc.fox&lt;/a>&lt;/li>
+&lt;li>Monday, September 25, 2023, &lt;a href="https://virginia.zoom.us/my/gc.fox">https://virginia.zoom.us/my/gc.fox&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Present:&lt;/strong> Geoffrey Fox, Gregor von Laszewski, Przemek Porebski, Kamil Iskra, Xiaodong Yu, Baixi Sun. Piotr Luszczek, Shantenu Jha&lt;/p>
+&lt;p>&lt;strong>Apologies:&lt;/strong> Vikram Jadhao,&lt;/p>
+&lt;p>&lt;strong>Virginia&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Geoffrey presented the Virginia Update &lt;a href="https://docs.google.com/presentation/d/132erkV49Lgd0ZFx-AtNWJPRwTrxc480m-rU6jmvMmYA/edit?usp=sharing">https://docs.google.com/presentation/d/132erkV49Lgd0ZFx-AtNWJPRwTrxc480m-rU6jmvMmYA/edit?usp=sharing&lt;/a>, which also included Indiana (see below)&lt;/li>
+&lt;li>Good progress with Argonne Surrogates
+&lt;ul>
+&lt;li>We have added PtychoNN to SABATH, and we have run AutoPhaseNN on Rivanna&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>We reviewed other surrogates from Virginia including OSMIBench and a new Calorimeter simulation&lt;/li>
+&lt;li>We are working well with Tennessee on SABATH&lt;/li>
+&lt;li>Gregor finished with a little study on use of Rivanna &amp;ndash; the Virginia Supercomputer&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Indiana&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Vikram is still traveling in India and was not able to join today&amp;rsquo;s meeting. He shared by email the following updates.These are included in Virginia Presentation&lt;/li>
+&lt;li>the nanoconfinement surrogate repository is updated with the latest results from the sample size study published in JCTC, &lt;a href="https://pubs.acs.org/doi/10.1021/acs.jctc.2c01282">Probing Accuracy-Speedup Tradeoff in Machine Learning Surrogates for Molecular Dynamics Simulations | Journal of Chemical Theory and Computation&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/softmaterialslab/nanoconfinement-md/tree/master/python/surrogate_samplesize">https://github.com/softmaterialslab/nanoconfinement-md/tree/master/python/surrogate_samplesize&lt;/a>&lt;/li>
+&lt;li>Coordinate with Fanbo Sun who is leading the development of this surrogate and conducted the sample size study that I have shared in our meetings.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Working on preparing the dataset for the follow-up study to JCTC&lt;/li>
+&lt;li>literature review: if folks are interested, the special issue on machine learning for molecular simulation in JCTC has many interesting papers (including surrogates): &lt;a href="https://pubs.acs.org/toc/jctcce/19/14">Journal of Chemical Theory and Computation | Vol 19, No 14&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Argonne&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Argonne’s funds have essentially finished&lt;/li>
+&lt;li>Xiaodong Yu is moving to Stevens&lt;/li>
+&lt;li>New compression study comparing methods that are error bounded or nott &amp;ndash; their performance differs by a factor of 4-6&lt;/li>
+&lt;li>Baixi gave an update presentation SSO: A Highly Scalable Second-order Optimization Framework ffor Deep Neural Networks via Communication Reduction&lt;/li>
+&lt;li>Quantized Stochastic Gradient Descent QSGD Non error bounded&lt;/li>
+&lt;li>Model accuracy versus compression tradeoff&lt;/li>
+&lt;li>Unable to utilize error-feedback due to GPU memory being filled by large models and large batch size.&lt;/li>
+&lt;li>Looked at different rounding methods
+&lt;ul>
+&lt;li>Stochastic rounding preserves direction better as not so many zeros&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Revised our I/O paper i.e., SOLAR based on the reviews, submitting to ppopp’24 with new experiments and better writeup&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Rutgers&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>The surrogate survey paper is making good progress with DeepDriveMD other motifs.&lt;/li>
+&lt;li>Andre Merzy is working on associated Miniapps (surrogates)&lt;/li>
+&lt;li>Will work with MLCommons in October&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Tennessee&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Piotr presented his groups work &lt;a href="https://drive.google.com/file/d/1ep9zxdv25I3MJmPt5YcJi32SHu5BAF4J/view?usp=sharing">https://drive.google.com/file/d/1ep9zxdv25I3MJmPt5YcJi32SHu5BAF4J/view?usp=sharing&lt;/a>&lt;/li>
+&lt;li>MiniWeatherML running with MPI and with or without CUDA.
+&lt;ul>
+&lt;li>No external dataset is required&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>SABATH making good progress in collaboration with Virginia&lt;/li>
+&lt;li>They are working on Cosmoflow&lt;/li>
+&lt;li>Piotr noted that those sites that are continuing with the project will need to submit a project report very soon. Geoffrey shared his project report to allow a common story&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Meeting Notes 06-26-2023</title><link>/docs/notes/2023-06-26/</link><pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate><guid>/docs/notes/2023-06-26/</guid><description>
+&lt;p>&lt;strong>Minutes of SBI-FAIR June 26, 2023, Meeting&lt;/strong>&lt;/p>
+&lt;p>**Present: **Geoffrey Fox, Gregor von Laszewski, Przemek Porebski, Kamil Iskra, Xiaodong Yu, Baixi Sun. Vikram Jadhao, Piotr Luszczek, Shantenu Jha, Margaret Lentz&lt;/p>
+&lt;p>&lt;strong>Virginia&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>This was presented by Geoffrey&lt;/li>
+&lt;li>He described work on new surrogates, including LHC Calorimeter, Epidemiology, Extended virtual tissue, and Earthquake&lt;/li>
+&lt;li>He described work on the repository and SABATH&lt;/li>
+&lt;li>This involved two existing AI models CloudMask and OSMIBench&lt;/li>
+&lt;li>Shantenu Jha asked about the number of inferences per second.
+&lt;ul>
+&lt;li>From MLCommons Science Working minutes, we find for OSMIBench&lt;/li>
+&lt;li>On Summit, with 6 GPUs per node, one uses 6 instances of TensorFlow server per node. One uses batch sizes like 250K with a goal of a billion inferences per second&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Argonne&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Continue to work on Second-order Optimization Framework for Deep Neural Networks with Communication Reduction&lt;/li>
+&lt;li>Baixi Sun presented the details&lt;/li>
+&lt;li>He introduced quantization to lower precision QSGD which gives encouraging results, although In one case quantization method failed in the eigenvalue stage&lt;/li>
+&lt;li>We removed Rick Stevens from the Google Group&lt;/li>
+&lt;li>Geoffrey mentioned his ongoing work on improving shuffling using Arrow vector format; he will share the paper when ready&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Indiana&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Vikram gave the presentation without slides&lt;/li>
+&lt;li>Continuing study of needed training set for the Ions confinement surrogate &lt;a href="https://pubs.acs.org/doi/abs/10.1021/acs.jctc.2c01282">Probing Accuracy-Speedup Tradeoff in Machine Learning Surrogates for Molecular Dynamics Simulations | Journal of Chemical Theory and Computation&lt;/a>&lt;/li>
+&lt;li>New dataset to explore soft labels reflecting computational uncertainty to reduce errors&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Rutgers&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Shantenu presented&lt;/li>
+&lt;li>Nice paper on surrogate classes with Wes Brewer, who works with Geoffrey on OSMIBench&lt;/li>
+&lt;li>Mini-apps for each of the 6 motifs that need FAIR metadata
+&lt;ul>
+&lt;li>5 motifs use surrogates; one generates them&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>He described an interesting workshop on molecular simulations&lt;/li>
+&lt;li>He noted that Aurora training trillion parameter foundation model for science&lt;/li>
+&lt;li>LLMs need 10 power 8 exaflops: Need to optimize!&lt;/li>
+&lt;li>Vikram noted &lt;a href="https://arxiv.org/pdf/2112.03235.pdf">SIMULATION INTELLIGENCE: TOWARDS A NEW GENERATION OF SCIENTIFIC METHODS&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Tennessee&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Piotr presented slides&lt;/li>
+&lt;li>CosmoFlow on 8 GPUs is running well&lt;/li>
+&lt;li>He introduced the MiniWeatherML mini-app
+&lt;ul>
+&lt;li>CUDA-aware pointers must be explicitly specified in the FAIR schema&lt;/li>
+&lt;li>Test in PETSc leaves threaded MPI in an invalid state&lt;/li>
+&lt;li>Alternative MPIX query interface varies between MPI implementations&lt;/li>
+&lt;li>GPU Direct copy support is optional&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>SABATH system is moving ahead with a focus on adding MPI support&lt;/li>
+&lt;li>Piotr is now the PI of this project at UTK. We removed Cade Brown, Jack Dongarra, and Deborah Penchof from the Google Group&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Meeting Notes 05-29-2023</title><link>/docs/notes/2023-05-29/</link><pubDate>Mon, 29 May 2023 00:00:00 +0000</pubDate><guid>/docs/notes/2023-05-29/</guid><description>
+&lt;p>&lt;strong>Minutes of SBI-FAIR May 29, 2023, Meeting&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Present:&lt;/strong> Geoffrey Fox, Xiaodong Yu, Baixi Sun. Piotr Luszczek,&lt;/p>
+&lt;p>&lt;strong>Virginia&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Comment on Surrogates produced by generative methods versus those that map particular inputs to particular outputs. In examples like experimental physics apparatus simulations, you only need output and not input. Methods need to sample output data space correctly.&lt;/li>
+&lt;li>Geoffrey also described earlier experiences using second-order methods and least squares/maximum likelihood optimizations for physics data analysis. One can use eigenvalue/vector decomposition or the Levenberg-Marquardt method.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Tennessee&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>SABATH student continuing over summer&lt;/li>
+&lt;li>New surrogate MiniWeatherML is not PyTorch Tensorflow from Oak Ridge&lt;/li>
+&lt;li>“Hello World” for weather. &lt;a href="https://github.com/mrnorman/miniWeatherML">https://github.com/mrnorman/miniWeatherML&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Argonne&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Xiaodong summarized the situation, and Baixi gave a detailed presentation&lt;/li>
+&lt;li>Working on reducing data size, but compression technology seems difficult&lt;/li>
+&lt;li>The error-bounded approach doesn’t seem to work very well, and so Argonne are investigating other methods. There is currently no method that preserves good accuracy and gives significant reduction.&lt;/li>
+&lt;li>Looking at the performance of first and second-order gradients&lt;/li>
+&lt;li>What can you drop in second order method &amp;ndash; lots of data are irrelevant but not what current lossy compression seems to be doing&lt;/li>
+&lt;li>Model parallelism for calculating eigensystems and then Data parallelism&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Meeting Notes 04-03-2023</title><link>/docs/notes/2023-04-03/</link><pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate><guid>/docs/notes/2023-04-03/</guid><description>
+&lt;p>&lt;strong>Minutes of SBI-FAIR April 3 2023, Meeting&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Present:&lt;/strong> Geoffrey Fox, Gregor von Laszewski, Przemek Porebski, Piotr Luszczek, Kamil Iskra, Xiaodong Yu, Baixi Sun. Vikram Jadhao, Margaret Lentz (DOE),&lt;/p>
+&lt;p>&lt;strong>Regrets:&lt;/strong> Shantenu Jha&lt;/p>
+&lt;p>**DOE **had no major announcements but reminded us of links&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://public.govdelivery.com/accounts/USDOEOS/subscriber/new">US Department of Energy Office of Science&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://science.osti.gov/ascr/Funding-Opportunities">ASCR Funding Opportunities | U.S. DOE Office of Science (SC)&lt;/a>&lt;/li>
+&lt;li>Also noted that No Cost extensions were needed six months before the official end due to the heavy load at the DOE Chicago office.&lt;/li>
+&lt;li>Margaret noted that University responses to Earthshot should read the laboratory call as well.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Virginia&lt;/strong> Geoffrey summarized activities (Slides 1-5) with a new Virtual Tissue surrogate using UNet and periodic boundary conditions. We are investigating new ideas that can describe functions with a wide dynamic range. Virginia is responsible for final deployed surrogates and building a team with Undergraduates, Researchers, and Ph.D. students. Students find experience educational, as we discovered in a collaboration with New York University. Przemek Porebski is joining the Virginia team with experience in computational epidemiology, and software engineering. Przemek introduced himself. Virginia also covered the status of MLCommons benchmarks, including new ones OSMIBench and FastML.&lt;/p>
+&lt;p>&lt;strong>Rutgers&lt;/strong> Shantenu was unable to attend but prepared slides and briefed them to Geoffrey, who presented them to him (Slides 6-10). These summarize the current status with a list of the six classes of surrogate problems identified as important. Shantenu compared the training samples for surrogates with that found for LLM’s. He proposes to develop mini-apps (benchmarks) covering the range of key features exhibited by surrogates.&lt;/p>
+&lt;p>Vikram gave &lt;strong>Indiana University&lt;/strong>’s Presentation with a careful analysis of accuracy as a function of&lt;/p>
+&lt;ul>
+&lt;li>Dataset size showing error plateaus at acceptable values at a sample size of around 2000.&lt;/li>
+&lt;li>The boundary versus internal points&lt;/li>
+&lt;li>Sensitivity to removing selected features and how many removed points were needed for acceptable answers. Here result depended on the particular feature and measured generalizability of the network.&lt;/li>
+&lt;li>There is a publication under review.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Argonne&lt;/strong>’s new results were described by Baixi where the team was busy preparing a paper for SC23.&lt;/p>
+&lt;ul>
+&lt;li>They continued the study of second-order methods showing a broadcast was time-consuming, taking 48% of the time on 64 GPUs.&lt;/li>
+&lt;li>The message sizes were not large and in a region where latency was important.&lt;/li>
+&lt;li>They used lossy compression and studied the outliers in this.&lt;/li>
+&lt;li>Note the last meeting’s presentation introducing the K-FAC method.&lt;/li>
+&lt;/ul>
+&lt;p>Piotr described &lt;strong>Tennessee&lt;/strong>’s work with&lt;/p>
+&lt;ul>
+&lt;li>Focus on SABATH tested on three applications. It is nearly ready to be used by Virginia&lt;/li>
+&lt;li>They have identified a new graduate student and need to modify the contract where Margaret gave key advice.&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Meeting Notes 02-27-2023</title><link>/docs/notes/2023-02-27/</link><pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate><guid>/docs/notes/2023-02-27/</guid><description>
+&lt;p>&lt;strong>Minutes of SBI-FAIR February 27 2023, Meeting&lt;/strong>&lt;/p>
+&lt;p>**Present: **Geoffrey Fox, Piotr Luszczek, Gregor von Laszewski, Kamil Iskra, Xiaodong Yu, Baixi Sun. Vikram Jadhao,&lt;/p>
+&lt;p>We discussed modifying our simple summary describing the status and plans for the project to add a discussion of the timeline. Virginia did theirs as an example on slide 2.&lt;/p>
+&lt;p>&lt;strong>Indiana&lt;/strong>&lt;/p>
+&lt;p>Vikram discussed recent activity, responding to referee comments on their recent paper.&lt;/p>
+&lt;p>&lt;strong>Virginia&lt;/strong>&lt;/p>
+&lt;p>Geoffrey noted two new surrogates: A diffusion surrogate &lt;a href="https://arxiv.org/abs/2302.03786">https://arxiv.org/abs/2302.03786&lt;/a> with James Glazier and J. Quetzalcoatl Toledo-Marin; a computational fluid dynamics surrogate &lt;a href="https://code.ornl.gov/whb/osmi-bench">https://code.ornl.gov/whb/osmi-bench&lt;/a> from Oak Ridge&lt;/p>
+&lt;p>Geoffrey described issues arising from the diffusion surrogate above. We are trying to understand how deep learning can work for problems with a large range of input or output values. Examples could be covid, flu counts, images with a wide range of illumination, finding surrogate solutions where function values often range over several orders of magnitude, and one is interested in both large and small values. This range of values is seen over spatial values (images) or time values (time series)&lt;/p>
+&lt;p>However, this doesn&amp;rsquo;t seem to work properly in deep learning, where the activation value is 1. The weights cannot adjust to different sizes of input values, so one cannot see the nonlinearity of activation in values over the full range. Naively the DL will choose weights, so activation nonlinearity only really impacts a portion of the value range. One can think of many approaches&lt;/p>
+&lt;p>a) replace value by value**n for n &amp;lt; 1 including log value&lt;/p>
+&lt;p>b) scale activation value by an average value (found from a coarser scale if labeled by space as in an image)&lt;/p>
+&lt;p>c) Mixture of experts with different values of activation for each expert such as 0.001 0.01 0.1 1&lt;/p>
+&lt;p>&lt;strong>Tennessee&lt;/strong>&lt;/p>
+&lt;p>Piotr reported that the SABATH project had a new student and was ramping up.&lt;/p>
+&lt;p>&lt;strong>Argonne&lt;/strong>&lt;/p>
+&lt;p>Baixi discussed second-order optimization using Kronecker-factored Approximate Curvature K-FAC, which significantly outperforms standard Stochastic Gradient Descent. This is coupled with compression to reduce communication costs.&lt;/p></description></item><item><title>Docs: Meeting Notes 01-30-2023</title><link>/docs/notes/2023-01-30/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>/docs/notes/2023-01-30/</guid><description>
+&lt;p>&lt;strong>Minutes of SBI-FAIR January 2, 9, and 30 2023, Meetings&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>January 2 2023:&lt;/strong>&lt;/p>
+&lt;p>**Present: **Deborah Penchoff, Shantenu Jha, Geoffrey Fox, Piotr Luszczek, Gregor von Laszewski&lt;/p>
+&lt;p>We discussed producing a simple summary (roughly one slide per institution) describing the status and plans for the project. Virginia, UTK, and Rutgers made a draft which will be expanded before our January 30 meeting with Margaret. These should mention inter-institution collaborations. We continued on January 9&lt;/p>
+&lt;p>&lt;strong>January 9 2023:&lt;/strong>&lt;/p>
+&lt;p>**Present: **Geoffrey Fox, Kamil Iskra, Xiaodong Yu, Baixi Sun. Vikram Jadhao, Gregor von Laszewski&lt;/p>
+&lt;p>Based on the earlier meeting, Argonne and Indiana produced summary pages which we iterated to include collaborations to deposit surrogates in the repository.&lt;/p>
+&lt;p>&lt;strong>January 30, 2023:&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Present:&lt;/strong> not recorded, but all institutions represented&lt;/p>
+&lt;p>We gave our presentation and followed with a discussion with Margaret. She noted recent DOE calls with useful links&lt;/p>
+&lt;pre>&lt;code>https://public.govdelivery.com/accounts/USDOEOS/subscriber/new
+https://science.osti.gov/ascr/Funding-Opportunities
+&lt;/code>&lt;/pre>
+&lt;p>She stressed the importance of establishing a timeline. We should discuss at the next meeting.&lt;/p>
+&lt;p>We didn’t decide on a cadence for her presence at our meetings.&lt;/p></description></item><item><title>Docs: Meeting Notes 01-05-2023</title><link>/docs/notes/2023-01-05/</link><pubDate>Thu, 05 Jan 2023 00:00:00 +0000</pubDate><guid>/docs/notes/2023-01-05/</guid><description>
+&lt;p>&lt;strong>Minutes of SBI-FAIR May 1, 2023, Meeting&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Present:&lt;/strong> Geoffrey Fox, Gregor von Laszewski, Przemek Porebski, Kamil Iskra, Xiaodong Yu, Baixi Sun. Vikram Jadhao, Piotr Luszczek,&lt;/p>
+&lt;p>&lt;strong>Regrets:&lt;/strong> Shantenu Jha&lt;/p>
+&lt;p>&lt;strong>Virginia&lt;/strong> Geoffrey noted continued progress with the new Virtual Tissue surrogate using UNet and periodic boundary conditions. Interesting that UNet mimics multigrid PDE methods. Przemyslaw still disentangling from other work but will start very soon. Several (50 in 2 weeks) undergraduate and incoming graduate student research requests. Surrogate OSMIBench progress and will integrate with SABATH. Geoffrey asked what surrogates are available to work on now.&lt;/p>
+&lt;p>&lt;strong>Rutgers&lt;/strong>&lt;/p>
+&lt;p>Not presented&lt;/p>
+&lt;p>&lt;strong>Indiana University&lt;/strong>&lt;/p>
+&lt;p>Vikram discussed progress. Ions in confinement code will be sent to UVA. Discussed sensitivity to training data showing the need for some but not all samples in a region.&lt;/p>
+&lt;p>&lt;a href="https://pubs.acs.org/doi/10.1021/acs.jctc.2c01282">https://pubs.acs.org/doi/10.1021/acs.jctc.2c01282&lt;/a> and PDF is&lt;/p>
+&lt;p>Studied interpolation; extend to extrapolation&lt;/p>
+&lt;p>Speedup study &amp;ndash; the factor of 2 if one drops every other point and replace them by a small fraction of these interpolations&lt;/p>
+&lt;p>&lt;strong>Argonne&lt;/strong>&lt;/p>
+&lt;p>The SOLAR paper was rejected.&lt;/p>
+&lt;p>Baixi presented their new results with a focus on data compression (for second-order optimization)&lt;/p>
+&lt;p>Aggregate Broadcast as previously latency dominated&lt;/p>
+&lt;p>Float32 versus Float64 inversion error (eigensolution versus inversion)&lt;/p>
+&lt;p>Some tasks are sensitive to precision.&lt;/p>
+&lt;p>Submitted to SC23; will share with people&lt;/p>
+&lt;p>Communicated Light Source Surrogates PtychoNN and AutoPhaseNN to the FAIR main repository. Baixi asked Dr. Cherukara (from ANL) and got permission about which can be available to the public.&lt;/p>
+&lt;ul>
+&lt;li>Currently, PtychoNN has the Code, trained model weights, training, and test data on GitHub: &lt;a href="https://github.com/mcherukara/PtychoNN">https://github.com/mcherukara/PtychoNN&lt;/a>.&lt;/li>
+&lt;li>AutophaseNN has Code, trained models, and test data available on GitHub: &lt;a href="https://github.com/YudongYao/AutoPhaseNN">https://github.com/YudongYao/AutoPhaseNN&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;p>Specifically, they implemented PytchoNN using PyTorch Distributed Data-Parallel (DDP)&lt;/p>
+&lt;p>See Onedrive &lt;a href="https://indiana-my.sharepoint.com/:f:/g/personal/sunbaix_iu_edu/EsKMnXradjpCkaKFSfcdQlMBp7BEG7gIiTNifbutL_RUVw?e=zYhhnh">FAIR&lt;/a> Or please use this google drive link:&lt;/p>
+&lt;p>&lt;a href="https://drive.google.com/drive/folders/1c2HGFBiymJUu9yaUTW5K-dIOoemxOfjN?usp=sharing">https://drive.google.com/drive/folders/1c2HGFBiymJUu9yaUTW5K-dIOoemxOfjN?usp=sharing&lt;/a>&lt;span style="text-decoration:underline;"> &lt;/span>These have the same readme and Python files&lt;/p>
+&lt;p>&lt;strong>Tennessee&lt;/strong>&lt;/p>
+&lt;p>Piotr presented CUDA 10 versus CUDA 11&lt;/p>
+&lt;p>SABATH Cosmoflow small dataset working. Move to&lt;/p>
+&lt;ul>
+&lt;li>Earthquake&lt;/li>
+&lt;li>OSMIBench&lt;/li>
+&lt;/ul>
+&lt;p>Gregor described progress with Friday May 14 1 pm meeting with Wes Brewer&lt;/p>
+&lt;p>Gregor recommends exchanging Docker or Singularity definition files&lt;/p>
+&lt;p>SABATH could create the container image&lt;/p></description></item><item><title>Docs: Meeting Notes 11-28-2022</title><link>/docs/notes/2022-11-28/</link><pubDate>Mon, 28 Nov 2022 00:00:00 +0000</pubDate><guid>/docs/notes/2022-11-28/</guid><description>
+&lt;p>&lt;strong>Minutes of SBI-FAIR November 28, 2022, Meeting&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Present:&lt;/strong> Kamil Iskra, Xiaodong Yu, Deborah Penchoff, Shantenu Jha, Geoffrey Fox, Piotr Luszczek, Baixi Sun. Vikram Jadhao, Gregor von Laszewski and Margaret Lentz from DOE&lt;/p>
+&lt;p>Preparations/drafts: &lt;a href="https://drive.google.com/drive/folders/1dRKDJgN9yT8OVwT1PUyYYTsnjmhCep9h?usp=sharing">Nov 28 2022 DOE Project Review Preparations&lt;/a>&lt;/p>
+&lt;p>Actually delivered presentations are has on the first slide links to individual presentations in the order&lt;/p>
+&lt;ul>
+&lt;li>Virginia&lt;/li>
+&lt;li>Tennessee&lt;/li>
+&lt;li>Argonne&lt;/li>
+&lt;li>Rutgers&lt;/li>
+&lt;li>Indiana&lt;/li>
+&lt;/ul>
+&lt;p>Margaret emphasized the need for continued interaction and we scheduled the next meeting with Margaret on January 30, 2023.&lt;/p></description></item><item><title>Docs: Meeting Notes 10-31-2022</title><link>/docs/notes/2022-10-31/</link><pubDate>Mon, 31 Oct 2022 00:00:00 +0000</pubDate><guid>/docs/notes/2022-10-31/</guid><description>
+&lt;p>&lt;strong>Minutes of SBI-FAIR October 31, 2022, Meeting&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Present:&lt;/strong> Kamil Iskra, Xiaodong Yu, Peter Beckman, Deborah Penchoff, Shantenu Jha, Geoffrey Fox, Piotr Luszczek, Baixi Sun. Vikram Jadhao, Gregor von Laszewski&lt;/p>
+&lt;p>&lt;strong>Updates&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Virginia&lt;/strong>&lt;/p>
+&lt;p>Geoffrey discussed&lt;/p>
+&lt;ul>
+&lt;li>The transfer of the DOE grant is completed&lt;/li>
+&lt;li>The Tsunami surrogate (see last meeting) is finished while the diffusion-based surrogate is still being finalized
+&lt;ul>
+&lt;li>Rough draft of the diffusion model for cell simulations GENERALIZATION AND TRANSFER LEARNING IN A DEEP DIFFUSION SURROGATE FOR MECHANISTIC REAL-WORLD SIMULATIONS. Interesting is the study of dataset sizes 5000-400,000 and the importance of dealing with the large numeric range in computed values&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>We discussed Margaret Lentz’s request for a project presentation
+&lt;ul>
+&lt;li>Draft after SC22 with final presentation November 28 1-2 pm finalized with Margaret&lt;/li>
+&lt;li>Some integrating slides and then 4-6 from each team covering past work; remaining work in the grant; what to do after the grant&lt;/li>
+&lt;li>Pete reminded us not to forget FAIR!&lt;/li>
+&lt;li>Geoffrey will make a plan&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Argonne&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Their VLDB2023 paper: “SOLAR: A Highly Optimized Data Loading Framework Training CNN-based Scientific Surrogates,” was discussed&lt;/li>
+&lt;li>This paper looks at the training of 3 surrogates and addresses the overhead of the I/O disk access that dominates the performance&lt;/li>
+&lt;li>They compare with PyTorch Data Loader and the NoPFS paper &lt;a href="https://arxiv.org/abs/2101.08734">[2101.08734] Clairvoyant Prefetching for Distributed Machine Learning I/O&lt;/a> from Torsten Hoefler at the last SC meeting. This does optimized prefetching&lt;/li>
+&lt;li>The shuffle is optimized to minimize redistribution and this leads to an improvement factor of 3.5 over NoPFS and 24 over default PyTorch \&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Tennessee&lt;/strong>&lt;/p>
+&lt;p>Piotr reported that Cade Brown has left and they are hiring a replacement.&lt;/p>
+&lt;p>&lt;strong>Rutgers&lt;/strong>&lt;/p>
+&lt;p>Shantenu reported&lt;/p>
+&lt;ul>
+&lt;li>That their team had identified 6 categories with AI enhancing HPC and they were studying performance&lt;/li>
+&lt;li>He returned to topic of Large Language models LLM that can be effective in chemistry,&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Indiana University&lt;/strong>&lt;/p>
+&lt;p>Vikram reported that&lt;/p>
+&lt;ul>
+&lt;li>They were continuing study of accuracy and robustness as last time as well as&lt;/li>
+&lt;li>Dataset size&lt;/li>
+&lt;li>Ensemble issues&lt;/li>
+&lt;li>Definition of speedup&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Meeting Notes 09-26-2022</title><link>/docs/notes/2022-09-26/</link><pubDate>Mon, 26 Sep 2022 00:00:00 +0000</pubDate><guid>/docs/notes/2022-09-26/</guid><description>
+&lt;p>&lt;strong>Minutes of SBI-FAIR September 26, 2022, Meeting&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Present:&lt;/strong> Kamil Iskra, Xiaodong Yu, Deborah Penchoff, Shantenu Jha, Geoffrey Fox, Piotr Luszczek, Baixi Sun. Vikram Jadhao, Gregor von Laszewski&lt;/p>
+&lt;p>&lt;strong>Updates&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Virginia&lt;/strong>&lt;/p>
+&lt;p>Geoffrey discussed&lt;/p>
+&lt;ul>
+&lt;li>The transfer of the DOE grant is still making progress&lt;/li>
+&lt;li>He noted two nearly completed new surrogates
+&lt;ul>
+&lt;li>paper on Tsunami simulation surrogates entitled “Forecasting tsunami inundation with convolutional neural networks for a potential Cascadia Subduction Zone rupture”&lt;/li>
+&lt;li>Rough draft of the diffusion model for cell simulations GENERALIZATION AND TRANSFER LEARNING IN A DEEP DIFFUSION SURROGATE FOR MECHANISTIC REAL-WORLD SIMULATIONS. Interesting is the study of dataset sizes 5000-400,000 and the importance of dealing with the large numeric range in computed values&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>He summarized the MLCommons status with the move to continuous (rolling) submissions rather than fixed date submissions&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Indiana University&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Vikram presented some of his recent work&lt;/li>
+&lt;li>He studied sensitivity to input training set showing some dramatic effects from seemingly small changes &amp;ndash; removing one value of electrolyte concentration c&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Tennessee&lt;/strong>&lt;/p>
+&lt;p>Piotr reported&lt;/p>
+&lt;ul>
+&lt;li>There was a Data Challenge at Smoky Mountain meeting with a smaller version of the Cloudmask dataset from MLCommons &lt;a href="https://smc-datachallenge.ornl.gov/ch6-satellite-datasets/">2022 Challenge 6: SMCEFR: Sentinel-3 Satellite Dataset « SMC Data Challange 2021&lt;/a>&lt;/li>
+&lt;li>Two Submitted papers: one on Performance Surrogate and the other a SABATH paper at HPEC Conference &lt;a href="https://ieee-hpec.org/">IEEE HPEC&lt;/a> 26th Annual 2022 IEEE High Performance Extreme Computing Virtual Conference 19 - 23 September 2022
+&lt;ul>
+&lt;li>paper and presentation Deep Gaussian process with multitask and transfer learning for performance optimization&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Questions included reproducibility and overheads from using FAIR metadata&lt;/li>
+&lt;li>It was asked if SABATH recorded training time; it does record loss versus epoch number.&lt;/li>
+&lt;li>Tennessee will give a detailed presentation on SABATH next time.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Rutgers&lt;/strong>&lt;/p>
+&lt;p>Shantenu reported&lt;/p>
+&lt;ul>
+&lt;li>Drug and Quantum surrogates&lt;/li>
+&lt;li>He noted a new DOE $25M award for climate surrogates revisiting the startling Oxford paper &lt;a href="https://iopscience.iop.org/article/10.1088/2632-2153/ac3ffa/meta">https://iopscience.iop.org/article/10.1088/2632-2153/ac3ffa/meta&lt;/a> and &lt;a href="https://arxiv.org/pdf/2001.08055v1">https://arxiv.org/pdf/2001.08055v1&lt;/a>&lt;/li>
+&lt;li>Work with Indiana University was continuing with efforts to get system running on Summit&lt;/li>
+&lt;li>There was a discussion of Large Language models LLM and DOE interest in using them on scientific literature. There is a challenge with the current $10-100 million computing training cost possibly reaching a billion dollars.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Argonne&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Xiaodong Yu discussed the ASPLOS paper which was unfortunately rejected&lt;/li>
+&lt;li>Baixi presented their results commenting on referee remarks&lt;/li>
+&lt;li>One question prompted observation that surrogate MODEL sizes are comparatively small&lt;/li>
+&lt;li>Another question was answered by noting that scheduling was a one-time cost&lt;/li>
+&lt;li>In some cases their custom training order outperformed the baseline training&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Meeting Notes 08-15-2022</title><link>/docs/notes/2022-08-15/</link><pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate><guid>/docs/notes/2022-08-15/</guid><description>
+&lt;p>&lt;strong>Minutes of SBI-FAIR August 15, 2022, Meeting&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Present:&lt;/strong> Kamil Iskra, Xiaodong Yu, Deborah Penchoff, Shantenu Jha, Geoffrey Fox, Piotr Luszczek, Baixi Sun.&lt;/p>
+&lt;p>&lt;strong>Apologies&lt;/strong> Vikram Jadhao,&lt;/p>
+&lt;p>&lt;strong>Updates&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Virginia&lt;/strong>&lt;/p>
+&lt;p>Geoffrey discussed&lt;/p>
+&lt;ul>
+&lt;li>The transfer of the DOE grant is making progress&lt;/li>
+&lt;li>He is continuing his study of Foundation models by collecting common applications using similar deep learning systems&lt;/li>
+&lt;li>He summarized the MLCommons status answering some questions noting that MLCommons collects surrogates and non-surrogate benchmarks
+&lt;ul>
+&lt;li>Geoffrey will send Shantenu notice about MLCommons meetings&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>Gregor&lt;/p>
+&lt;ul>
+&lt;li>contacted Rutgers for help, but due to staff changes that effort was shifted to Summit support team. Activity in progress.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Rutgers&lt;/strong>&lt;/p>
+&lt;p>Shantenu reported&lt;/p>
+&lt;ul>
+&lt;li>Work with Indiana University was delayed as JCS Kadupitiya has graduated from IU and was hired by Microsoft&lt;/li>
+&lt;li>Improving AI for Science Chapter with AI-linked workflows for a new publication with performance&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Argonne&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Xiaodong Yu discussed the ASPLOS paper and will send an improved version in 2 weeks&lt;/li>
+&lt;li>There are performance issues addressed with microbenchmarks&lt;/li>
+&lt;li>Baixi presented their results optimized over epoch and batch&lt;/li>
+&lt;li>This does not change results much even though the update order is different&lt;/li>
+&lt;li>Schedule by access performance or load balance&lt;/li>
+&lt;li>4.2 to 5.8 speedup up to 64 processes&lt;/li>
+&lt;li>Looking at scalability&lt;/li>
+&lt;li>Other surrogates are AutophaseNN and BraggNN&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Indiana University&lt;/strong>&lt;/p>
+&lt;p>Reported by email&lt;/p>
+&lt;ul>
+&lt;li>Starting Fall 2022, a new PhD student Fanbo Sun and a new postdoc Wenhui Li will work 50% on this project. Postdoc starts Sep 1.&lt;/li>
+&lt;li>Soft labels: Continuing to explore the soft labels idea and how it reduces training set sizes. Planning a submission sometime this year. One paper submitted last year on this topic is still under review.&lt;/li>
+&lt;li>Time series surrogate: With the postdoc, we will be working to extend the RNN operator to tackle NVT ensemble and larger number of particles.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Tennessee&lt;/strong>&lt;/p>
+&lt;p>Piotr reported&lt;/p>
+&lt;ul>
+&lt;li>Cade will come back plus a new Ph.D. student&lt;/li>
+&lt;li>Two Submitted papers: one on Performance Surrogate and the other a SABATH paper&lt;/li>
+&lt;li>Third paper to Data Challenge&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Meeting Notes 06-27-2022</title><link>/docs/notes/2022-06-27/</link><pubDate>Mon, 27 Jun 2022 00:00:00 +0000</pubDate><guid>/docs/notes/2022-06-27/</guid><description>
+&lt;p>&lt;strong>Minutes of SBI-FAIR June 27, 2022, Meeting&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Present:&lt;/strong> Kamil Iskra, Deborah Penchoff, Vikram Jadhao, Shantenu Jha, Geoffrey Fox, Piotr Luszczek, Baixi Sun, Gregor von Laszewski&lt;/p>
+&lt;p>&lt;strong>Updates&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Virginia&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Foundation Models &amp;ndash; collect surrogates&lt;/li>
+&lt;li>Need a group DOE report. Use last year&amp;rsquo;s approach with a common response initialized by Piotr &lt;a href="https://docs.google.com/document/d/19cbBj2IMIMa_HUPAUaREy3zRYBQfEoS5hCmM7wyU48c/edit?usp=sharing">https://docs.google.com/document/d/19cbBj2IMIMa_HUPAUaREy3zRYBQfEoS5hCmM7wyU48c/edit?usp=sharing&lt;/a>&lt;/li>
+&lt;li>Note plans went a bit different as due to transfer Indiana and Virginia were not asked for annual reports&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Tennessee&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>SABATH software&lt;/li>
+&lt;li>MLCommons Paper ISC Piotr Luszczek went and did not get Covid. BOF presentation from Piotr and H3 conference &lt;a href="http://www.icl.utk.edu/~luszczek/conf/2022/h3/">H3 workshop&lt;/a> report from Jeyan Thiyagalingam.&lt;/li>
+&lt;li>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Rutgers&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Vincent Pascuzzi has a prototype software system running with JCS Kadupitiya&lt;/li>
+&lt;li>Davis DOE AI meeting is July 26-28&lt;/li>
+&lt;li>Train Foundation models&lt;/li>
+&lt;li>Performance of workflow&lt;/li>
+&lt;li>Omniverse&lt;/li>
+&lt;/ul>
+&lt;p>**Indiana **&lt;/p>
+&lt;ul>
+&lt;li>Hire postdoc now that JCS Kadupitiya has graduated and hired by Microsoft&lt;/li>
+&lt;li>Soft label paper progressing&lt;/li>
+&lt;li>Using Tensorflow for simulation&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Argonne&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Kamil Iskra described publication plan of a paper to ASPLOS and poster to SC&lt;/li>
+&lt;li>Baixi noted June 30 abstract deadline and gave the presentation&lt;/li>
+&lt;li>1.3 TB dataset&lt;/li>
+&lt;li>I/O takes ~81% when run on 8 nodes and 64 GPUs on ThetaGPU&lt;/li>
+&lt;li>Clump data and load balance to decrease load time gives a factor of 2.16 speedup&lt;/li>
+&lt;li>Use Memory not SSD for storage&lt;/li>
+&lt;li>Gregor suggested compressing data in shared memory&lt;/li>
+&lt;li>Global arrays and RDMA&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Meeting Notes 05-23-2022</title><link>/docs/notes/2022-05-23/</link><pubDate>Mon, 23 May 2022 00:00:00 +0000</pubDate><guid>/docs/notes/2022-05-23/</guid><description>
+&lt;p>&lt;strong>Minutes of SBI-FAIR May 23, 2022, Meeting&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Present:&lt;/strong> Kamil Iskra, Deborah Penchoff, Vikram Jadhao, Shantenu Jha, Geoffrey Fox, Xiaodong Yu, Piotr Luszczek, Baixi Sun, Gregor von Laszewski&lt;/p>
+&lt;p>&lt;strong>Updates&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Virginia&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Geoffrey described substantial progress with Science working group of MLCommons which should have reached first base on June 1 at an ISC BOF&lt;/li>
+&lt;li>The diffusion equation surrogate work with Javier Toledo and James Glazier is being written up.&lt;/li>
+&lt;li>He also commented on Argonne shuffling performance and use of Big Data collective shuffle primitives that work on disk and memory.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Tennessee&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Cade Brown is on internship with NVIDIA&lt;/li>
+&lt;li>Piotr gave the presentation describes the nice progress with SABATH system introduced by Cade last month.&lt;/li>
+&lt;li>SABATH is now available with two applications
+&lt;ul>
+&lt;li>Keras MNIST&lt;/li>
+&lt;li>Cloudmask-0 extended from work of UK group of Tony Hey&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>SABATH would cache data locally&lt;/li>
+&lt;li>Tensorboard visualization support was described&lt;/li>
+&lt;li>Add PyTorchsupport to current Tensorflow plus new applications. \&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Rutgers&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Meeting with the Indiana group (Vikram) on adaptive training&lt;/li>
+&lt;/ul>
+&lt;p>**Indiana **&lt;/p>
+&lt;ul>
+&lt;li>Working with Rutgers to agree with last bullet!&lt;/li>
+&lt;li>Devising strategy to minimize needed training size&lt;/li>
+&lt;li>JCS Kadupitiya in Vikram’s group got his Ph.D. and the Luiddy outstanding research award. He is off to work for Microsoft.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Argonne&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Baixi gave the Argonne presentation after introduction by Xiaodong&lt;/li>
+&lt;li>They are debating between HDF5 or Binary storage&lt;/li>
+&lt;li>Changing the I/O middleware to be based on parallel HDF5&lt;/li>
+&lt;li>Test done on 16 GPUs corresponding to 2 nodes&lt;/li>
+&lt;li>Execution time doesn’t depend much on Batch size. Geoffrey suggested that indicates GPUs not fully utilized so smaller computation does not exploit all internal GPU parallelism&lt;/li>
+&lt;li>Baixi reviewed the problems with shuffle being needed every epoch and the challenge when data size large and will not fit in memory and needs disk (small datasets fit into memory)&lt;/li>
+&lt;li>The Lustre file system used is bad for small randomly accessed files; typically each image is one file&lt;/li>
+&lt;li>The load is manly read with some writes&lt;/li>
+&lt;li>The shufflings are all precalculated and the redistribution needed (MPI AllScatter/gather) can be represented as a graph which is imbalanced&lt;/li>
+&lt;li>Computation and Data movement are traded off with heuristic solution near to the true minimum&lt;/li>
+&lt;li>Parallel HDF5 (using MPI-IO) supports multiple MPI processes&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Meeting Notes 04-25-2022</title><link>/docs/notes/2022-04-25/</link><pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate><guid>/docs/notes/2022-04-25/</guid><description>
+&lt;p>&lt;strong>Minutes of SBI-FAIR April 25, 2022, Meeting&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Present:&lt;/strong> Kamil Iskra, Deborah Penchoff, Vikram Jadhao, Shantenu Jha, Geoffrey Fox, Xiaodong Yu, Piotr Luszczek, Cade Brown, Baixi Sun, Jack Dongarra&lt;/p>
+&lt;p>&lt;strong>Updates&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Virginia&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Discussed continued work on diffusion surrogate with Glazier and Javier Toledo (Edmonton)&lt;/li>
+&lt;li>Discussed Fusion surrogate benchmark from Lawrence Livermore&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Tennessee&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Cade Brown presented an update&lt;/li>
+&lt;li>Discussed Sentinel 3 benchmark based on UK Cloudmask from MLCommons&lt;/li>
+&lt;li>Then discussed FAIR Benchmark platform SLIP which is has been extended to become SABATH&lt;/li>
+&lt;li>Described report structure
+&lt;ul>
+&lt;li>Model format - how universal is this&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Has done UK cloudmask and looked at TEvol (2 MLCommons benchmarks)&lt;/li>
+&lt;li>Deal with Jupyter notebooks with nbconvert&lt;/li>
+&lt;li>Add callbacks to model.fit&lt;/li>
+&lt;li>How to do FAIR&lt;/li>
+&lt;li>Use Json&lt;/li>
+&lt;li>Relation to SciML-Bench &lt;a href="https://github.com/stfc-sciml/sciml-bench">GitHub - stfc-sciml/sciml-bench: SciML Benchmarking Suite for AI for Science&lt;/a> and MLCube from MLCommons&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Rutgers&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>The IPDPS paper was accepted. This isn’t the final version, but the only publicly available version currently is &lt;a href="https://arxiv.org/abs/2104.04797">[2104.04797] Coupling streaming AI and HPC ensembles to achieve 100-1000x faster biomolecular simulations&lt;/a>&lt;/li>
+&lt;li>Discussed Adversarial autoencoders and use of Alphafold which is expected to do better&lt;/li>
+&lt;li>Summit difficult due to IBM containers&lt;/li>
+&lt;li>Noted continued study of “2 billion” paper (renamed “Building high accuracy emulators for scientific simulations with deep neural architecture search” &lt;a href="https://arxiv.org/pdf/2001.08055.pdf">https://arxiv.org/pdf/2001.08055.pdf&lt;/a>)&lt;/li>
+&lt;li>Survey paper&lt;/li>
+&lt;li>Noted Proxima by Ian Foster &lt;a href="https://dl.acm.org/doi/abs/10.1145/3447818.3460370">Proxima | Proceedings of the ACM International Conference on Supercomputing&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>**Indiana **&lt;/p>
+&lt;ul>
+&lt;li>Working on scaling recurrent neural net surrogate &lt;a href="https://doi.org/10.1088/2632-2153/ac5f60">https://doi.org/10.1088/2632-2153/ac5f60&lt;/a> to more particles&lt;/li>
+&lt;li>Ph.D. student JCS Jcs Kadupitiya will defend thesis.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Argonne&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Baixi presentation&lt;/li>
+&lt;li>Described distributed training shuffling problem as a graph&lt;/li>
+&lt;li>Cost of training has large data loading time&lt;/li>
+&lt;li>Studied increasing standard deviation/mean by redistribution over nodes&lt;/li>
+&lt;li>Address Imbalance data loading by moving computetasks to other nodes&lt;/li>
+&lt;li>Note large compute variance over GPUs even if batch size fixed, which seems surprising &amp;ndash; why are some GPUs slow?&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Meeting Notes 03-19-2022</title><link>/docs/notes/2022-03-19/</link><pubDate>Sat, 19 Mar 2022 00:00:00 +0000</pubDate><guid>/docs/notes/2022-03-19/</guid><description>
+&lt;h2 id="minutes-of-sbi-fair-march-19-2022-meeting">Minutes of SBI-FAIR March 19, 2022, Meeting&lt;/h2>
+&lt;ul>
+&lt;li>Present: Kamil Iskra, Vikram Jadhao, Shantenu Jha, Geoffrey Fox, Xiaodong Yu, Piotr Luszczek, Cade Brown, Baixi Sun, Gregor von Laszewski&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Updates&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Rutgers&lt;/strong>&lt;/p>
+&lt;p>A postdoc left unexpectedly and so the surrogate classification work was delayed. The integration of Rutgers software into Vikram’s work is proceeding and will be tested with a Summit allocation.&lt;/p>
+&lt;p>&lt;strong>Indiana&lt;/strong>&lt;/p>
+&lt;p>Vikram discussed a surrogate paper accepted by Machine Learning: Science and Technology journal &lt;a href="https://doi.org/10.1088/2632-2153/ac5f60">https://doi.org/10.1088/2632-2153/ac5f60&lt;/a>. This evolves a modest collection of particles in for example the Lennard-Jones potential obtaining good results with time steps 4000 times that of classic solvers. He also presented at multiple APS sessions. He noted other work using Tensorflow to perform simulations &amp;ndash; a collaboration with another Indiana Engineering faculty.&lt;/p>
+&lt;p>&lt;strong>Virginia&lt;/strong>&lt;/p>
+&lt;p>Gregor presented on the status of the MLCommons benchmark stressing the difficulties in reconciling GitHub and Jupyter notebooks. Geoffrey noted that these were not quite what you wanted as a scientific electronic notebook as they didn’t support sharing of modified versions and the management of multiple Jupyter notebooks. For example, this project produced 450 notebooks and it is not even easy to search as traditional Google search fails on notebooks.&lt;/p>
+&lt;p>Gregor also discussed timing tools&lt;/p>
+&lt;p>&lt;strong>Tennessee&lt;/strong>&lt;/p>
+&lt;p>Piotr described progress in integrating MLCommons ontologies into the FAIR metadata system. He also noted problems in defining how to run SciML benchmarks with Horovod. Tennessee also submitted a challenge to the Smoky Mountain conference based on Satellite images generalizing the SciML CloudMask benchmark&lt;/p>
+&lt;p>&lt;strong>Argonne National Laboratory&lt;/strong>&lt;/p>
+&lt;p>Xiaodong introduced the Argonne study of shared I/O. The need for global shuffling at each epoch is potentially an I/O problem but their approach gave almost a factor of 10 improvement (11.4 seconds reduced to 1. seconds).&lt;/p>
+&lt;p>Baixi gave a detailed discussion with his usual excellent presentation.&lt;/p>
+&lt;p>Geoffrey and Gregor noted the practical challenge of I/O in University shared file systems with both the Earthquake code and an examination of a regular MLPerf benchmark where cloud I/O was much faster than the academic shared file system. The latter problem can be addressed by copying to local disks. Execution from those is a little faster than the cloud numbers.&lt;/p></description></item><item><title>Docs: Meeting Notes 02-14-2022</title><link>/docs/notes/2022-02-14/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>/docs/notes/2022-02-14/</guid><description>
+&lt;p>&lt;strong>Minutes of SBI-FAIR February 14 2022 Meeting&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Present: Kamil Iskra, Vikram Jadhao, Geoffrey Fox, Deborah Penchoff, Xiaodong Yu, Piotr Luszczek, Cade Brown, Baixi Sun, Gregor von Laszewski&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Updates&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Tennessee&lt;/strong>&lt;/p>
+&lt;p>A new team member Cade Brown gave a fascinating talk &lt;a href="https://docs.google.com/presentation/d/1sl5MAYodvQyfw46rYG0PHNL5nsf5NQYgrvGlF1Z_kHo/edit?usp=drivesdk">CadeBrown-notes-SBI_Schema&lt;/a>. Cade Brown is a new ICL student tasked with designing a schema and tooling for installing, running, and benchmarking ML models. He showed examples using MLCommons Science benchmarks CloudMask and STEMDL. There will be a public website from which you can search models, datasets, and results and run examples. He discussed use of JSON rather than XML and the use of Google’s Firebase JSON database tool. There was a discussion of the sustainability of Firebase (as you need to pay) and the use of containers.&lt;/p>
+&lt;p>Geoffrey noted synergy with MLCommons Science Data working group &lt;a href="https://mlcommons.org/en/groups/research-science/">Science Working Group | MLCommons&lt;/a>, the Research Data Alliance and Christine KIrkpatrick&lt;/p>
+&lt;p>&lt;strong>Argonne National Laboratory&lt;/strong>&lt;/p>
+&lt;p>Argonne described the continued work on understanding the performance of distributed training already discussed in the last four meetings. Today&amp;rsquo;s discussion focussed on I/O and included a talk by Baixi which as always was very informative. I/O is a major bottleneck alleviated by caching in either SSD and/or CPU memory. There is a plan for a Parallel I/O and hdf5 paper at SC22. The Hoefler paper at SC21 &lt;a href="https://dl.acm.org/doi/10.1145/3458817.3476181">Clairvoyant prefetching for distributed machine learning I/O | Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis&lt;/a> has a simulator that ANL used in this analysis. Shuffling is major difficulty as requires access to all the data. There is a fast local version but it is not as good an algorithm as the usual global shuffle. Currently, dataset is 22 GB but it can increase. \&lt;/p>
+&lt;p>&lt;strong>Indiana&lt;/strong>&lt;/p>
+&lt;p>Vikram reported that his surrogate was ready to deploy and that he has received a Summit allocation to support its training. He had met with Shantenu. He sent Cade Brown a couple of links to a repository that hosts their ML surrogate model and the simulation code used to generate datasets to train and test this model. Hopefully, this surrogate can serve as a test model for the system he is building.&lt;/p>
+&lt;p>&lt;a href="https://github.com/softmaterialslab/nanoconfinement-md/tree/master/python">https://github.com/softmaterialslab/nanoconfinement-md/tree/master/python&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://github.com/softmaterialslab/nanoconfinement-md/">https://github.com/softmaterialslab/nanoconfinement-md/&lt;/a>&lt;/p>
+&lt;p>You can see the surrogate in action, by launching the tool:&lt;/p>
+&lt;p>&lt;a href="https://nanohub.org/tools/nanoconfinement/">https://nanohub.org/tools/nanoconfinement/&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Virginia&lt;/strong>&lt;/p>
+&lt;p>Progress continues with surrogate for discussion solver. We are writing a second paper on this. Gregor discussed progress with compression.&lt;/p></description></item><item><title>Docs: Meeting Notes 01-10-2022</title><link>/docs/notes/2022-01-10/</link><pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate><guid>/docs/notes/2022-01-10/</guid><description>
+&lt;p>&lt;strong>Minutes of SBI-FAIR January 10 2022 Meeting&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Present:&lt;/strong> Kamil Iskra, Vikram Jadhao, Geoffrey Fox, Deborah Penchoff, Xiaodong Yu, Jack Dongarra, Shantenu Jha, Piotr Luszczek, Baixi Sun, Gregor von Laszewski&lt;/p>
+&lt;p>&lt;strong>Updates&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Tennessee&lt;/strong>&lt;/p>
+&lt;p>Piotr reported UTK’s continued progress with the FAIR technology in his presentation with a discussion of the ontology needed for SciML and extensions to MLCommons. The choice of YAML versus XML and &lt;a href="https://en.wikipedia.org/wiki/TOML">TOML&lt;/a> was discussed. There was a discussion between Piotr and Gregor about that indicated that the YAML format is not sufficient to encode the surrogate and the hardware used for it. An alternative was discussed where one encodes endpoints in the YAML and these endpoints have the detailed metadata/Schema. This is natural in examples that use PyTorch or Tensorflow which could have customized sub-ontologies. Gregor suggested circulating an example to identify if YAML would be nevertheless good enough. The performance surrogate is running on Summit.&lt;/p>
+&lt;p>&lt;strong>Argonne&lt;/strong>&lt;/p>
+&lt;p>Argonne described the continued work on understanding the performance of distributed training already discussed in the last three meetings with the 2 models, Horovod and the Mirrored Strategy, for ptychoNN surrogate. Baixi new slides are at They are using the latest model from PtychoNN team and testing on the large diffraction and real space data on the 2 distributed training models. Horovod did better on 4, 8 GPU’s; Mirrored on 1,2 GPU’s. They implemented Pytorch DDP to profile and analysis the performance.&lt;/p>
+&lt;p>&lt;strong>Rutgers&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>This continued discussion from last time on work with Vikram on software&lt;/li>
+&lt;li>.Progress on Quantum computing surrogate with Ian Foster&lt;/li>
+&lt;li>Shantenu also updated work on categorizing surrogates. \&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Indiana&lt;/strong>&lt;/p>
+&lt;p>Vikram reported an update on the time series molecular dynamics surrogate although not using the soft (adding in simulation errors) optimization.&lt;/p>
+&lt;p>&lt;strong>Virginia&lt;/strong>&lt;/p>
+&lt;p>Geoffrey was distracted by the poor performance of his home internet (now corrected) and did not report solid progress on his diffusion equation solver&lt;/p></description></item><item><title>Docs: Meeting Notes 10-21-2021</title><link>/docs/notes/2021-10-21/</link><pubDate>Thu, 21 Oct 2021 00:00:00 +0000</pubDate><guid>/docs/notes/2021-10-21/</guid><description>
+&lt;p>&lt;strong>Minutes of SBI-FAIR October 25 2021 Meeting&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Present:&lt;/strong> Kamil Iskra, Vikram Jadhao, Geoffrey Fox, Deborah Penchoff, Xiaodong Yu, Jack Dongarra, Shantenu Jha, Piotr Luszczek, Baixi Sun, Gregor von Laszewski&lt;/p>
+&lt;p>&lt;strong>Updates&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Tennessee&lt;/strong>&lt;/p>
+&lt;p>Piotr reported that paper submitted to IPDPS; and metadata (FAIR) work is continuing&lt;/p>
+&lt;p>&lt;strong>Virginia&lt;/strong>&lt;/p>
+&lt;p>Geoffrey has summarized 4 possible MLCommons Science Datasets that could be useful for FAIR studies. See recent Argonne preprint&lt;/p>
+&lt;p>&lt;strong>Indiana&lt;/strong>&lt;/p>
+&lt;p>Vikram Jadhao described his new surrogate paper &lt;a href="https://arxiv.org/abs/2110.14714">[2110.14714] Designing Machine Learning Surrogates using Outputs of Molecular Dynamics Simulations as Soft Labels&lt;/a> and quoting from abstract “Here, we show that statistical uncertainties associated with the outputs of molecular dynamics simulations can be utilized to train artificial neural networks and design machine learning surrogates with higher accuracy and generalizability. We design soft labels for the simulation outputs by incorporating the uncertainties in the estimated average output quantities and introduce a modified loss function that leverages these soft labels during training to significantly reduce the surrogate prediction error for input systems in the unseen test data. The approach is illustrated with the design of a surrogate for molecular dynamics simulations of confined electrolytes to predict the complex relationship between the input electrolyte attributes and the output ionic structure. The surrogate predictions for the ionic density profiles show excellent agreement with the ground truth results produced using molecular dynamics simulations.”&lt;/p>
+&lt;p>&lt;strong>Rutgers&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Collaboration with Vikram has started&lt;/li>
+&lt;li>Classification of surrogates introduced 6 classes and analyzed many new papers&lt;/li>
+&lt;li>Gordon Bell submission involved Caltech + DOE Labs + San Diego and used surrogates at multiple levels &amp;ndash; it studied how to balance effort between them. The application concerned Delta Covid.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Argonne&lt;/strong>&lt;/p>
+&lt;p>Kamil and Xiaodong described the continued work on understanding the performance of distributed training already introduced last month. Baixi gave the presentation . Next month will see a new dataset and new results.&lt;/p>
+&lt;p>Hyperparameters were tuned for ptychoNN surrogate on Horovod and the Mirrored Strategy.&lt;/p>
+&lt;p>The current approach is synchronous but will look at asynchronous methods.&lt;/p>
+&lt;p>We agreed on the next meeting date November 29.&lt;/p></description></item><item><title>Docs: Meeting Notes 09-27-2021</title><link>/docs/notes/2021-09-27/</link><pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate><guid>/docs/notes/2021-09-27/</guid><description>
+&lt;p>&lt;strong>Minutes of SBI-FAIR September 27 2021 Meeting&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Present:&lt;/strong> Kamil Iskra, Vikram Jadhao, Geoffrey Fox, Deborah Penchoff, Xiaodong Yu, Jack Dongarra, Shantenu Jha, Piotr Luszczek, Pete Beckman, Baixi Sun, Gregor von Laszewski&lt;/p>
+&lt;p>&lt;strong>Updates&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Indiana/Virginia&lt;/strong>&lt;/p>
+&lt;p>Vikram has a new surrogate and is finalizing a paper on it. He will talk to Shantenu soon.&lt;/p>
+&lt;p>&lt;strong>Rutgers&lt;/strong>&lt;/p>
+&lt;p>Shantenu affected by hurricane&lt;/p>
+&lt;ol>
+&lt;li>Developing 3 layer simulations with surrogate at each level&lt;/li>
+&lt;li>ML driven HPC motifs/patterns identified in research to be reported at November meeting
+&lt;ol>
+&lt;li>DeepDriveMD ensemble is one example&lt;/li>
+&lt;li>climate science simulations gives surrogates that select best simulation&lt;/li>
+&lt;li>Link with observation link seen in climate, materials and biomolecular science&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>University of Tennessee&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>Workshop in April 4-7 2022 at UTK&lt;/li>
+&lt;li>Performance surrogate paper to IPDPS; excellent speedup but not 2 billion&lt;/li>
+&lt;li>FAIR ontologies will resume after this paper&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>Argonne&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>Yu introduced their GPU scheduling work and investigation of the surrogate model training change scalability&lt;/li>
+&lt;li>Baixi Sun gave a detailed presentation on Distributed Training On PtychoNN
+&lt;ol>
+&lt;li>Utilized the Horovod framework on ptychoNN model.&lt;/li>
+&lt;li>Tested the Horovod performance for different number of GPUs on single node and multiple nodes using Ring All-Reduce&lt;/li>
+&lt;li>Tried Mirrored Strategy framework on ptychoNN model.&lt;/li>
+&lt;li>Tested the performance for different number of GPUs on single node.&lt;/li>
+&lt;li>Debugging of the Mirrored Strategy framework for distributed training.&lt;/li>
+&lt;li>Presented performance numbers with MNIST and ptychoNN&lt;/li>
+&lt;li>Updated our versions of code on our gitlab repository and wiki documentation.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>Links for more details are:
+8. This is the official documentation for Horovod: &lt;a href="https://horovod.readthedocs.io/en/stable/keras.html">Horovod with Keras — Horovod documentation&lt;/a> .
+9. And this is the thetaGPU Horovod tutorial: &lt;a href="https://www.alcf.anl.gov/support-center/theta-gpu-nodes/distributed-training-thetagpu-using-data-parallelism">Distributed training on ThetaGPU using data parallelism | Argonne Leadership Computing Facility&lt;/a> .
+10. This is the official documentation for Mirrored Strategy: &lt;a href="https://keras.io/guides/distributed_training/">Multi-GPU and distributed training&lt;/a> (Section &amp;ldquo;Single-host, multi-device synchronous training&amp;rdquo;).
+11. To be specific, the code I ran on thetaGPU is currently in our &lt;strong>private&lt;/strong> Gitlab repository: &lt;a href="https://gitlab.com/SBI-HPC/benchmark_suite/-/tree/main/ptychography">https://gitlab.com/SBI-HPC/benchmark_suite/-/tree/main/ptychography&lt;/a> . (Please note that for Mirrored Strategy I am currently debugging on it so the latest stable version of code has not committed yet, will come soon!).
+12. The guidance of using those code on thetaGPU is written in the Gitlab wiki: &lt;a href="https://gitlab.com/SBI-HPC/benchmark_suite/-/wikis/PtychoNN-Distributed-Training-on-ThetaGPU">https://gitlab.com/SBI-HPC/benchmark_suite/-/wikis/PtychoNN-Distributed-Training-on-ThetaGPU&lt;/a>.&lt;/li>
+&lt;/ol></description></item><item><title>Docs: Meeting Notes 08-30-2021</title><link>/docs/notes/2021-08-30/</link><pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate><guid>/docs/notes/2021-08-30/</guid><description>
+&lt;p>&lt;strong>Minutes of Meeting August 30, 2021&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Present:&lt;/strong> Kamil Iskra, Vikram Jadhao, Geoffrey Fox, Deborah Penchoff, Xiaodong Yu, Jack Dongarra, Shantenu Jha, Piotr Luszczek, Pete Beckman, Baixi Sun&lt;/p>
+&lt;p>&lt;strong>Updates&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Rutgers:&lt;/strong> Progress with recruiting problems. Highlighted a new paper &lt;a href="https://doi.org/10.1021/acs.jcim.8b00839">https://doi.org/10.1021/acs.jcim.8b00839&lt;/a> on molecular benchmarks from Benevolent AI &lt;a href="https://www.benevolent.com/guacamol">GuacaMol: Benchmarking Models for De Novo Molecular Design&lt;/a>. Peter Coveney Company in London&lt;/li>
+&lt;li>&lt;strong>Tennessee&lt;/strong> continues work on the performance surrogate model. Tune hyperparameters. Build from small runs. Report in October. Works on simulations or data analytics. Unlike ATLAS aimed at problems with runs that take a large time&lt;/li>
+&lt;li>**Argonne. **Pete noted by email a new paper &lt;a href="https://arxiv.org/pdf/2104.12871.pdf">Why AI is Harder Than We Think&lt;/a> with a cautionary tale.
+&lt;ul>
+&lt;li>Baixi Sun from Washington State University was introduced as a new student on project&lt;/li>
+&lt;li>Xiaodong discussed their 3 use cases. Convert notebooks to python scripts and run in multinode fashion&lt;/li>
+&lt;li>Using ALCF the first usage mode is based on Jupyter notebooks and second usage mode is batch&lt;/li>
+&lt;li>ALCF likes Jupyter notebooks. Also note &lt;a href="https://docs.olcf.ornl.gov/services_and_applications/jupyter/overview.html">Jupyter notebooks at ORNL&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Indiana/Virginia&lt;/strong>. Vikram Jadhao presented on surrogates for soft materials
+&lt;ul>
+&lt;li>This reviewed highlights from the field and then focussed on his work&lt;/li>
+&lt;li>Word surrogate not often used in field&lt;/li>
+&lt;li>The review covered SorbNet from MInnesota, ab initio simulation from Toronto and pair correlation function of liquids from UIUC group Aluru&lt;/li>
+&lt;li>Vikram’s application was confined electrolytes where surrogate relates structure to attributes&lt;/li>
+&lt;li>Good use in education using nanoHUB deployment&lt;/li>
+&lt;li>Nice performance slide&lt;/li>
+&lt;li>EXTENDED Predictions were not as good as original ones&lt;/li>
+&lt;li>Need to quantify and improve accuracy &amp;ndash; how? Average over all quantities but worse near the wall. COULD weight those points more in loss
+&lt;ul>
+&lt;li>Common in surrogates, that error is dominated by “special” regions &amp;ndash; boundaries, singularities etc. as work of Geoffrey with James Glazier on diffusion equation for cell modelling.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Look at reducing needed training size&lt;/li>
+&lt;li>Will evaluate using Rutgers software infrastructure&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Meeting Notes 07-26-2021</title><link>/docs/notes/2021-07-26/</link><pubDate>Mon, 26 Jul 2021 00:00:00 +0000</pubDate><guid>/docs/notes/2021-07-26/</guid><description>
+&lt;p>&lt;strong>Minutes of Meeting July 26, 2021&lt;/strong>&lt;/p>
+&lt;p>Shantenu led a discussion of surrogates noting his work was delayed by a loss of a postdoc. Shantenu divided Surrogates into 3 areas&lt;/p>
+&lt;ul>
+&lt;li>**MLinHPC **as in Climate in Oxford paper &lt;a href="https://arxiv.org/abs/2001.08055">[2001.08055] Building high accuracy emulators for scientific simulations with deep neural architecture search&lt;/a> giving speedups over a billion but there are some curious features of this work. Directly replace full simulation but also can calculate potentials as in DeepMD &lt;a href="https://arxiv.org/pdf/2005.00223.pdf">https://arxiv.org/pdf/2005.00223.pdf&lt;/a> where 80-90% of computational cost is potential computation.
+&lt;ul>
+&lt;li>Docking with Austin Clyde and Argonne group (including Shantenu and Rick) &lt;a href="https://arxiv.org/abs/2106.07036">[2106.07036] Protein-Ligand Docking Surrogate Models: A SARS-CoV-2 Benchmark for Deep Learning Accelerated Virtual Screening&lt;/a>
+&lt;ul>
+&lt;li>Factor of 10 no loss of accuracy&lt;/li>
+&lt;li>NVIDIA helped on performance&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>MLaboutHPC&lt;/strong> Here ML guides the simulation such as in choosing ensemble and his DeepDriveMD Westpahl algorithm shows a Factor of 100 compared to Anton
+&lt;ul>
+&lt;li>Shantenu used a VAE but list of 7 methods on slide 8&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>MLoutHPC&lt;/strong> where Shantenu gave one example where one optimizes campaign across scales using Reinforcement learning with Austin Clyde model at top&lt;/li>
+&lt;/ul>
+&lt;p>Shantenu presented PY2 and PY3 plans&lt;/p>
+&lt;p>In PY2 primary goals are:&lt;/p>
+&lt;ul>
+&lt;li>(mini-)Review of surrogates in HPC &amp;ndash; Volunteers? See later&lt;/li>
+&lt;li>Formalizing Performance measures (MLinHPC)
+&lt;ul>
+&lt;li>Three scenarios discussed above: Climate, Docking, Potentials&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Experimenting with Performance (MLoutHPC)
+&lt;ul>
+&lt;li>Use DeepDriveMD to support different surrogates (Table 1) for common physical model (system)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>In PY3&lt;/p>
+&lt;ul>
+&lt;li>tackle (more) complex problem of MLoutHPC&lt;/li>
+&lt;/ul>
+&lt;p>AlphaFold2 (Google) and RoseTTaFold (Baker at Washington) &lt;a href="https://www.nature.com/articles/d41586-021-01968-y">DeepMind&amp;rsquo;s AI for protein structure is coming to the masses news&lt;/a> BOTH released&lt;/p>
+&lt;p>CASP said protein folding solved from AlphaFold2 but RosettaFold is cheaper and as good as AlphaFold2. This could be an opportunity&lt;/p>
+&lt;p>Beckman noted we see a science transformation using FAIR Methodology.&lt;/p>
+&lt;p>Rick Stevens has challenged “How much did Go AI cost”&lt;/p>
+&lt;p>Dataset size is a serious issue.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/deepmind/alphafold">deepmind/alphafold: Open source code for AlphaFold.&lt;/a> notes The total download size for the full databases is around 415 GB and the total size when unzipped is 2.2 TB. Please make sure you have a large enough hard drive space, bandwidth and time to download. We recommend using an SSD for better genetic search performance.&lt;/li>
+&lt;li>Hurricane simulation will become inference&lt;/li>
+&lt;li>Doe strategy train leave data where it is similar to medical federated learning&lt;/li>
+&lt;li>Vikram noted that material science led to smaller datasets as just output final results and not the full trajectory&lt;/li>
+&lt;/ul>
+&lt;p>We discussed having a session at The Argonne Training Program on Extreme-Scale Computing (ATPESC) in 2022&lt;/p>
+&lt;p>Next month we will consider Implications for the project. Vikram and Shantenu volunteered&lt;/p></description></item><item><title>Docs: Meeting Notes 06-29-2021</title><link>/docs/notes/2021-06-29/</link><pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate><guid>/docs/notes/2021-06-29/</guid><description>
+&lt;p>&lt;strong>Minutes of Meeting June 29, 2021&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Annual Report&lt;/strong>&lt;/p>
+&lt;p>This meeting focussed on getting the final version of the DOE annual report which was submitted the following day by each institution.&lt;/p>
+&lt;p>&lt;strong>Next Meeting&lt;/strong>&lt;/p>
+&lt;p>Our meetings are 1 pm Eastern on the 4th Monday of each month&lt;/p>
+&lt;p>This implies Monday, July 25, 1 pm at zoom &lt;a href="https://iu.zoom.us/j/2301429329">https://iu.zoom.us/j/2301429329&lt;/a>&lt;/p>
+&lt;p>In the July meeting, Shantenu Jha will lead a discussion of surrogates, postponed from June&lt;/p></description></item><item><title>Docs: Meeting Notes 05-24-2021</title><link>/docs/notes/2021-05-24/</link><pubDate>Mon, 24 May 2021 00:00:00 +0000</pubDate><guid>/docs/notes/2021-05-24/</guid><description>
+&lt;p>&lt;strong>Minutes of Meeting May 24, 2021&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Links for Today’s Meeting&lt;/strong>&lt;/p>
+&lt;p>Powerpoint of Argonne Talk &lt;a href="https://drive.google.com/file/d/1VOR2V0c86adXgzoNqCwQe4O7di0qbBP5/view?usp=sharing">2021-05-SBI-ANL.pptx&lt;/a>&lt;/p>
+&lt;p>PDF of Argonne Talk &lt;a href="https://drive.google.com/file/d/1UlQ1YGS6J72vcnz65I_I54K9fyWLMiXd/view?usp=sharing">2021-05-SBI-ANL.pdf&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Present&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Argonne:&lt;/strong> Min Si, Xiaodong Yu&lt;/p>
+&lt;p>**Indiana: **Geoffrey Fox, Vikram Jadhao, Gregor von Laszewski&lt;/p>
+&lt;p>&lt;strong>Rutgers:&lt;/strong> Shantenu Jha&lt;/p>
+&lt;p>&lt;strong>UTK:&lt;/strong> Jack Dongarra, Piotr Luszczek&lt;/p>
+&lt;p>&lt;strong>Argonne Presentation&lt;/strong>&lt;/p>
+&lt;p>Xiaodong Yu’s described 3 surrogates being developed at Argonne&lt;/p>
+&lt;p>&lt;strong>Application 1&lt;/strong> **PtychoNN: Ptychographic Imaging Reconstruction phase reconstruction **&lt;/p>
+&lt;p>Here the challenge is to determine phases from Xray scattering data with &lt;a href="https://aip.scitation.org/doi/10.1063/5.0013065">paper&lt;/a>. The surrogate is being extended to run using Horovod on the multi-GPU ThetaGPU system.&lt;/p>
+&lt;p>&lt;strong>Application 2: Geophysical Forecasting&lt;/strong>&lt;/p>
+&lt;p>This involves LSTM forecast models combined with a neural architecture search NAS using deephyper in original&lt;a href="https://dl.acm.org/doi/abs/10.5555/3433701.3433711"> paper&lt;/a> which ran on Theta without GPUs.&lt;/p>
+&lt;p>&lt;strong>Application 3:&lt;/strong> &lt;strong>Molecular dynamics (MD) simulation&lt;/strong>&lt;/p>
+&lt;p>This is multiscale modeling of SARS-CoV-2 in the CANDLE project which received the 2020 ACM Gordon Bell Special Prize for High Performance Computing-Based COVID-19 Research.&lt;/p>
+&lt;p>Shantenu Jha was a co-author on their &lt;a href="https://www.biorxiv.org/content/10.1101/2020.11.19.390187v1">paper&lt;/a> “AI-Driven Multiscale Simulations Illuminate Mechanisms of SARS-CoV-2 Spike Dynamics”.&lt;/p>
+&lt;p>&lt;strong>Other Business&lt;/strong> We discussed adding material to the &lt;strong>website&lt;/strong>.&lt;/p>
+&lt;p>&lt;strong>Annual Report&lt;/strong>&lt;/p>
+&lt;p>We just received the request from DOE for an annual report abstracted below, We could discuss (unfortunately it is due before our next meeting) a common text that we could use as part of each report.&lt;/p>
+&lt;p>The Office of Advanced Scientific Computing Research (ASCR) within the Department of Energy Office of Science requests that you submit a Progress Report for the award listed below. To create and submit the Progress Report, please use the DOE Office of Science &lt;a href="https://pamspublic.science.energy.gov/webPAMSEPSExternal/Interface/Common/AccessControl/login.aspx">Portfolio Analysis and Management System (PAMS)&lt;/a>.&lt;/p>
+&lt;p>&lt;strong>Task:&lt;/strong> Submit Progress Report (&lt;a href="https://pamspublic.science.energy.gov/webPAMSExternal/Interface/Tasks/AwardeeReport/AwardeeReportList.aspx?TaskTypeCode=12">Link&lt;/a>)&lt;/p>
+&lt;p>&lt;strong>Due Date:&lt;/strong> 06/24/2021 5:00 PM ET&lt;/p>
+&lt;p>&lt;strong>Reporting Period:&lt;/strong> 09/23/2020 - 09/22/2021&lt;/p>
+&lt;p>&lt;strong>Next Meeting&lt;/strong>&lt;/p>
+&lt;p>Our meetings are 1 pm Eastern on the 4th Monday of each month&lt;/p>
+&lt;p>This implies Monday, June 28, 1 pm at zoom &lt;a href="https://iu.zoom.us/j/2301429329">https://iu.zoom.us/j/2301429329&lt;/a>&lt;/p>
+&lt;p>In the June meeting, Shantenu Jha will lead a discussion of surrogates.&lt;/p></description></item><item><title>Docs: Meeting Notes 04-19-2021</title><link>/docs/notes/2021-04-19/</link><pubDate>Mon, 19 Apr 2021 00:00:00 +0000</pubDate><guid>/docs/notes/2021-04-19/</guid><description>
+&lt;p>&lt;strong>Minutes of Meeting April 19, 2021&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Links for Today’s Meeting&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Indiana Update plus Overall Project Remarks &lt;a href="https://docs.google.com/presentation/d/1-Td2Fz9yk3GNwa0Z2jbsQk8I_02bMMUexLTRCO09bt4/edit?usp=sharing">SBI-Meeting-IU-April19-2021&lt;/a>&lt;/li>
+&lt;li>Tennessee Update Presentation &lt;a href="https://drive.google.com/file/d/1mv_EpqETFrMmt4fxYSYLrgDOzOL1xlqU/view?usp=sharing">sbi20210419.pdf&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Updates&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Argonne&lt;/strong> postponed their update to the next meeting and the other 3 sites gave updates.&lt;/li>
+&lt;li>&lt;strong>Indiana&lt;/strong> discussed SciMLBench from the UK with its first &lt;a href="https://github.com/stfc-sciml/sciml-bench">release&lt;/a> and the related MLCommons Science benchmarking. With surrogates, Jadhao will work on the nanoengineering one in the Fall and Fox completed an initial study of a virtual tissue surrogate &lt;a href="https://arxiv.org/abs/2102.05527">[2102.05527] Deep learning approaches to surrogates for solving the diffusion equation for mechanistic real-world simulations&lt;/a>.&lt;/li>
+&lt;li>&lt;strong>Tennessee&lt;/strong> gave a comprehensive report covering their Surrogate Performance Model for Autotuning; their &lt;a href="https://code.ornl.gov/FK6D/FK6D">FK6D / ASGarD · GitLab&lt;/a> project aimed at a later release of SCiMLBench and an insightful analysis of issues and needed ontologies for a FAIR approach to benchmark data. The discussion pointed out that FAIR does not address areas like validation, verification, and reproducibility. Piotr introduced broad categories: Hardware, firmware, dataset, software, measurements. We know from MLPerf that I/O specification and measurement are nontrivial. The mode of execution: capability or capacity(high-throughput) needs to be specified. Gregor noted complications from the use of containers that can hide software versioning. Christine Kirkpatrick&amp;rsquo;s &lt;a href="https://drive.google.com/file/d/1VECDSbrh8N6mvn7g4bsBkSGesiOyAtAW/view?usp=sharing">Advancing AI through MLCommons&lt;/a> to MLCommons Benchmark-Infra WG April 6 highlighted tension between the flexibility of free text and FAIR machine readability&lt;/li>
+&lt;li>**Rutgers **Shantenu Jha discussed recent work by his group on computational performance. He pointed out a recent paper by Alexandru Iosup on &lt;a href="https://dl.acm.org/doi/pdf/10.1145/3447545.3451185">GradeML: Towards Holistic Performance Analysis for Machine Learning Workflows&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Discussion and Action Items&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>We agreed to start two working groups on FAIR (coordinated by Piotr) and Surrogates (coordinated by Shantenu). The scope of both groups was unclear as yet and should be discussed in meetings&lt;/li>
+&lt;li>There was a discussion of access to computers across the collaboration&lt;/li>
+&lt;li>We discussed Surrogate Software and Benchmark software with work of Deep500 (Torsten Hoefler of ETH Zurich), GradeML, MLCube, SciMLBench mentioned. We need to relate it to FAIR&lt;/li>
+&lt;li>We still need to implement SBI repository&lt;/li>
+&lt;li>We agreed in the March meeting to enhance the website with updated (after proposal) information. Please send your GitHub ID’s to Gregor &lt;a href="mailto:laszewski@gmail.com">laszewski@gmail.com&lt;/a> so he can enable to directly edit web site
+&lt;ul>
+&lt;li>Only Gregor contributed so far with core site &lt;a href="https://sbi-fair.github.io/">https://sbi-fair.github.io/&lt;/a>&lt;/li>
+&lt;li>Not all GitHub invitations have been accepted&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Deborah Penchoff of UTK identified a t&lt;a href="https://docs.google.com/document/d/15wu_5Z76lmOAyNchwZynhudparJ8qKnsvCmkTq9jYec/edit?usp=sharing">emplate&lt;/a> for DOE annual report. We should accumulate the needed contributions&lt;/li>
+&lt;li>We agreed to set the next meeting for 1-2 pm Eastern May 24 2021 at the usual zoom &lt;a href="https://iu.zoom.us/j/2301429329">https://iu.zoom.us/j/2301429329&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Meeting Notes 03-23-2021</title><link>/docs/notes/2021-03-23/</link><pubDate>Tue, 23 Mar 2021 00:00:00 +0000</pubDate><guid>/docs/notes/2021-03-23/</guid><description>
+&lt;p>&lt;strong>Minutes of Meeting March 23 2021&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Links for Today’s Meeting&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Argonne Update Presentation &lt;a href="https://docs.google.com/presentation/d/11gQpwLgifWoV0U9YeBroq3c_7ekOx1qG0JV08h4GOEM/edit?usp=sharing">SBI- ANL-202103-Updates&lt;/a>&lt;/li>
+&lt;li>Argonne Surrogate Application &lt;a href="https://drive.google.com/file/d/1TM3HSHRPJAMnSstqRxNSEnjjQzi_x8n2/view?usp=sharing">SBI-ANL-202103-Ptycho-Surrogate.pptx&lt;/a>&lt;/li>
+&lt;li>Tennessee Update Presentation &lt;a href="https://docs.google.com/presentation/d/1NBbMLTlNbIJ6jXaFPyIbTfIMqO5YPMFgU0HQaT_taRc/edit?usp=sharing">SBI @ UTK 2k21&lt;/a>&lt;/li>
+&lt;li>Indiana University Update Presentation &lt;a href="https://docs.google.com/presentation/d/1-nFeWngmbb1Gxi7BztBwzEZzib_hJ4wzwiM1j6KfIWU/edit?usp=sharing">SBI-Meeting-IU-Mar23-2021&lt;/a>&lt;/li>
+&lt;li>Christine Kirkpatrick’s MLCommons Science working group talk on FAIR Metadata &lt;a href="https://drive.google.com/file/d/15iQTE99xAUIPNe9bIY_l8Xsv2TVLyqoR/view?usp=sharing">mlcommons_fair_0221.pptx&lt;/a>&lt;/li>
+&lt;li>Compilation of MLCommons logged metadata &lt;a href="https://drive.google.com/drive/folders/17RH-wAlEpiU5dcgKB-7kg5Z_zQzBOpfR?usp=sharing">Logging Info MLCommons&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>The 4 sites all gave updates with presentations listed above.&lt;/p>
+&lt;p>&lt;strong>Indiana&lt;/strong> largely discussed work with MLCommons Science research working group&lt;/p>
+&lt;ul>
+&lt;li>Benchmark collection which will eventually include surrogates&lt;/li>
+&lt;li>Benchmark Technology and FAIR metadata&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Argonne&lt;/strong> presented substantial progress with&lt;/p>
+&lt;ul>
+&lt;li>The hiring of a new postdoc Xiaodong Yu with substantial experience&lt;/li>
+&lt;li>Identification of several surrogates including those that don’t work e.g. give insufficient accuracy&lt;/li>
+&lt;li>Use of ThetaGPU&lt;/li>
+&lt;/ul>
+&lt;p>**Tennessee **reported substantial progress with&lt;/p>
+&lt;ul>
+&lt;li>Examination of MLFlow and its metadata which support many storage formats but are missing FAIR features&lt;/li>
+&lt;li>ONNX Open Neural Network Exchange which currently has no science or surrogate examples&lt;/li>
+&lt;li>The N to N issues of matching many inputs to many outputs’&lt;/li>
+&lt;li>Performance surrogate model for Autotuning work in progress&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Rutgers&lt;/strong> (no presentation) discussed two activities&lt;/p>
+&lt;ul>
+&lt;li>Effective performance where a new student will join.&lt;/li>
+&lt;li>Surrogates corresponding to two Gordon Bell prize winners at SC20 extending from Rutgers work with Argonne (autoencoders for collective coordinates to move through phase space quickly) to the other winner from Princeton where AI learned the complex potential.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Action Items&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>We agreed to set the next meeting for 1-2 pm Eastern April 19 2021 at the usual zoom &lt;a href="https://iu.zoom.us/j/2301429329">https://iu.zoom.us/j/2301429329&lt;/a>&lt;/li>
+&lt;li>We agreed to enhance the web site with updated (after proposal) information. Please send your GitHub ID’s to Gregor &lt;a href="mailto:laszewski@gmail.com">laszewski@gmail.com&lt;/a> so he can enable to directly edit web site&lt;/li>
+&lt;li>Shantenu agreed to coordinate a surrogate working group after 4 weeks&lt;/li>
+&lt;li>Piotr agreed to coordinate cross-institution FAIR activities including issues of MLCommons &lt;a href="https://drive.google.com/drive/folders/17RH-wAlEpiU5dcgKB-7kg5Z_zQzBOpfR?usp=sharing">metadata&lt;/a> and Christine Kirkpatrick’s &lt;a href="https://drive.google.com/file/d/15iQTE99xAUIPNe9bIY_l8Xsv2TVLyqoR/view?usp=sharing">work&lt;/a>&lt;/li>
+&lt;li>Argonne will investigate Yu giving a short presentation&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Meeting Notes 02-20-2021</title><link>/docs/notes/2021-02-20/</link><pubDate>Sat, 20 Feb 2021 00:00:00 +0000</pubDate><guid>/docs/notes/2021-02-20/</guid><description>
 &lt;h2 id="university-of-tennessee-knoxville">University of Tennessee Knoxville&lt;/h2>
 &lt;ul>
 &lt;li>Deborah Penchoff joining the team&lt;/li>
@@ -56,4 +1043,38 @@
 &lt;p>Surrogates&lt;/p>
 &lt;/li>
 &lt;/ul>
+&lt;p>All meet once a month&lt;/p></description></item><item><title>Docs: Meeting Notes 01-20-2021</title><link>/docs/notes/2021-01-20/</link><pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate><guid>/docs/notes/2021-01-20/</guid><description>
+&lt;p>**Indiana University **&lt;/p>
+&lt;p>Report &lt;a href="https://docs.google.com/presentation/d/1Hr_5HzeA8wRL5GGVCuok2Rfuqis7VA3I0jn7KhNEY6g/edit?usp=sharing">SBI-Meeting-IU-Jan20-2021&lt;/a>&lt;/p>
+&lt;p>&lt;strong>University of Tennessee Knoxville&lt;/strong>&lt;/p>
+&lt;p>Report &lt;a href="https://docs.google.com/presentation/d/1NBbMLTlNbIJ6jXaFPyIbTfIMqO5YPMFgU0HQaT_taRc/edit?usp=sharing">SBI @ UTK 2k21&lt;/a>&lt;/p>
+&lt;p>Deborah Penchoff joining the team&lt;/p>
+&lt;p>UTK Schema&lt;/p>
+&lt;p>MLFlow &amp;ndash; reproducibility&lt;/p>
+&lt;p>Is training repeatable&lt;/p>
+&lt;p>Need to have a group on this&lt;/p>
+&lt;p>UTK have their own surrogates science and performance&lt;/p>
+&lt;p>Storage&lt;/p>
+&lt;p>Uq&lt;/p>
+&lt;p>Hardware&lt;/p>
+&lt;p>&lt;strong>Rutgers&lt;/strong>&lt;/p>
+&lt;p>**Report **&lt;a href="https://docs.google.com/presentation/d/1fscM2mVcSSh-D-9DNxPde7r47Y-efKZ-7KcEpcGFic4/edit?usp=sharing">SBI-Rutgers Jan 20-2021&lt;/a>&lt;/p>
+&lt;p>Performance of surrogates&lt;/p>
+&lt;p>What does it mean&lt;/p>
+&lt;p>Gordon bell prizes&lt;/p>
+&lt;p>Deepdrivemd greatly advanced&lt;/p>
+&lt;p>Working with Princeton Gordon Bell&lt;/p>
+&lt;p>2 billion paper&lt;/p>
+&lt;p>&lt;strong>Argonne&lt;/strong>&lt;/p>
+&lt;p>Report &lt;a href="https://docs.google.com/presentation/d/1Hr_5HzeA8wRL5GGVCuok2Rfuqis7VA3I0jn7KhNEY6g/edit?usp=sharing">SBI-Meeting-IU-Jan20-2021&lt;/a>&lt;/p>
+&lt;p>Clear plans&lt;/p>
+&lt;p>Candle&lt;/p>
+&lt;p>Paper creates a surrogate howto &amp;ndash; GCF forgets this&lt;/p>
+&lt;p>Github site infrastructure&lt;/p>
+&lt;p>Web site built on Github - Possible Hugo web site&lt;/p>
+&lt;p>Form Google group&lt;/p>
+&lt;p>Form working groups&lt;/p>
+&lt;p>Infrastructure &amp;amp; Benchmarking Tech&lt;/p>
+&lt;p>Metadata/FAIR&lt;/p>
+&lt;p>Surrogates&lt;/p>
 &lt;p>All meet once a month&lt;/p></description></item></channel></rss>
