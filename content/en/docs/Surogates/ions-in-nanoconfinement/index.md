@@ -3,7 +3,8 @@ date: 2021-02-09
 title: "Ions in nanoconfinement"
 linkTitle: "Ions in nanoconfinement"
 description: >
-  The SBI FAIR Web Site has been created Ions in nanoconfinement (IU):
+  **Ions in nanoconfinement (IU):**
+  
   This application studies ionic structure in
   electrolyte solutions in nanochannels with planar uncharged surfaces
   and can use multiple molecular dynamics (MD) codes including LAMMPS
@@ -14,7 +15,14 @@ resources:
   title: "Image #:counter"
 ---
 
-Metadata: [nanoconfinement.json](https://github.com/icl-utk-edu/sabath/blob/main/var/sabath/assets/sabath/models/n/nanoconfinement.json)
+***
+### Metadata
+
+**Model** [nanoconfinement.json](https://github.com/icl-utk-edu/sabath/blob/main/var/sabath/assets/sabath/models/n/nanoconfinement.json)
+
+**Datasets** [nanoconfinement.json](https://github.com/icl-utk-edu/sabath/blob/main/var/sabath/assets/sabath/datasets/n/nanoconfinement.json)
+
+***
 
 Ions in nanoconfinement(IU): This application [^5] [^19] [^49] studies
 ionic structure in electrolyte solutions in nanochannels with planar
