@@ -1,10 +1,10 @@
 ---
 title: "Publications"
 linkTitle: "Publications"
-weight: 9
+weight: 30
 menu:
   main:
-    weight: 20
+    weight: 30
 description: >
   We list here the Publications of this project
 ---

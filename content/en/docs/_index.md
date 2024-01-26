@@ -2,7 +2,7 @@
 ---
 title: "Documentation"
 linkTitle: "Documentation"
-weight: 30
+weight: 20
 menu:
   main:
     weight: 20
