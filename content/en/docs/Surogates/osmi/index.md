@@ -100,6 +100,6 @@ architectures as the SMI medium and large models, but not identical.
 
 
 [^2]: Gregor von Laszewski, J. P. Fleischer, and Geoffrey
-C. Fox. 2022. Hy- brid Reusable Computational Analytics Workflow
+C. Fox. 2022. Hybrid Reusable Computational Analytics Workflow
 Management with Cloudmesh. https://doi.org/10.48550/ARXIV.2210.16941
 
