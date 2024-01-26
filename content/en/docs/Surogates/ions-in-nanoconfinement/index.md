@@ -2,6 +2,7 @@
 date: 2021-02-09
 title: "Ions in nanoconfinement"
 linkTitle: "Ions in nanoconfinement"
+weight: 30
 description: >
   This application studies ionic structure in
   electrolyte solutions in nanochannels with planar uncharged surfaces

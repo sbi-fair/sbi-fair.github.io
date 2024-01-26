@@ -2,6 +2,7 @@
 date: 2021-02-09
 title: "Molecule docking"
 linkTitle: "Molecule docking"
+weight: 40
 description: >
   Docking small molecules to a protein’s
   binding site is often one of the first steps for virtual screening.

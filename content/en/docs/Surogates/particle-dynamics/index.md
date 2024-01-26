@@ -2,6 +2,7 @@
 date: 2021-02-09
 title: "Particle dynamics"
 linkTitle: "Particle dynamics"
+weight: 60 
 description: >
   Recurrent Neural Nets as a Particle Dynamics Integrator (IU)
 author: TBD 

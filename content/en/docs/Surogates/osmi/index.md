@@ -1,7 +1,7 @@
 ---
 title: "OSMI"
 linkTitle: "OSMI"
-weight: 100
+weight: 50
 description: >
   We explore the relationship between certain network configurations and the performance of distributed Machine
   Learning systems. We build upon the Open Surrogate Model Inference (OSMI) Benchmark, a distributed inference

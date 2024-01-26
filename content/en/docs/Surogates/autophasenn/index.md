@@ -2,6 +2,7 @@
 date: 2023-26-01
 title: "AutoPhaseNN: unsupervised physics-aware deep learning of 3D nanoscale Bragg coherent diffraction imaging"
 linkTitle: "AutoPhaseNN"
+weight: 10
 description: >
   A DL-based approach which learns to solve the phase problem in
   3D X-ray Bragg coherent diffraction imaging (BCDI) without labeled data.

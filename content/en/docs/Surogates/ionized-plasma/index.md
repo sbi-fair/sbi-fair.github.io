@@ -2,6 +2,7 @@
 date: 2021-02-09
 title: "Fully ionized plasma fluid model closures"
 linkTitle: "Ionized plasma"
+weight: 20
 description: >
   The closure
   problem in fluid modeling is a well-known challenge to modelers aiming
