@@ -3,22 +3,41 @@
 &lt;p>Cloudmesh allows the creation of an extensible commandline and commandshell tool based internally on a number of python APIs that can be loaded conveniently through plugins.&lt;/p>
 &lt;p>Plugins useful for this effort include&lt;/p>
 &lt;ul>
-&lt;li>cloudmesh-vpn &amp;ndash; a convenient way to configure VPN&lt;/li>
-&lt;li>cloudmesh-common &amp;ndash; useful common libraries including a StopWatch for benchmarking&lt;/li>
-&lt;li>cloudmesh-cmd5 &amp;ndash; a plugin manager that allows plugins to be integrated as commandline tool or command shell&lt;/li>
-&lt;li>cloudmesh-ee &amp;ndash; A pluging to create AI grid searchs using LSF and SLURM jobs&lt;/li>
-&lt;li>cloudmesh-cc &amp;ndash; A plugin to allow benchmarks to be run in coordination on heterogeneous compute resources and multiple clusters&lt;/li>
+&lt;li>cloudmesh-vpn&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> &amp;ndash; a convenient way to configure VPN&lt;/li>
+&lt;li>cloudmesh-common&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup> &amp;ndash; useful common libraries including a StopWatch for benchmarking&lt;/li>
+&lt;li>cloudmesh-cmd5&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup> &amp;ndash; a plugin manager that allows plugins to be integrated as commandline tool or command shell&lt;/li>
+&lt;li>cloudmesh-ee&lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup> &amp;ndash; A pluging to create AI grid searchs using LSF and SLURM jobs&lt;/li>
+&lt;li>cloudmesh-cc&lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup> &amp;ndash; A plugin to allow benchmarks to be run in coordination on heterogeneous compute resources and multiple clusters&lt;/li>
+&lt;li>cloudmesh-apptainer&lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup> &amp;ndash; mangae apptainers via a Python API&lt;/li>
 &lt;/ul>
 &lt;p>Cloudmesh has over 100 plugins coordinated at &lt;a href="http://github.com/cloudmesh">http://github.com/cloudmesh&lt;/a>&lt;/p>
-&lt;p>&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
+&lt;p>&lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>&lt;/p>
 &lt;h2 id="references">References&lt;/h2>
 &lt;div class="footnotes" role="doc-endnotes">
 &lt;hr>
 &lt;ol>
 &lt;li id="fn:1">
+&lt;p>&lt;a href="https://github.com/cloudmesh-vpn">https://github.com/cloudmesh-vpn&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2">
+&lt;p>&lt;a href="https://github.com/cloudmesh-common">https://github.com/cloudmesh-common&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3">
+&lt;p>&lt;a href="https://github.com/cloudmesh-cmd5">https://github.com/cloudmesh-cmd5&lt;/a>&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:4">
+&lt;p>&lt;a href="https://github.com/cloudmesh-ee">https://github.com/cloudmesh-ee&lt;/a>&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:5">
+&lt;p>&lt;a href="https://github.com/cloudmesh-cc">https://github.com/cloudmesh-cc&lt;/a>&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:6">
+&lt;p>&lt;a href="https://github.com/cloudmesh-apptainer">https://github.com/cloudmesh-apptainer&lt;/a>&amp;#160;&lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:7">
 &lt;p>Gregor von Laszewski, J. P. Fleischer, and Geoffrey
 C. Fox. 2022. Hybrid Reusable Computational Analytics Workflow
-Management with Cloudmesh. &lt;a href="https://doi.org/10.48550/ARXIV.2210.16941">https://doi.org/10.48550/ARXIV.2210.16941&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+Management with Cloudmesh. &lt;a href="https://doi.org/10.48550/ARXIV.2210.16941">https://doi.org/10.48550/ARXIV.2210.16941&lt;/a>&amp;#160;&lt;a href="#fnref:7" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/div></description></item><item><title>Docs: sabath</title><link>/docs/software/sabath/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/software/sabath/</guid><description>

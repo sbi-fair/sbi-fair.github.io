@@ -52,6 +52,70 @@ of the real space image.
 &lt;p>&lt;a href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
+&lt;/div></description></item><item><title>Docs: Calorimeter surrogates</title><link>/docs/surogates/calorimeter/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/surogates/calorimeter/</guid><description>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>This surrogate set is based on a Workshop CaloChalange, May 30-31, 2023, Rome&lt;/p>
+&lt;p>The workshop is organised to discuss the results of the calochallenge, this year&amp;rsquo;s ML competition in high energy physics focussing on fast calorimeter simulation using generative models.&lt;/p>
+&lt;p>Every contributor will have the opportunity to present the method developed. Plenty of time will be devoted to discussions about the benefits and limitations of the different approaches.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://agenda.infn.it/event/34036/registrations/participants">Participants&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>A summare is provided in.&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="references">References&lt;/h2>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>&lt;a href="https://docs.google.com/document/d/19g0Avj9SYbVH7qSxoVUnnFKeGMuBdD9JCHVmBQB466M/edit?usp=sharing">https://docs.google.com/document/d/19g0Avj9SYbVH7qSxoVUnnFKeGMuBdD9JCHVmBQB466M/edit?usp=sharing&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>Docs: Performance Surrogate</title><link>/docs/surogates/performance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/surogates/performance/</guid><description>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>Please contact Piotre&lt;/p>
+&lt;h2 id="references">References&lt;/h2></description></item><item><title>Docs: Virtual tissue</title><link>/docs/surogates/virtualtissue/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/surogates/virtualtissue/</guid><description>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>Neural networks (NNs) have been demonstrated to be a viable
+alternative to traditional direct numerical evaluation algorithms,
+with the potential to accelerate computational time by several orders
+of magnitude. In the present paper we study the use of encoder-decoder
+convolutional neural network (CNN) algorithms as surrogates for
+steady-state diffusion solvers. The construction of such surrogates
+requires the selection of an appropriate task, network architecture,
+training set structure and size, loss function, and training algorithm
+hyperparameters. It is well known that each of these factors can have
+a significant impact on the performance of the resultant model. Our
+approach employs an encoder-decoder CNN architecture, which we posit
+is particularly wellsuited for this task due to its ability to
+effectively transform data, as opposed to merely compressing it. We
+systematically evaluate a range of loss functions, hyperparameters,
+and training set sizes. Our results indicate that increasing the size
+of the training set has a substantial effect on reducing performance
+fluctuations and overall error. Additionally, we observe that the
+performance of the model exhibits a logarithmic dependence on the
+training set size. Furthermore, we investigate the effect on model
+performance by using different subsets of data with varying
+features. Our results highlight the importance of sampling the
+configurational space in an optimal manner, as this can have a
+significant impact on the performance of the model and the required
+training time. In conclusion, our results suggest that training a
+model with a pre-determined error performance bound is not a viable
+approach, as it does not guarantee that edge cases with errors larger
+than the bound do not exist. Furthermore, as most surrogate tasks
+involve a high dimensional landscape, an ever increasing training set
+size is, in principle, needed, however it is not a practical solution.&lt;/p>
+&lt;p>&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="references">References&lt;/h2>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>&lt;a href="https://arxiv.org/pdf/2302.03786.pdf">https://arxiv.org/pdf/2302.03786.pdf&lt;/a> is virtual tissue&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2">
+&lt;p>There is an earlier surrogate referred to in this arxiv. It was published
+&lt;a href="https://www.frontiersin.org/articles/10.3389/fphys.2021.667828/full">https://www.frontiersin.org/articles/10.3389/fphys.2021.667828/full&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
 &lt;/div></description></item><item><title>Docs: Cosmoflow</title><link>/docs/surogates/cosmoflow/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/surogates/cosmoflow/</guid><description>
 &lt;h2 id="overview">Overview&lt;/h2>
 &lt;p>This application is based on the original CosmoFlow paper presented at SC18 and continued by the ExaLearn project, and adopted as a benchmark in the MLPerf HPC suite. It involves training a 3D convolutional neural network on N-body cosmology simulation data to predict physical parameters of the universe. The reference implementation for MLPerf HPC v0.5 CosmoFlow uses TensorFlow with the Keras API and Horovod for data-parallel distributed training. The dataset comes from simulations run by ExaLearn, with universe volumes split into cubes of size 128x128x128 with 4 redshift bins. The total dataset volume preprocessed for MLPerf HPC v0.5 in TFRecord format is 5.1 TB. The target objective in MLPerf HPC v0.5 is to train the model to a validation mean-average-error &amp;lt; 0.124. However, the problem size can be scaled down and the training throughput can be used as the primary objective for a small scale or shorter timescale benchmark.&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>&lt;/p>
@@ -333,7 +397,7 @@ Figure 2: Possible benchmark configurations to measure sped of parallel iference
 &lt;/p>
 &lt;/figcaption>
 &lt;/figure>
-&lt;p>&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;p>&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>&lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>&lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>&lt;/p>
 &lt;h2 id="references">References&lt;/h2>
 &lt;div class="footnotes" role="doc-endnotes">
 &lt;hr>
@@ -352,9 +416,18 @@ simulations. Also, the OSMI medium and large models are very similar
 architectures as the SMI medium and large models, but not identical.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:2">
+&lt;p>Brewer, Wesley, Greg Behm, Alan Scheinine, Ben Parsons, Wesley Emeneker, and Robert P. Trevino. &amp;ldquo;iBench: a distributed inference simulation and benchmark suite.&amp;rdquo; In 2020 IEEE High Performance Extreme Computing Conference (HPEC), pp. 1-6. IEEE, 2020.&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3">
+&lt;p>Brewer, Wesley, Greg Behm, Alan Scheinine, Ben Parsons, Wesley Emeneker, and Robert P. Trevino. &amp;ldquo;Inference benchmarking on HPC systems.&amp;rdquo; In 2020 IEEE High Performance Extreme Computing Conference (HPEC), pp. 1-9. IEEE, 2020.&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:4">
+&lt;p>Brewer, Wesley, Chris Geyer, Dardo Kleiner, and Connor Horne. &amp;ldquo;Streaming Detection and Classification Performance of a POWER9 Edge Supercomputer.&amp;rdquo; In 2021 IEEE High Performance Extreme Computing Conference (HPEC), pp. 1-7. IEEE, 2021.&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:5">
 &lt;p>Gregor von Laszewski, J. P. Fleischer, and Geoffrey
 C. Fox. 2022. Hybrid Reusable Computational Analytics Workflow
-Management with Cloudmesh. &lt;a href="https://doi.org/10.48550/ARXIV.2210.16941">https://doi.org/10.48550/ARXIV.2210.16941&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+Management with Cloudmesh. &lt;a href="https://doi.org/10.48550/ARXIV.2210.16941">https://doi.org/10.48550/ARXIV.2210.16941&lt;/a>&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/div></description></item><item><title>Docs: Particle dynamics</title><link>/docs/surogates/particle-dynamics/</link><pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate><guid>/docs/surogates/particle-dynamics/</guid><description>
