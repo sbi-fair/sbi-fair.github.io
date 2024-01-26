@@ -1,100 +1,55 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SBI-FAIR – Surrogates</title><link>/docs/surogates/</link><description>Recent content in Surrogates on SBI-FAIR</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="/docs/surogates/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: OSMI</title><link>/docs/surogates/osmi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/surogates/osmi/</guid><description>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;p>We explore the relationship between certain network configurations and
-the performance of distributed Machine Learning systems. We build upon
-the Open Surrogate Model Inference (OSMI) Benchmark, a distributed
-inference benchmark for analyzing the performance of machine-learned
-surrogate models developed by Wes Brewer et. Al. We focus on analyzing
-distributed machine-learning systems, via machine-learned surrogate
-models, across varied hardware environments. By deploying the OSMI
-Benchmark on platforms like Rivanna HPC, WSL, and Ubuntu, we offer a
-comprehensive study of system performance under different
-configurations. The paper presents insights into optimizing
-distributed machine learning systems, enhancing their scalability and
-efficiency. We also develope a framework for automating the OSMI
-benchmark.&lt;/p>
-&lt;h2 id="introdcution">Introdcution&lt;/h2>
-&lt;p>With the proliferation of machine learning as a tool for science, the
-need for efficient and scalable systems is paramount. This paper
-explores the Open Surrogate Model Inference (OSMI) Benchmark, a tool
-for testing the performance of machine-learning systems via
-machine-learned surrogate models. The OSMI Benchmark, originally
-created by Wes Brewer and colleagues, serves to evaluate various
-configurations and their impact on system performance.&lt;/p>
-&lt;p>Our research pivots around the deployment and analysis of the OSMI
-Benchmark across various hardware platforms, including the
-high-performance computing (HPC) system Rivanna, Windows Subsystem for
-Linux (WSL), and Ubuntu environments.&lt;/p>
-&lt;p>In each experiment, there are a variable number of TensorFlow model
-server instances, overseen by a HAProxy load balancer that distributes
-inference requests among the servers. Each server instance operates on
-a dedicated GPU, choosing between the V100 or A100 GPUs available on
-Rivanna. This setup mirrors real-world scenarios where load balancing
-is crucial for system efficiency.&lt;/p>
-&lt;p>On the client side, we initiate a variable number of concurrent
-clients executing the OSMI benchmark to simulate different levels of
-system load and analyze the corresponding inference throughput.&lt;/p>
-&lt;p>On top of the original OSMI-Bench, we implemented an object-oriented
-interface in Python for running experiments with ease, streamlining
-the process of benchmarking and analysis. The experiments rely on
-custom-built images based on NVIDIA&amp;rsquo;s tensorflow image. The code works
-on several hardwares, assuming the proper images are built.&lt;/p>
-&lt;p>Additionally, We develop a script for launching simultaneous
-experiments with permutations of pre-defined parameters with Cloudmesh
-Experiment-Executor. The Experiment Executor is a tool that automates
-the generation and execution of experiment variations with different
-parameters. This automation is crucial for conducting tests across a
-spectrum of scenarios.&lt;/p>
-&lt;p>Finally, we analyze the inference throughput and total time for each
-experiment. By graphing and examining these results, we draw critical
-insights into the performance dynamics of distributed machine learning
-systems.&lt;/p>
-&lt;p>In summary, a comprehensive examination of the OSMI Benchmark in
-diverse distributed ML systems is provided. We aim to contribute to
-the optimization of these systems, by providing a framework for
-finding the best performant system configuration for a given use
-case. Our findings pave the way for more efficient and scalable
-distributed computing environments.&lt;/p>
-&lt;p>The architectural view of the benchmarks are depictued in Figure 1 and
-Figure 2.&lt;/p>
-&lt;figure class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 938px">
-&lt;img class="card-img-top" src="/docs/surogates/osmi/osmi1_hu7c0ce91db4341889bc7ce96dfb596a67_74813_928x306_fill_catmullrom_smart1_3.png" width="928" height="306">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SBI-FAIR – Surrogates</title><link>/docs/surogates/</link><description>Recent content in Surrogates on SBI-FAIR</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="/docs/surogates/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: AutoPhaseNN: unsupervised physics-aware deep learning of 3D nanoscale Bragg coherent diffraction imaging</title><link>/docs/surogates/autophasenn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/surogates/autophasenn/</guid><description>
+&lt;hr>
+&lt;h2 id="metadata">Metadata&lt;/h2>
+&lt;hr>
+&lt;p>&lt;strong>Model&lt;/strong> &lt;a href="https://github.com/icl-utk-edu/sabath/blob/main/var/sabath/assets/sabath/models/a/autophasenn.json">autophasenn.json&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Datasets&lt;/strong> &lt;a href="https://github.com/icl-utk-edu/sabath/blob/main/var/sabath/assets/sabath/datasets/a/autoPhaseNN_aicdi.json">autoPhaseNN_aicdi.json&lt;/a>&lt;/p>
+&lt;hr>
+&lt;blockquote>
+&lt;p>Adapted from Yao, Y. &lt;em>et. al&lt;/em> &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> under CC-BY &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;/blockquote>
+&lt;p>AutoPhaseNN &lt;sup id="fnref1:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>, a physics-aware unsupervised deep convolutional neural network
+(CNN) that learns to solve the phase problem without ever being shown real space
+images of the sample amplitude or phase. By incorporating the physics of the
+X-ray scattering into the network design and training, AutoPhaseNN learns to
+predict both the amplitude and phase of the sample given the measured
+diffraction intensity alone. Additionally, unlike previous deep learning models,
+AutoPhaseNN does not need the ground truth images of sample’s amplitude and
+phase at any point, either in training or in deployment. Once trained, the
+physical model is discarded and only the CNN portion is needed which has learned
+the data inversion from reciprocal space to real space and is ~100 times faster
+than the iterative phase retrieval with comparable image quality. Furthermore,
+we show that by using AutoPhaseNN’s prediction as the learned prior to iterative
+phase retrieval, we can achieve consistently higher image quality, than neural
+network prediction alone, at 10 times faster speed than iterative phase
+retrieval alone.&lt;/p>
+&lt;figure class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 910px">
+&lt;img class="card-img-top" src="/docs/surogates/autophasenn/autophasenn1_huf90a121ae4129385ddbbadbc4dfa22cd_382578_900x0_resize_catmullrom_3.png" width="900" height="429">
 &lt;figcaption class="card-body px-0 pt-2 pb-0">
 &lt;p class="card-text">
-Figure 1: Surrogate calculations via a Inference Server.
+Fig. 1: Schematic of the neural network structure of AutoPhaseNN model during training.
+a) The model consists of a 3D CNN and the X-ray scattering forward model. The 3D
+CNN is implemented with a convolutional auto-encoder and two deconvolutional
+decoders using the convolutional, maximum pooling, upsampling and zero padding
+layers. The physical knowledge is enforced via the Sigmoid and Tanh activation
+functions in the final layers. b The X-ray scattering forward model includes the
+numerical modeling of diffraction and the image shape constraints. It takes the
+amplitude and phase from the 3D CNN output to form the complex image. Then the
+estimated diffraction pattern is obtained from the FT of the current estimation
+of the real space image.
+&lt;small class="text-muted">&lt;br/>Image from: Yao, Y. et al / CC-BY &lt;/small>
 &lt;/p>
 &lt;/figcaption>
 &lt;/figure>
-&lt;figure class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 2911px">
-&lt;img class="card-img-top" src="/docs/surogates/osmi/osmi2_hufa595329706607e7c24e0c5ae57ccfec_402285_2901x1173_fill_catmullrom_smart1_3.png" width="2901" height="1173">
-&lt;figcaption class="card-body px-0 pt-2 pb-0">
-&lt;p class="card-text">
-Figure 2: Possible benchmark configurations to measure sped of parallel iference.
-&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;p>&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
 &lt;h2 id="references">References&lt;/h2>
 &lt;div class="footnotes" role="doc-endnotes">
 &lt;hr>
 &lt;ol>
 &lt;li id="fn:1">
-&lt;p>Brewer, Wesley, Daniel Martinez, Mathew Boyer, Dylan Jude, Andy
-Wissink, Ben Parsons, Junqi Yin, and Valentine Anantharaj. &amp;ldquo;Production
-Deployment of Machine-Learned Rotorcraft Surrogate Models on HPC.&amp;rdquo; In
-2021 IEEE/ACM Workshop on Machine Learning in High Performance
-Computing Environments (MLHPC), pp. 21-32. IEEE, 2021,
-&lt;a href="https://ieeexplore.ieee.org/abstract/document/9652868">https://ieeexplore.ieee.org/abstract/document/9652868&lt;/a>, Note that
-OSMI-Bench differs from SMI-Bench described in the paper only in that
-the models that are used in OSMI are trained on synthetic data,
-whereas the models in SMI were trained using data from proprietary CFD
-simulations. Also, the OSMI medium and large models are very similar
-architectures as the SMI medium and large models, but not identical.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;p>Yao, Y., Chan, H., Sankaranarayanan, S. et al. AutoPhaseNN: unsupervised physics-aware deep learning of 3D nanoscale Bragg coherent diffraction imaging. npj Comput Mater 8, 124 (2022). &lt;a href="https://doi.org/10.1038/s41524-022-00803-w">https://doi.org/10.1038/s41524-022-00803-w&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref1:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:2">
-&lt;p>Gregor von Laszewski, J. P. Fleischer, and Geoffrey
-C. Fox. 2022. Hybrid Reusable Computational Analytics Workflow
-Management with Cloudmesh. &lt;a href="https://doi.org/10.48550/ARXIV.2210.16941">https://doi.org/10.48550/ARXIV.2210.16941&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/div></description></item><item><title>Docs: Fully ionized plasma fluid model closures</title><link>/docs/surogates/ionized-plasma/</link><pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate><guid>/docs/surogates/ionized-plasma/</guid><description>
@@ -264,6 +219,105 @@ Medicine for Cancer.” [Online]. Available:
 &lt;a href="https://candle.cels.anl.gov/">https://candle.cels.anl.gov/&lt;/a>. [Accessed: 01-May-2020]&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
+&lt;/div></description></item><item><title>Docs: OSMI</title><link>/docs/surogates/osmi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/surogates/osmi/</guid><description>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>We explore the relationship between certain network configurations and
+the performance of distributed Machine Learning systems. We build upon
+the Open Surrogate Model Inference (OSMI) Benchmark, a distributed
+inference benchmark for analyzing the performance of machine-learned
+surrogate models developed by Wes Brewer et. Al. We focus on analyzing
+distributed machine-learning systems, via machine-learned surrogate
+models, across varied hardware environments. By deploying the OSMI
+Benchmark on platforms like Rivanna HPC, WSL, and Ubuntu, we offer a
+comprehensive study of system performance under different
+configurations. The paper presents insights into optimizing
+distributed machine learning systems, enhancing their scalability and
+efficiency. We also develope a framework for automating the OSMI
+benchmark.&lt;/p>
+&lt;h2 id="introdcution">Introdcution&lt;/h2>
+&lt;p>With the proliferation of machine learning as a tool for science, the
+need for efficient and scalable systems is paramount. This paper
+explores the Open Surrogate Model Inference (OSMI) Benchmark, a tool
+for testing the performance of machine-learning systems via
+machine-learned surrogate models. The OSMI Benchmark, originally
+created by Wes Brewer and colleagues, serves to evaluate various
+configurations and their impact on system performance.&lt;/p>
+&lt;p>Our research pivots around the deployment and analysis of the OSMI
+Benchmark across various hardware platforms, including the
+high-performance computing (HPC) system Rivanna, Windows Subsystem for
+Linux (WSL), and Ubuntu environments.&lt;/p>
+&lt;p>In each experiment, there are a variable number of TensorFlow model
+server instances, overseen by a HAProxy load balancer that distributes
+inference requests among the servers. Each server instance operates on
+a dedicated GPU, choosing between the V100 or A100 GPUs available on
+Rivanna. This setup mirrors real-world scenarios where load balancing
+is crucial for system efficiency.&lt;/p>
+&lt;p>On the client side, we initiate a variable number of concurrent
+clients executing the OSMI benchmark to simulate different levels of
+system load and analyze the corresponding inference throughput.&lt;/p>
+&lt;p>On top of the original OSMI-Bench, we implemented an object-oriented
+interface in Python for running experiments with ease, streamlining
+the process of benchmarking and analysis. The experiments rely on
+custom-built images based on NVIDIA&amp;rsquo;s tensorflow image. The code works
+on several hardwares, assuming the proper images are built.&lt;/p>
+&lt;p>Additionally, We develop a script for launching simultaneous
+experiments with permutations of pre-defined parameters with Cloudmesh
+Experiment-Executor. The Experiment Executor is a tool that automates
+the generation and execution of experiment variations with different
+parameters. This automation is crucial for conducting tests across a
+spectrum of scenarios.&lt;/p>
+&lt;p>Finally, we analyze the inference throughput and total time for each
+experiment. By graphing and examining these results, we draw critical
+insights into the performance dynamics of distributed machine learning
+systems.&lt;/p>
+&lt;p>In summary, a comprehensive examination of the OSMI Benchmark in
+diverse distributed ML systems is provided. We aim to contribute to
+the optimization of these systems, by providing a framework for
+finding the best performant system configuration for a given use
+case. Our findings pave the way for more efficient and scalable
+distributed computing environments.&lt;/p>
+&lt;p>The architectural view of the benchmarks are depictued in Figure 1 and
+Figure 2.&lt;/p>
+&lt;figure class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 938px">
+&lt;img class="card-img-top" src="/docs/surogates/osmi/osmi1_hu7c0ce91db4341889bc7ce96dfb596a67_74813_928x306_fill_catmullrom_smart1_3.png" width="928" height="306">
+&lt;figcaption class="card-body px-0 pt-2 pb-0">
+&lt;p class="card-text">
+Figure 1: Surrogate calculations via a Inference Server.
+&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 2911px">
+&lt;img class="card-img-top" src="/docs/surogates/osmi/osmi2_hufa595329706607e7c24e0c5ae57ccfec_402285_2901x1173_fill_catmullrom_smart1_3.png" width="2901" height="1173">
+&lt;figcaption class="card-body px-0 pt-2 pb-0">
+&lt;p class="card-text">
+Figure 2: Possible benchmark configurations to measure sped of parallel iference.
+&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="references">References&lt;/h2>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>Brewer, Wesley, Daniel Martinez, Mathew Boyer, Dylan Jude, Andy
+Wissink, Ben Parsons, Junqi Yin, and Valentine Anantharaj. &amp;ldquo;Production
+Deployment of Machine-Learned Rotorcraft Surrogate Models on HPC.&amp;rdquo; In
+2021 IEEE/ACM Workshop on Machine Learning in High Performance
+Computing Environments (MLHPC), pp. 21-32. IEEE, 2021,
+&lt;a href="https://ieeexplore.ieee.org/abstract/document/9652868">https://ieeexplore.ieee.org/abstract/document/9652868&lt;/a>, Note that
+OSMI-Bench differs from SMI-Bench described in the paper only in that
+the models that are used in OSMI are trained on synthetic data,
+whereas the models in SMI were trained using data from proprietary CFD
+simulations. Also, the OSMI medium and large models are very similar
+architectures as the SMI medium and large models, but not identical.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2">
+&lt;p>Gregor von Laszewski, J. P. Fleischer, and Geoffrey
+C. Fox. 2022. Hybrid Reusable Computational Analytics Workflow
+Management with Cloudmesh. &lt;a href="https://doi.org/10.48550/ARXIV.2210.16941">https://doi.org/10.48550/ARXIV.2210.16941&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
 &lt;/div></description></item><item><title>Docs: Particle dynamics</title><link>/docs/surogates/particle-dynamics/</link><pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate><guid>/docs/surogates/particle-dynamics/</guid><description>
 &lt;p>Recurrent Neural Nets as a Particle Dynamics Integrator (IU)&lt;/p>
 &lt;p>The second IU initial application shows a rather different type of
@@ -328,60 +382,6 @@ disruptive instabilities in controlled fusion plasmas through
 deep learning,” Nature, vol. 568, no. 7753, pp. 526–531,
 Apr. 2019 [Online]. Available:
 &lt;a href="https://doi.org/10.1038/s41586-019-1116-4">https://doi.org/10.1038/s41586-019-1116-4&lt;/a>&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/div></description></item><item><title>Docs: AutoPhaseNN: unsupervised physics-aware deep learning of 3D nanoscale Bragg coherent diffraction imaging</title><link>/docs/surogates/autophasenn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/surogates/autophasenn/</guid><description>
-&lt;hr>
-&lt;h2 id="metadata">Metadata&lt;/h2>
-&lt;hr>
-&lt;p>&lt;strong>Model&lt;/strong> &lt;a href="https://github.com/icl-utk-edu/sabath/blob/main/var/sabath/assets/sabath/models/a/autophasenn.json">autophasenn.json&lt;/a>&lt;/p>
-&lt;p>&lt;strong>Datasets&lt;/strong> &lt;a href="https://github.com/icl-utk-edu/sabath/blob/main/var/sabath/assets/sabath/datasets/a/autoPhaseNN_aicdi.json">autoPhaseNN_aicdi.json&lt;/a>&lt;/p>
-&lt;hr>
-&lt;blockquote>
-&lt;p>Adapted from Yao, Y. &lt;em>et. al&lt;/em> &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> under CC-BY &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
-&lt;/blockquote>
-&lt;p>AutoPhaseNN &lt;sup id="fnref1:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>, a physics-aware unsupervised deep convolutional neural network
-(CNN) that learns to solve the phase problem without ever being shown real space
-images of the sample amplitude or phase. By incorporating the physics of the
-X-ray scattering into the network design and training, AutoPhaseNN learns to
-predict both the amplitude and phase of the sample given the measured
-diffraction intensity alone. Additionally, unlike previous deep learning models,
-AutoPhaseNN does not need the ground truth images of sample’s amplitude and
-phase at any point, either in training or in deployment. Once trained, the
-physical model is discarded and only the CNN portion is needed which has learned
-the data inversion from reciprocal space to real space and is ~100 times faster
-than the iterative phase retrieval with comparable image quality. Furthermore,
-we show that by using AutoPhaseNN’s prediction as the learned prior to iterative
-phase retrieval, we can achieve consistently higher image quality, than neural
-network prediction alone, at 10 times faster speed than iterative phase
-retrieval alone.&lt;/p>
-&lt;figure class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 910px">
-&lt;img class="card-img-top" src="/docs/surogates/autophasenn/autophasenn1_huf90a121ae4129385ddbbadbc4dfa22cd_382578_900x0_resize_catmullrom_3.png" width="900" height="429">
-&lt;figcaption class="card-body px-0 pt-2 pb-0">
-&lt;p class="card-text">
-Fig. 1: Schematic of the neural network structure of AutoPhaseNN model during training.
-a) The model consists of a 3D CNN and the X-ray scattering forward model. The 3D
-CNN is implemented with a convolutional auto-encoder and two deconvolutional
-decoders using the convolutional, maximum pooling, upsampling and zero padding
-layers. The physical knowledge is enforced via the Sigmoid and Tanh activation
-functions in the final layers. b The X-ray scattering forward model includes the
-numerical modeling of diffraction and the image shape constraints. It takes the
-amplitude and phase from the 3D CNN output to form the complex image. Then the
-estimated diffraction pattern is obtained from the FT of the current estimation
-of the real space image.
-&lt;small class="text-muted">&lt;br/>Image from: Yao, Y. et al / CC-BY &lt;/small>
-&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;h2 id="references">References&lt;/h2>
-&lt;div class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1">
-&lt;p>Yao, Y., Chan, H., Sankaranarayanan, S. et al. AutoPhaseNN: unsupervised physics-aware deep learning of 3D nanoscale Bragg coherent diffraction imaging. npj Comput Mater 8, 124 (2022). &lt;a href="https://doi.org/10.1038/s41524-022-00803-w">https://doi.org/10.1038/s41524-022-00803-w&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref1:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:2">
-&lt;p>&lt;a href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/div></description></item><item><title>Docs: PtychoNN: deep learning network for ptychographic imaging that predicts sample amplitude and phase from diffraction data.</title><link>/docs/surogates/ptychonn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/surogates/ptychonn/</guid><description>
