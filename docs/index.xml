@@ -63,6 +63,23 @@ of the real space image.
 &lt;p>&lt;a href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
+&lt;/div></description></item><item><title>Docs: Cosmoflow</title><link>/docs/surogates/cosmoflow/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/surogates/cosmoflow/</guid><description>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>This application is based on the original CosmoFlow paper presented at SC18 and continued by the ExaLearn project, and adopted as a benchmark in the MLPerf HPC suite. It involves training a 3D convolutional neural network on N-body cosmology simulation data to predict physical parameters of the universe. The reference implementation for MLPerf HPC v0.5 CosmoFlow uses TensorFlow with the Keras API and Horovod for data-parallel distributed training. The dataset comes from simulations run by ExaLearn, with universe volumes split into cubes of size 128x128x128 with 4 redshift bins. The total dataset volume preprocessed for MLPerf HPC v0.5 in TFRecord format is 5.1 TB. The target objective in MLPerf HPC v0.5 is to train the model to a validation mean-average-error &amp;lt; 0.124. However, the problem size can be scaled down and the training throughput can be used as the primary objective for a small scale or shorter timescale benchmark.&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="references">References&lt;/h2>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>&lt;a href="https://proxyapps.exascaleproject.org/app/mlperf-cosmoflow/">https://proxyapps.exascaleproject.org/app/mlperf-cosmoflow/&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2">
+&lt;p>&lt;a href="https://github.com/sparticlesteve/cosmoflow-benchmark">https://github.com/sparticlesteve/cosmoflow-benchmark&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3">
+&lt;p>&lt;a href="https://github.com/sparticlesteve/cosmoflow-benchmark/blob/master/README.md">https://github.com/sparticlesteve/cosmoflow-benchmark/blob/master/README.md&lt;/a>&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
 &lt;/div></description></item><item><title>Docs: Fully ionized plasma fluid model closures</title><link>/docs/surogates/ionized-plasma/</link><pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate><guid>/docs/surogates/ionized-plasma/</guid><description>
 &lt;p>Fully ionized plasma fluid model closures (Argonne):&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> The closure
 problem in fluid modeling is a well-known challenge to modelers aiming
@@ -319,6 +336,29 @@ Medicine for Cancer.” [Online]. Available:
 &lt;p>&lt;a href="https://github.com/mrnorman/miniWeatherML/wiki">https://github.com/mrnorman/miniWeatherML/wiki&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
+&lt;/div></description></item><item><title>Docs: cloudmesh</title><link>/docs/software/cloudmesh/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/software/cloudmesh/</guid><description>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>Cloudmesh allows the creation of an extensible commandline and commandshell tool based internally on a number of python APIs that can be loaded conveniently through plugins.&lt;/p>
+&lt;p>Plugins useful for this effort include&lt;/p>
+&lt;ul>
+&lt;li>cloudmesh-vpn &amp;ndash; a convenient way to configure VPN&lt;/li>
+&lt;li>cloudmesh-common &amp;ndash; useful common libraries including a StopWatch for benchmarking&lt;/li>
+&lt;li>cloudmesh-cmd5 &amp;ndash; a plugin manager that allows plugins to be integrated as commandline tool or command shell&lt;/li>
+&lt;li>cloudmesh-ee &amp;ndash; A pluging to create AI grid searchs using LSF and SLURM jobs&lt;/li>
+&lt;li>cloudmesh-cc &amp;ndash; A plugin to allow benchmarks to be run in coordination on heterogeneous compute resources and multiple clusters&lt;/li>
+&lt;/ul>
+&lt;p>Cloudmesh has over 100 plugins coordinated at &lt;a href="http://github.com/cloudmesh">http://github.com/cloudmesh&lt;/a>&lt;/p>
+&lt;p>&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="references">References&lt;/h2>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>Gregor von Laszewski, J. P. Fleischer, and Geoffrey
+C. Fox. 2022. Hybrid Reusable Computational Analytics Workflow
+Management with Cloudmesh. &lt;a href="https://doi.org/10.48550/ARXIV.2210.16941">https://doi.org/10.48550/ARXIV.2210.16941&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
 &lt;/div></description></item><item><title>Docs: OSMI</title><link>/docs/surogates/osmi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/surogates/osmi/</guid><description>
 &lt;h2 id="overview">Overview&lt;/h2>
 &lt;p>We explore the relationship between certain network configurations and
@@ -416,6 +456,33 @@ architectures as the SMI medium and large models, but not identical.&amp;#160;&l
 &lt;p>Gregor von Laszewski, J. P. Fleischer, and Geoffrey
 C. Fox. 2022. Hybrid Reusable Computational Analytics Workflow
 Management with Cloudmesh. &lt;a href="https://doi.org/10.48550/ARXIV.2210.16941">https://doi.org/10.48550/ARXIV.2210.16941&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>Docs: sabath</title><link>/docs/software/sabath/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/software/sabath/</guid><description>
+&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>SABATH provides benchmarking infrastructure for evaluating scientific ML/AI models. It contains support for scientific machine learning surrogates from external repositories such as SciML-Bench.&lt;/p>
+&lt;p>The software dependences are explicitly exposed in the surrogate model definition, which allows the use of advanced optimization, communication, and hardware features. For example, distributed, multi-GPU training may be enabled with Horovod. Surrogate models may be implemented using TensorFlow, PyTorch, or MXNET frameworks.&lt;/p>
+&lt;h2 id="models">Models&lt;/h2>
+&lt;p>Models are collected so far at&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/icl-utk-edu/sabath/tree/main/var/sabath/assets/sabath/models">https://github.com/icl-utk-edu/sabath/tree/main/var/sabath/assets/sabath/models&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/icl-utk-edu/sabath/blob/main/var/sabath/assets/sabath/models/a/autophasenn.json">autophasenn.json&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/icl-utk-edu/sabath/blob/main/var/sabath/assets/sabath/models/c/cosmoflow.json">cosmoflow.json&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/icl-utk-edu/sabath/blob/main/var/sabath/assets/sabath/models/m/miniWeatherML.json">miniWeatherML.json&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/icl-utk-edu/sabath/blob/main/var/sabath/assets/sabath/models/n/nanoconfinement.json">nanoconfinement.json&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/icl-utk-edu/sabath/blob/main/var/sabath/assets/sabath/models/p/ptychonn.json">ptychonn.json&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="references">References&lt;/h2>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>&lt;a href="https://github.com/icl-utk-edu/sabath">https://github.com/icl-utk-edu/sabath&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/div></description></item><item><title>Docs: Particle dynamics</title><link>/docs/surogates/particle-dynamics/</link><pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate><guid>/docs/surogates/particle-dynamics/</guid><description>
