@@ -3,7 +3,9 @@ date: 2021-02-09
 title: "Molecule docking"
 linkTitle: "Molecule docking"
 description: >
-  TBD
+  Docking small molecules to a protein’s
+  binding site is often one of the first steps for virtual screening.
+  This application is realated to CANDLE and provides a valubale example.
 author: Argonne National Laboratory
 resources:
 - src: "**.{png,jpg}"

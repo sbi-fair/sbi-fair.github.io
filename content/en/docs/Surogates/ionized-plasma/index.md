@@ -3,7 +3,11 @@ date: 2021-02-09
 title: "Fully ionized plasma fluid model closures"
 linkTitle: "Ionized plasma"
 description: >
-  TBD
+  The closure
+  problem in fluid modeling is a well-known challenge to modelers aiming
+  to accurately describe their system of interest.
+  We will choose one of the surrogates form this application and
+  develop a reference implementation and tutorial.
 author: Argonne National Laboratory
 resources:
 - src: "**.{png,jpg}"

@@ -6,13 +6,12 @@ description: >
   We explore the relationship between certain network configurations and the performance of distributed Machine
   Learning systems. We build upon the Open Surrogate Model Inference (OSMI) Benchmark, a distributed inference
   benchmark for analyzing the performance of machine-learned surrogate models
+resources:
+  - src: "**.{png,jpg}"
+    title: "Image #:counter"
 ---
 
-## Heading
-
-
-Edit this template to create your new page.
-
+## Overview
 
 
 We explore the relationship between certain network configurations and
@@ -82,6 +81,20 @@ finding the best performant system configuration for a given use
 case. Our findings pave the way for more efficient and scalable
 distributed computing environments.
 
+The architectural view of the benchmarks are depictued in Figure 1 and
+Figure 2.
+
+
+{{< imgproc osmi1 Fill "928x306" >}}
+Figure 1: Surrogate calculations via a Inference Server.
+{{< /imgproc >}}
+
+{{< imgproc osmi2 Fill "2901x1173" >}}
+Figure 2: Possible benchmark configurations to measure sped of parallel iference.
+{{< /imgproc >}}
+
+
+
 [^1][^2]
 
 ## References
@@ -90,10 +103,10 @@ distributed computing environments.
 Wissink, Ben Parsons, Junqi Yin, and Valentine Anantharaj. "Production
 Deployment of Machine-Learned Rotorcraft Surrogate Models on HPC." In
 2021 IEEE/ACM Workshop on Machine Learning in High Performance
-Computing Environments (MLHPC), pp. 21-32. IEEE,
-2021. <https://ieeexplore.ieee.org/abstract/document/9652868>. Note
-that OSMI-Bench differs from SMI-Bench described in the paper only in
-that the models that are used in OSMI are trained on synthetic data,
+Computing Environments (MLHPC), pp. 21-32. IEEE, 2021,
+<https://ieeexplore.ieee.org/abstract/document/9652868>, Note that
+OSMI-Bench differs from SMI-Bench described in the paper only in that
+the models that are used in OSMI are trained on synthetic data,
 whereas the models in SMI were trained using data from proprietary CFD
 simulations. Also, the OSMI medium and large models are very similar
 architectures as the SMI medium and large models, but not identical.
