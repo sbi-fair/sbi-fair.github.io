@@ -3,7 +3,7 @@ title: "Virtual tissue"
 linkTitle: "Virtual tissue"
 weight: 13
 description: >
-  This surrugate simulates a virtual tissue.
+  This surrugate simulates a virtual tissue
 resources:
   - src: "**.{png,jpg}"
     title: "Image #:counter"
