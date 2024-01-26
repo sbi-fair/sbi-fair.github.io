@@ -36,12 +36,12 @@ model closures,” arXiv [physics.comp-ph], 10-Feb-2020
 &lt;/ol>
 &lt;/div></description></item><item><title>Docs: Ions in nanoconfinement</title><link>/docs/surogates/ions-in-nanoconfinement/</link><pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate><guid>/docs/surogates/ions-in-nanoconfinement/</guid><description>
 &lt;img src="/docs/surogates/ions-in-nanoconfinement/featured-ion1_hu54f46d044c4e12dbdf720fb8ecb29dcc_251133_640x0_resize_catmullrom_3.png" width="640" height="176"/>
+&lt;h2 id="metadata">Metadata&lt;/h2>
 &lt;hr>
-&lt;h3 id="metadata">Metadata&lt;/h3>
 &lt;p>&lt;strong>Model&lt;/strong> &lt;a href="https://github.com/icl-utk-edu/sabath/blob/main/var/sabath/assets/sabath/models/n/nanoconfinement.json">nanoconfinement.json&lt;/a>&lt;/p>
 &lt;p>&lt;strong>Datasets&lt;/strong> &lt;a href="https://github.com/icl-utk-edu/sabath/blob/main/var/sabath/assets/sabath/datasets/n/nanoconfinement.json">nanoconfinement.json&lt;/a>&lt;/p>
 &lt;hr>
-&lt;p>Ions in nanoconfinement(IU): This application &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup> &lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup> studies
+&lt;p>This application &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup> &lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup> studies
 ionic structure in electrolyte solutions in nanochannels with planar
 uncharged surfaces and can use multiple molecular dynamics (MD) codes
 including LAMMPS &lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup> which run on HPC supercomputers with OpenMP and
@@ -85,7 +85,7 @@ were learned on 150 nodes.
 &lt;/p>
 &lt;/figcaption>
 &lt;/figure>
-&lt;h2 id="refernces">Refernces&lt;/h2>
+&lt;h2 id="references">References&lt;/h2>
 &lt;div class="footnotes" role="doc-endnotes">
 &lt;hr>
 &lt;ol>
@@ -235,11 +235,15 @@ Apr. 2019 [Online]. Available:
 &lt;/ol>
 &lt;/div></description></item><item><title>Docs: AutoPhaseNN: unsupervised physics-aware deep learning of 3D nanoscale Bragg coherent diffraction imaging</title><link>/docs/surogates/autophasenn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/surogates/autophasenn/</guid><description>
 &lt;hr>
-&lt;h3 id="metadata">Metadata&lt;/h3>
+&lt;h2 id="metadata">Metadata&lt;/h2>
+&lt;hr>
 &lt;p>&lt;strong>Model&lt;/strong> &lt;a href="https://github.com/icl-utk-edu/sabath/blob/main/var/sabath/assets/sabath/models/a/autophasenn.json">autophasenn.json&lt;/a>&lt;/p>
 &lt;p>&lt;strong>Datasets&lt;/strong> &lt;a href="https://github.com/icl-utk-edu/sabath/blob/main/var/sabath/assets/sabath/datasets/a/autoPhaseNN_aicdi.json">autoPhaseNN_aicdi.json&lt;/a>&lt;/p>
 &lt;hr>
-&lt;p>AutoPhaseNN &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>, a physics-aware unsupervised deep convolutional neural network
+&lt;blockquote>
+&lt;p>Adapted from Yao, Y. &lt;em>et. al&lt;/em> &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> under CC-BY &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;/blockquote>
+&lt;p>AutoPhaseNN &lt;sup id="fnref1:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>, a physics-aware unsupervised deep convolutional neural network
 (CNN) that learns to solve the phase problem without ever being shown real space
 images of the sample amplitude or phase. By incorporating the physics of the
 X-ray scattering into the network design and training, AutoPhaseNN learns to
@@ -268,7 +272,7 @@ numerical modeling of diffraction and the image shape constraints. It takes the
 amplitude and phase from the 3D CNN output to form the complex image. Then the
 estimated diffraction pattern is obtained from the FT of the current estimation
 of the real space image.
-&lt;small class="text-muted">&lt;br/>Image from: Yao, Y. et al / CC-BY&lt;/small>
+&lt;small class="text-muted">&lt;br/>Image from: Yao, Y. et al / CC-BY &lt;/small>
 &lt;/p>
 &lt;/figcaption>
 &lt;/figure>
@@ -277,7 +281,10 @@ of the real space image.
 &lt;hr>
 &lt;ol>
 &lt;li id="fn:1">
-&lt;p>Yao, Y., Chan, H., Sankaranarayanan, S. et al. AutoPhaseNN: unsupervised physics-aware deep learning of 3D nanoscale Bragg coherent diffraction imaging. npj Comput Mater 8, 124 (2022). &lt;a href="https://doi.org/10.1038/s41524-022-00803-w">https://doi.org/10.1038/s41524-022-00803-w&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;p>Yao, Y., Chan, H., Sankaranarayanan, S. et al. AutoPhaseNN: unsupervised physics-aware deep learning of 3D nanoscale Bragg coherent diffraction imaging. npj Comput Mater 8, 124 (2022). &lt;a href="https://doi.org/10.1038/s41524-022-00803-w">https://doi.org/10.1038/s41524-022-00803-w&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref1:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2">
+&lt;p>&lt;a href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/div></description></item></channel></rss>
