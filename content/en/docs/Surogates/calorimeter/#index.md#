@@ -1,17 +1,18 @@
 ---
 title: "OSMI"
 linkTitle: "OSMI"
-weight: 50
+weight: 100
 description: >
   We explore the relationship between certain network configurations and the performance of distributed Machine
   Learning systems. We build upon the Open Surrogate Model Inference (OSMI) Benchmark, a distributed inference
   benchmark for analyzing the performance of machine-learned surrogate models
-resources:
-  - src: "**.{png,jpg}"
-    title: "Image #:counter"
 ---
 
-## Overview
+## Heading
+
+
+Edit this template to create your new page.
+
 
 
 We explore the relationship between certain network configurations and
@@ -71,7 +72,8 @@ spectrum of scenarios.
 
 Finally, we analyze the inference throughput and total time for each
 experiment. By graphing and examining these results, we draw critical
-insights into the performance dynamics of distributed machine learning
+insights into the performand
+ce dynamics of distributed machine learning
 systems.
 
 In summary, a comprehensive examination of the OSMI Benchmark in
@@ -81,21 +83,7 @@ finding the best performant system configuration for a given use
 case. Our findings pave the way for more efficient and scalable
 distributed computing environments.
 
-The architectural view of the benchmarks are depictued in Figure 1 and
-Figure 2.
-
-
-{{< imgproc osmi1 Fill "928x306" >}}
-Figure 1: Surrogate calculations via a Inference Server.
-{{< /imgproc >}}
-
-{{< imgproc osmi2 Fill "2901x1173" >}}
-Figure 2: Possible benchmark configurations to measure sped of parallel iference.
-{{< /imgproc >}}
-
-
-
-[^1][^2][^3][^4][^5]
+[^1][^2]
 
 ## References
 
@@ -103,23 +91,16 @@ Figure 2: Possible benchmark configurations to measure sped of parallel iference
 Wissink, Ben Parsons, Junqi Yin, and Valentine Anantharaj. "Production
 Deployment of Machine-Learned Rotorcraft Surrogate Models on HPC." In
 2021 IEEE/ACM Workshop on Machine Learning in High Performance
-Computing Environments (MLHPC), pp. 21-32. IEEE, 2021,
-<https://ieeexplore.ieee.org/abstract/document/9652868>, Note that
-OSMI-Bench differs from SMI-Bench described in the paper only in that
-the models that are used in OSMI are trained on synthetic data,
+Computing Environments (MLHPC), pp. 21-32. IEEE,
+2021. <https://ieeexplore.ieee.org/abstract/document/9652868>. Note
+that OSMI-Bench differs from SMI-Bench described in the paper only in
+that the models that are used in OSMI are trained on synthetic data,
 whereas the models in SMI were trained using data from proprietary CFD
 simulations. Also, the OSMI medium and large models are very similar
 architectures as the SMI medium and large models, but not identical.
 
 
-[^2]: Brewer, Wesley, Greg Behm, Alan Scheinine, Ben Parsons, Wesley Emeneker, and Robert P. Trevino. "iBench: a distributed inference simulation and benchmark suite." In 2020 IEEE High Performance Extreme Computing Conference (HPEC), pp. 1-6. IEEE, 2020.
-
-[^3]: Brewer, Wesley, Greg Behm, Alan Scheinine, Ben Parsons, Wesley Emeneker, and Robert P. Trevino. "Inference benchmarking on HPC systems." In 2020 IEEE High Performance Extreme Computing Conference (HPEC), pp. 1-9. IEEE, 2020.
-
-[^4]: Brewer, Wesley, Chris Geyer, Dardo Kleiner, and Connor Horne. "Streaming Detection and Classification Performance of a POWER9 Edge Supercomputer." In 2021 IEEE High Performance Extreme Computing Conference (HPEC), pp. 1-7. IEEE, 2021.
-
-
-[^5]: Gregor von Laszewski, J. P. Fleischer, and Geoffrey
+[^2]: Gregor von Laszewski, J. P. Fleischer, and Geoffrey
 C. Fox. 2022. Hybrid Reusable Computational Analytics Workflow
 Management with Cloudmesh. https://doi.org/10.48550/ARXIV.2210.16941
 
