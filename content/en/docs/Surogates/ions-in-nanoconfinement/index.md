@@ -3,24 +3,31 @@ date: 2021-02-09
 title: "Ions in nanoconfinement"
 linkTitle: "Ions in nanoconfinement"
 description: >
-  The SBI FAIR Web Site has been created Ions in nanoconfinement (IU):
   This application studies ionic structure in
   electrolyte solutions in nanochannels with planar uncharged surfaces
   and can use multiple molecular dynamics (MD) codes including LAMMPS
   which run on HPC supercomputers with OpenMP and MPI parallelization.
 author: Indiana University
 resources:
-- src: "**.{png,jpg}"
-  title: "Image #:counter"
+  - src: "**.{png,jpg}"
+    title: "Image #:counter"
 ---
 
-Metadata: [nanoconfinement.json](https://github.com/icl-utk-edu/sabath/blob/main/var/sabath/assets/sabath/models/n/nanoconfinement.json)
+## Metadata
 
-Ions in nanoconfinement(IU): This application [^5] [^19] [^49] studies
+---
+
+**Model** [nanoconfinement.json](https://github.com/icl-utk-edu/sabath/blob/main/var/sabath/assets/sabath/models/n/nanoconfinement.json)
+
+**Datasets** [nanoconfinement.json](https://github.com/icl-utk-edu/sabath/blob/main/var/sabath/assets/sabath/datasets/n/nanoconfinement.json)
+
+---
+
+This application [^5] [^19] [^49] studies
 ionic structure in electrolyte solutions in nanochannels with planar
 uncharged surfaces and can use multiple molecular dynamics (MD) codes
 including LAMMPS [^50] which run on HPC supercomputers with OpenMP and
-MPI parallelization. 
+MPI parallelization.
 
 A dense neural-net (NN) was used to learn 150 final state
 characteristics based on the input of 5 parameters with typical
@@ -38,7 +45,7 @@ sequential code. This surrogate approach is the first-of-its-kind in
 the area of simulating charged soft-matter systems and there are many
 other published papers in both biomolecular and material science
 presenting similar successful surrogates [^2] with a NN architecture
-similar to fig. 3(c). 
+similar to fig. 3(c).
 
 {{< imgproc ion1 Fill "925x254" >}}
 Fig. 2 a) Architecture of dynamic training of ML surrogate and b)
@@ -46,44 +53,49 @@ Comparison of three final state densities (peak, contact, and center)
 between MD simulations and NN surrogate predictions [^5] [^51].
 {{< /imgproc >}}
 
-
 {{< imgproc ion2 Fill "938x222" >}}
 Fig. 3 (a,b) Two density profiles of confined ions for very different
 input parameters and comparing MD and NN. (c) Fully connected deep
 learning network used to learn the final densities. ReLU activation
 units are in the 512 and 256 node hidden layers. The output values
-were learned on 150 nodes. 
+were learned on 150 nodes.
 {{< /imgproc >}}
 
-## Refernces
+## References
 
-[^2]: Geoffrey Fox, Shantenu Jha, “Learning Everywhere: A Taxonomy for
-	  the Integration of Machine Learning and Simulations,” in IEEE
-	  eScience 2019 Conference, San Diego, California
-	  [Online]. Available: https://arxiv.org/abs/1909.13340
+[^2]:
+    Geoffrey Fox, Shantenu Jha, “Learning Everywhere: A Taxonomy for
+    the Integration of Machine Learning and Simulations,” in IEEE
+    eScience 2019 Conference, San Diego, California
+    [Online]. Available: https://arxiv.org/abs/1909.13340
 
-[^5]: JCS Kadupitiya , Geoffrey C. Fox , and Vikram Jadhao, “Machine
-      learning for performance enhancement of molecular dynamics
-      simulations,” in International Conference on Computational
-      Science ICCS2019, Faro, Algarve, Portugal, 2019
-      [Online]. Available:
-      http://dsc.soic.indiana.edu/publications/ICCS8.pdf
+[^5]:
+    JCS Kadupitiya , Geoffrey C. Fox , and Vikram Jadhao, “Machine
+    learning for performance enhancement of molecular dynamics
+    simulations,” in International Conference on Computational
+    Science ICCS2019, Faro, Algarve, Portugal, 2019
+    [Online]. Available:
+    http://dsc.soic.indiana.edu/publications/ICCS8.pdf
 
-[^19]: J. C. S. Kadupitiya, F. Sun, G. Fox, and V. Jadhao, “Machine
-       learning surrogates for molecular dynamics simulations of soft
-       materials,” J. Comput. Sci., vol. 42, p. 101107, Apr. 2020
-       [Online]. Available:
-       http://www.sciencedirect.com/science/article/pii/S1877750319310609
+[^19]:
+    J. C. S. Kadupitiya, F. Sun, G. Fox, and V. Jadhao, “Machine
+    learning surrogates for molecular dynamics simulations of soft
+    materials,” J. Comput. Sci., vol. 42, p. 101107, Apr. 2020
+    [Online]. Available:
+    http://www.sciencedirect.com/science/article/pii/S1877750319310609
 
-[^49]: “Molecular Dynamics for Nanoconfinement.” [Online]. Available:
-	   https://github.com/softmaterialslab/nanoconfinement-md. [Accessed: 11-May-2020]
+[^49]:
+    “Molecular Dynamics for Nanoconfinement.” [Online]. Available:
+    https://github.com/softmaterialslab/nanoconfinement-md. [Accessed: 11-May-2020]
 
-[^50]: S. Plimpton, “Fast Parallel Algorithms for Short Range
-	   Molecular Dynamics,” J. Comput. Phys., vol. 117, pp. 1–19, 1995
-	   [Online]. Available:
-	   http://faculty.chas.uni.edu/~rothm/Modeling/Parallel/Plimpton.pdf
+[^50]:
+    S. Plimpton, “Fast Parallel Algorithms for Short Range
+    Molecular Dynamics,” J. Comput. Phys., vol. 117, pp. 1–19, 1995
+    [Online]. Available:
+    http://faculty.chas.uni.edu/~rothm/Modeling/Parallel/Plimpton.pdf
 
-[^51]: F. Sun, J. C. S. Kadupitiya, G. Fox, and V. Jadhao, “Machine
-	   Learning Molecular Dynamics Simulations for Enhanced Student
-	   Learning” [Online]. Available:
-	   http://dsc.soic.indiana.edu/publications/eduHPC19_IEEE3.pdf
+[^51]:
+    F. Sun, J. C. S. Kadupitiya, G. Fox, and V. Jadhao, “Machine
+    Learning Molecular Dynamics Simulations for Enhanced Student
+    Learning” [Online]. Available:
+    http://dsc.soic.indiana.edu/publications/eduHPC19_IEEE3.pdf
