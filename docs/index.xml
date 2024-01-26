@@ -358,4 +358,51 @@ Apr. 2019 [Online]. Available:
 &lt;p>Surrogates&lt;/p>
 &lt;/li>
 &lt;/ul>
-&lt;p>All meet once a month&lt;/p></description></item></channel></rss>
+&lt;p>All meet once a month&lt;/p></description></item><item><title>Docs: AutoPhaseNN: unsupervised physics-aware deep learning of 3D nanoscale Bragg coherent diffraction imaging</title><link>/docs/surogates/autophasenn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/surogates/autophasenn/</guid><description>
+&lt;hr>
+&lt;h3 id="metadata">Metadata&lt;/h3>
+&lt;p>&lt;strong>Model&lt;/strong> &lt;a href="https://github.com/icl-utk-edu/sabath/blob/main/var/sabath/assets/sabath/models/a/autophasenn.json">autophasenn.json&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Datasets&lt;/strong> &lt;a href="https://github.com/icl-utk-edu/sabath/blob/main/var/sabath/assets/sabath/datasets/a/autoPhaseNN_aicdi.json">autoPhaseNN_aicdi.json&lt;/a>&lt;/p>
+&lt;hr>
+&lt;p>AutoPhaseNN &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>, a physics-aware unsupervised deep convolutional neural network
+(CNN) that learns to solve the phase problem without ever being shown real space
+images of the sample amplitude or phase. By incorporating the physics of the
+X-ray scattering into the network design and training, AutoPhaseNN learns to
+predict both the amplitude and phase of the sample given the measured
+diffraction intensity alone. Additionally, unlike previous deep learning models,
+AutoPhaseNN does not need the ground truth images of sample’s amplitude and
+phase at any point, either in training or in deployment. Once trained, the
+physical model is discarded and only the CNN portion is needed which has learned
+the data inversion from reciprocal space to real space and is ~100 times faster
+than the iterative phase retrieval with comparable image quality. Furthermore,
+we show that by using AutoPhaseNN’s prediction as the learned prior to iterative
+phase retrieval, we can achieve consistently higher image quality, than neural
+network prediction alone, at 10 times faster speed than iterative phase
+retrieval alone.&lt;/p>
+&lt;figure class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 910px">
+&lt;img class="card-img-top" src="/docs/surogates/autophasenn/autophasenn1_huf90a121ae4129385ddbbadbc4dfa22cd_382578_900x0_resize_catmullrom_3.png" width="900" height="429">
+&lt;figcaption class="card-body px-0 pt-2 pb-0">
+&lt;p class="card-text">
+Fig. 1: Schematic of the neural network structure of AutoPhaseNN model during training.
+a) The model consists of a 3D CNN and the X-ray scattering forward model. The 3D
+CNN is implemented with a convolutional auto-encoder and two deconvolutional
+decoders using the convolutional, maximum pooling, upsampling and zero padding
+layers. The physical knowledge is enforced via the Sigmoid and Tanh activation
+functions in the final layers. b The X-ray scattering forward model includes the
+numerical modeling of diffraction and the image shape constraints. It takes the
+amplitude and phase from the 3D CNN output to form the complex image. Then the
+estimated diffraction pattern is obtained from the FT of the current estimation
+of the real space image.
+&lt;small class="text-muted">&lt;br/>Image from: Yao, Y. et al / CC-BY&lt;/small>
+&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;h2 id="references">References&lt;/h2>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>Yao, Y., Chan, H., Sankaranarayanan, S. et al. AutoPhaseNN: unsupervised physics-aware deep learning of 3D nanoscale Bragg coherent diffraction imaging. npj Comput Mater 8, 124 (2022). &lt;a href="https://doi.org/10.1038/s41524-022-00803-w">https://doi.org/10.1038/s41524-022-00803-w&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item></channel></rss>
