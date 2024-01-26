@@ -66,8 +66,7 @@ of the major hierarchy of data that needs to be recorded for reproducibility.&lt
 &lt;li>Piotr Luszczek, University of Tennessee, Knoxville (Co-Investigator)&lt;/li>
 &lt;li>Shantenu Jha, Rutgers University (Co-Investigator)&lt;/li>
 &lt;/ul></description></item><item><title>Docs: OSMI</title><link>/docs/surogates/osmi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/surogates/osmi/</guid><description>
-&lt;h2 id="heading">Heading&lt;/h2>
-&lt;p>Edit this template to create your new page.&lt;/p>
+&lt;h2 id="overview">Overview&lt;/h2>
 &lt;p>We explore the relationship between certain network configurations and
 the performance of distributed Machine Learning systems. We build upon
 the Open Surrogate Model Inference (OSMI) Benchmark, a distributed
@@ -123,16 +122,26 @@ the optimization of these systems, by providing a framework for
 finding the best performant system configuration for a given use
 case. Our findings pave the way for more efficient and scalable
 distributed computing environments.&lt;/p>
+&lt;p>The architectural view of the benchmarks are depictued in Figure 1 and
+Figure 2.&lt;/p>
+&lt;figure class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 938px">
+&lt;img class="card-img-top" src="/docs/surogates/osmi/osmi1_hu7c0ce91db4341889bc7ce96dfb596a67_74813_928x306_fill_catmullrom_smart1_3.png" width="928" height="306">
+&lt;figcaption class="card-body px-0 pt-2 pb-0">
+&lt;p class="card-text">
+Figure 1: Surrogate calculations via a Inference Server.
+&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 2911px">
+&lt;img class="card-img-top" src="/docs/surogates/osmi/osmi2_hufa595329706607e7c24e0c5ae57ccfec_402285_2901x1173_fill_catmullrom_smart1_3.png" width="2901" height="1173">
+&lt;figcaption class="card-body px-0 pt-2 pb-0">
+&lt;p class="card-text">
+Figure 2: Possible benchmark configurations to measure sped of parallel iference.
+&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
 &lt;p>&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
 &lt;h2 id="references">References&lt;/h2>
-&lt;ol start="2021">
-&lt;li>&lt;a href="https://ieeexplore.ieee.org/abstract/document/9652868">https://ieeexplore.ieee.org/abstract/document/9652868&lt;/a>. Note
-that OSMI-Bench differs from SMI-Bench described in the paper only in
-that the models that are used in OSMI are trained on synthetic data,
-whereas the models in SMI were trained using data from proprietary CFD
-simulations. Also, the OSMI medium and large models are very similar
-architectures as the SMI medium and large models, but not identical.&lt;/li>
-&lt;/ol>
 &lt;div class="footnotes" role="doc-endnotes">
 &lt;hr>
 &lt;ol>
@@ -141,7 +150,13 @@ architectures as the SMI medium and large models, but not identical.&lt;/li>
 Wissink, Ben Parsons, Junqi Yin, and Valentine Anantharaj. &amp;ldquo;Production
 Deployment of Machine-Learned Rotorcraft Surrogate Models on HPC.&amp;rdquo; In
 2021 IEEE/ACM Workshop on Machine Learning in High Performance
-Computing Environments (MLHPC), pp. 21-32. IEEE,&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+Computing Environments (MLHPC), pp. 21-32. IEEE, 2021,
+&lt;a href="https://ieeexplore.ieee.org/abstract/document/9652868">https://ieeexplore.ieee.org/abstract/document/9652868&lt;/a>, Note that
+OSMI-Bench differs from SMI-Bench described in the paper only in that
+the models that are used in OSMI are trained on synthetic data,
+whereas the models in SMI were trained using data from proprietary CFD
+simulations. Also, the OSMI medium and large models are very similar
+architectures as the SMI medium and large models, but not identical.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:2">
 &lt;p>Gregor von Laszewski, J. P. Fleischer, and Geoffrey
