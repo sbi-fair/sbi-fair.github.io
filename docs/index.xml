@@ -103,7 +103,11 @@ model closures,” arXiv [physics.comp-ph], 10-Feb-2020
 &lt;/ol>
 &lt;/div></description></item><item><title>Docs: Ions in nanoconfinement</title><link>/docs/surogates/ions-in-nanoconfinement/</link><pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate><guid>/docs/surogates/ions-in-nanoconfinement/</guid><description>
 &lt;img src="/docs/surogates/ions-in-nanoconfinement/featured-ion1_hu54f46d044c4e12dbdf720fb8ecb29dcc_251133_640x0_resize_catmullrom_3.png" width="640" height="176"/>
-&lt;p>Metadata: &lt;a href="https://github.com/icl-utk-edu/sabath/blob/main/var/sabath/assets/sabath/models/n/nanoconfinement.json">nanoconfinement.json&lt;/a>&lt;/p>
+&lt;hr>
+&lt;h3 id="metadata">Metadata&lt;/h3>
+&lt;p>&lt;strong>Model&lt;/strong> &lt;a href="https://github.com/icl-utk-edu/sabath/blob/main/var/sabath/assets/sabath/models/n/nanoconfinement.json">nanoconfinement.json&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Datasets&lt;/strong> &lt;a href="https://github.com/icl-utk-edu/sabath/blob/main/var/sabath/assets/sabath/datasets/n/nanoconfinement.json">nanoconfinement.json&lt;/a>&lt;/p>
+&lt;hr>
 &lt;p>Ions in nanoconfinement(IU): This application &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup> &lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup> studies
 ionic structure in electrolyte solutions in nanochannels with planar
 uncharged surfaces and can use multiple molecular dynamics (MD) codes
