@@ -1,5 +1,5 @@
 ---
-title: "mniWeatherML"
+title: "miniWeatherML"
 linkTitle: ""
 weight: 45
 description: >

@@ -38,7 +38,7 @@ early example for SBI with reference implementation and tutorial
 documentation. As a follow-up, the Argonne team will tackle more
 challenging problems. 
 
-## Refernces 
+## References 
 
 [^60]: R. Maulik, N. A. Garland, X.-Z. Tang, and P. Balaprakash,
 	   “Neural network representability of fully ionized plasma fluid
