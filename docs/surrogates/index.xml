@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SBI-FAIR – Surogates</title><link>/docs/surogates/</link><description>Recent content in Surogates on SBI-FAIR</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="/docs/surogates/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: AutoPhaseNN: unsupervised physics-aware deep learning of 3D nanoscale Bragg coherent diffraction imaging</title><link>/docs/surogates/autophasenn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/surogates/autophasenn/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SBI-FAIR – Surrogates</title><link>/docs/surrogates/</link><description>Recent content in Surrogates on SBI-FAIR</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="/docs/surrogates/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: AutoPhaseNN: unsupervised physics-aware deep learning of 3D nanoscale Bragg coherent diffraction imaging</title><link>/docs/surrogates/autophasenn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/surrogates/autophasenn/</guid><description>
 &lt;hr>
 &lt;h2 id="metadata">Metadata&lt;/h2>
 &lt;hr>
@@ -24,7 +24,7 @@ phase retrieval, we can achieve consistently higher image quality, than neural
 network prediction alone, at 10 times faster speed than iterative phase
 retrieval alone.&lt;/p>
 &lt;figure class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 910px">
-&lt;img class="card-img-top" src="/docs/surogates/autophasenn/autophasenn1_huf90a121ae4129385ddbbadbc4dfa22cd_382578_900x0_resize_catmullrom_3.png" width="900" height="429">
+&lt;img class="card-img-top" src="/docs/surrogates/autophasenn/autophasenn1_huf90a121ae4129385ddbbadbc4dfa22cd_382578_900x0_resize_catmullrom_3.png" width="900" height="429">
 &lt;figcaption class="card-body px-0 pt-2 pb-0">
 &lt;p class="card-text">
 Fig. 1: Schematic of the neural network structure of AutoPhaseNN model during training.
@@ -52,7 +52,7 @@ of the real space image.
 &lt;p>&lt;a href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/div></description></item><item><title>Docs: Calorimeter surrogates</title><link>/docs/surogates/calorimeter/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/surogates/calorimeter/</guid><description>
+&lt;/div></description></item><item><title>Docs: Calorimeter surrogates</title><link>/docs/surrogates/calorimeter/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/surrogates/calorimeter/</guid><description>
 &lt;h2 id="overview">Overview&lt;/h2>
 &lt;p>This surrogate set is based on a Workshop CaloChalange, May 30-31, 2023, Rome&lt;/p>
 &lt;p>The workshop is organised to discuss the results of the calochallenge, this year&amp;rsquo;s ML competition in high energy physics focussing on fast calorimeter simulation using generative models.&lt;/p>
@@ -69,7 +69,7 @@ of the real space image.
 &lt;p>&lt;a href="https://docs.google.com/document/d/19g0Avj9SYbVH7qSxoVUnnFKeGMuBdD9JCHVmBQB466M/edit?usp=sharing">https://docs.google.com/document/d/19g0Avj9SYbVH7qSxoVUnnFKeGMuBdD9JCHVmBQB466M/edit?usp=sharing&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/div></description></item><item><title>Docs: Virtual tissue</title><link>/docs/surogates/virtualtissue/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/surogates/virtualtissue/</guid><description>
+&lt;/div></description></item><item><title>Docs: Virtual tissue</title><link>/docs/surrogates/virtualtissue/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/surrogates/virtualtissue/</guid><description>
 &lt;h2 id="overview">Overview&lt;/h2>
 &lt;p>Neural networks (NNs) have been demonstrated to be a viable
 alternative to traditional direct numerical evaluation algorithms,
@@ -113,7 +113,7 @@ size is, in principle, needed, however it is not a practical solution.&lt;/p>
 &lt;a href="https://www.frontiersin.org/articles/10.3389/fphys.2021.667828/full">https://www.frontiersin.org/articles/10.3389/fphys.2021.667828/full&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/div></description></item><item><title>Docs: Cosmoflow</title><link>/docs/surogates/cosmoflow/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/surogates/cosmoflow/</guid><description>
+&lt;/div></description></item><item><title>Docs: Cosmoflow</title><link>/docs/surrogates/cosmoflow/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/surrogates/cosmoflow/</guid><description>
 &lt;hr>
 &lt;h2 id="metadata">Metadata&lt;/h2>
 &lt;hr>
@@ -138,7 +138,7 @@ size is, in principle, needed, however it is not a practical solution.&lt;/p>
 &lt;p>&lt;a href="https://github.com/sparticlesteve/cosmoflow-benchmark/blob/master/README.md">https://github.com/sparticlesteve/cosmoflow-benchmark/blob/master/README.md&lt;/a>&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/div></description></item><item><title>Docs: Fully ionized plasma fluid model closures</title><link>/docs/surogates/ionized-plasma/</link><pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate><guid>/docs/surogates/ionized-plasma/</guid><description>
+&lt;/div></description></item><item><title>Docs: Fully ionized plasma fluid model closures</title><link>/docs/surrogates/ionized-plasma/</link><pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate><guid>/docs/surrogates/ionized-plasma/</guid><description>
 &lt;p>Fully ionized plasma fluid model closures (Argonne):&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> The closure
 problem in fluid modeling is a well-known challenge to modelers aiming
 to accurately describe their system of interest. Analytic formulations
@@ -161,7 +161,7 @@ architecture. will choose one of the surrogates and bring it up an
 early example for SBI with reference implementation and tutorial
 documentation. As a follow-up, the Argonne team will tackle more
 challenging problems.&lt;/p>
-&lt;h2 id="refernces">Refernces&lt;/h2>
+&lt;h2 id="references">References&lt;/h2>
 &lt;div class="footnotes" role="doc-endnotes">
 &lt;hr>
 &lt;ol>
@@ -172,8 +172,8 @@ model closures,” arXiv [physics.comp-ph], 10-Feb-2020
 [Online]. Available: &lt;a href="http://arxiv.org/abs/2002.04106">http://arxiv.org/abs/2002.04106&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/div></description></item><item><title>Docs: Ions in nanoconfinement</title><link>/docs/surogates/ions-in-nanoconfinement/</link><pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate><guid>/docs/surogates/ions-in-nanoconfinement/</guid><description>
-&lt;img src="/docs/surogates/ions-in-nanoconfinement/featured-ion1_hu54f46d044c4e12dbdf720fb8ecb29dcc_251133_640x0_resize_catmullrom_3.png" width="640" height="176"/>
+&lt;/div></description></item><item><title>Docs: Ions in nanoconfinement</title><link>/docs/surrogates/ions-in-nanoconfinement/</link><pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate><guid>/docs/surrogates/ions-in-nanoconfinement/</guid><description>
+&lt;img src="/docs/surrogates/ions-in-nanoconfinement/featured-ion1_hu54f46d044c4e12dbdf720fb8ecb29dcc_251133_640x0_resize_catmullrom_3.png" width="640" height="176"/>
 &lt;h2 id="metadata">Metadata&lt;/h2>
 &lt;hr>
 &lt;p>&lt;strong>Model&lt;/strong> &lt;a href="https://github.com/icl-utk-edu/sabath/blob/main/var/sabath/assets/sabath/models/n/nanoconfinement.json">nanoconfinement.json&lt;/a>&lt;/p>
@@ -202,7 +202,7 @@ other published papers in both biomolecular and material science
 presenting similar successful surrogates &lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup> with a NN architecture
 similar to fig. 3(c).&lt;/p>
 &lt;figure class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 935px">
-&lt;img class="card-img-top" src="/docs/surogates/ions-in-nanoconfinement/featured-ion1_hu54f46d044c4e12dbdf720fb8ecb29dcc_251133_925x254_fill_catmullrom_smart1_3.png" width="925" height="254">
+&lt;img class="card-img-top" src="/docs/surrogates/ions-in-nanoconfinement/featured-ion1_hu54f46d044c4e12dbdf720fb8ecb29dcc_251133_925x254_fill_catmullrom_smart1_3.png" width="925" height="254">
 &lt;figcaption class="card-body px-0 pt-2 pb-0">
 &lt;p class="card-text">
 Fig. 2 a) Architecture of dynamic training of ML surrogate and b)
@@ -212,7 +212,7 @@ between MD simulations and NN surrogate predictions [^5] [^51].
 &lt;/figcaption>
 &lt;/figure>
 &lt;figure class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 948px">
-&lt;img class="card-img-top" src="/docs/surogates/ions-in-nanoconfinement/featured-ion2_hu04e0f7269f76594d4a25e14f4e4eee06_144655_938x222_fill_catmullrom_smart1_3.png" width="938" height="222">
+&lt;img class="card-img-top" src="/docs/surrogates/ions-in-nanoconfinement/featured-ion2_hu04e0f7269f76594d4a25e14f4e4eee06_144655_938x222_fill_catmullrom_smart1_3.png" width="938" height="222">
 &lt;figcaption class="card-body px-0 pt-2 pb-0">
 &lt;p class="card-text">
 Fig. 3 (a,b) Two density profiles of confined ions for very different
@@ -259,7 +259,7 @@ eScience 2019 Conference, San Diego, California
 [Online]. Available: &lt;a href="https://arxiv.org/abs/1909.13340">https://arxiv.org/abs/1909.13340&lt;/a>&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/div></description></item><item><title>Docs: Molecule docking</title><link>/docs/surogates/molecule-docking/</link><pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate><guid>/docs/surogates/molecule-docking/</guid><description>
+&lt;/div></description></item><item><title>Docs: Molecule docking</title><link>/docs/surrogates/molecule-docking/</link><pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate><guid>/docs/surrogates/molecule-docking/</guid><description>
 &lt;p>Molecule docking: Docking small molecules to a protein’s
 binding site is often one of the first steps for virtual screening
 &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. Although many open-source and commercial packages exist for
@@ -305,7 +305,7 @@ Medicine for Cancer.” [Online]. Available:
 &lt;a href="https://candle.cels.anl.gov/">https://candle.cels.anl.gov/&lt;/a>. [Accessed: 01-May-2020]&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/div></description></item><item><title>Docs: mniWeatherML</title><link>/docs/surogates/miniweatherml/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/surogates/miniweatherml/</guid><description>
+&lt;/div></description></item><item><title>Docs: miniWeatherML</title><link>/docs/surrogates/miniweatherml/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/surrogates/miniweatherml/</guid><description>
 &lt;hr>
 &lt;h2 id="metadata">Metadata&lt;/h2>
 &lt;hr>
@@ -333,7 +333,7 @@ Medicine for Cancer.” [Online]. Available:
 &lt;p>&lt;a href="https://github.com/mrnorman/miniWeatherML/wiki">https://github.com/mrnorman/miniWeatherML/wiki&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/div></description></item><item><title>Docs: OSMI</title><link>/docs/surogates/osmi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/surogates/osmi/</guid><description>
+&lt;/div></description></item><item><title>Docs: OSMI</title><link>/docs/surrogates/osmi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/surrogates/osmi/</guid><description>
 &lt;h2 id="overview">Overview&lt;/h2>
 &lt;p>We explore the relationship between certain network configurations and
 the performance of distributed Machine Learning systems. We build upon
@@ -393,7 +393,7 @@ distributed computing environments.&lt;/p>
 &lt;p>The architectural view of the benchmarks are depictued in Figure 1 and
 Figure 2.&lt;/p>
 &lt;figure class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 938px">
-&lt;img class="card-img-top" src="/docs/surogates/osmi/osmi1_hu7c0ce91db4341889bc7ce96dfb596a67_74813_928x306_fill_catmullrom_smart1_3.png" width="928" height="306">
+&lt;img class="card-img-top" src="/docs/surrogates/osmi/osmi1_hu7c0ce91db4341889bc7ce96dfb596a67_74813_928x306_fill_catmullrom_smart1_3.png" width="928" height="306">
 &lt;figcaption class="card-body px-0 pt-2 pb-0">
 &lt;p class="card-text">
 Figure 1: Surrogate calculations via a Inference Server.
@@ -401,7 +401,7 @@ Figure 1: Surrogate calculations via a Inference Server.
 &lt;/figcaption>
 &lt;/figure>
 &lt;figure class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 2911px">
-&lt;img class="card-img-top" src="/docs/surogates/osmi/osmi2_hufa595329706607e7c24e0c5ae57ccfec_402285_2901x1173_fill_catmullrom_smart1_3.png" width="2901" height="1173">
+&lt;img class="card-img-top" src="/docs/surrogates/osmi/osmi2_hufa595329706607e7c24e0c5ae57ccfec_402285_2901x1173_fill_catmullrom_smart1_3.png" width="2901" height="1173">
 &lt;figcaption class="card-body px-0 pt-2 pb-0">
 &lt;p class="card-text">
 Figure 2: Possible benchmark configurations to measure sped of parallel iference.
@@ -441,7 +441,7 @@ C. Fox. 2022. Hybrid Reusable Computational Analytics Workflow
 Management with Cloudmesh. &lt;a href="https://doi.org/10.48550/ARXIV.2210.16941">https://doi.org/10.48550/ARXIV.2210.16941&lt;/a>&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/div></description></item><item><title>Docs: Particle dynamics</title><link>/docs/surogates/particle-dynamics/</link><pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate><guid>/docs/surogates/particle-dynamics/</guid><description>
+&lt;/div></description></item><item><title>Docs: Particle dynamics</title><link>/docs/surrogates/particle-dynamics/</link><pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate><guid>/docs/surrogates/particle-dynamics/</guid><description>
 &lt;p>Recurrent Neural Nets as a Particle Dynamics Integrator&lt;/p>
 &lt;p>The second IU initial application shows a rather different type of
 surrogate and illustrates an SBI goal to collect benchmarks covering a
@@ -465,7 +465,7 @@ network architecture and illustrates an important approach to learning
 evolution operators which can be applied across a variety of fields
 including Earthquake science (IU work in progress) and Fusion &lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>.&lt;/p>
 &lt;figure class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 610px">
-&lt;img class="card-img-top" src="/docs/surogates/particle-dynamics/fetured-particle_hua979a54266f85630f033cca2147d9725_81454_600x300_fill_catmullrom_smart1_3.png" width="600" height="300">
+&lt;img class="card-img-top" src="/docs/surrogates/particle-dynamics/fetured-particle_hua979a54266f85630f033cca2147d9725_81454_600x300_fill_catmullrom_smart1_3.png" width="600" height="300">
 &lt;figcaption class="card-body px-0 pt-2 pb-0">
 &lt;p class="card-text">
 Fig. 4: Average error in position updates for 16 particles interacting
@@ -507,10 +507,10 @@ Apr. 2019 [Online]. Available:
 &lt;a href="https://doi.org/10.1038/s41586-019-1116-4">https://doi.org/10.1038/s41586-019-1116-4&lt;/a>&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/div></description></item><item><title>Docs: Performance Surrogate</title><link>/docs/surogates/performance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/surogates/performance/</guid><description>
+&lt;/div></description></item><item><title>Docs: Performance Surrogate</title><link>/docs/surrogates/performance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/surrogates/performance/</guid><description>
 &lt;h2 id="overview">Overview&lt;/h2>
 &lt;p>Please contact Piotre&lt;/p>
-&lt;h2 id="references">References&lt;/h2></description></item><item><title>Docs: PtychoNN: deep learning network for ptychographic imaging that predicts sample amplitude and phase from diffraction data.</title><link>/docs/surogates/ptychonn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/surogates/ptychonn/</guid><description>
+&lt;h2 id="references">References&lt;/h2></description></item><item><title>Docs: PtychoNN: deep learning network for ptychographic imaging that predicts sample amplitude and phase from diffraction data.</title><link>/docs/surrogates/ptychonn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/surrogates/ptychonn/</guid><description>
 &lt;hr>
 &lt;h2 id="metadata">Metadata&lt;/h2>
 &lt;hr>
