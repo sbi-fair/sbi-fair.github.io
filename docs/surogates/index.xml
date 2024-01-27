@@ -114,6 +114,14 @@ size is, in principle, needed, however it is not a practical solution.&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/div></description></item><item><title>Docs: Cosmoflow</title><link>/docs/surogates/cosmoflow/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/surogates/cosmoflow/</guid><description>
+&lt;hr>
+&lt;h2 id="metadata">Metadata&lt;/h2>
+&lt;hr>
+&lt;p>&lt;strong>Model&lt;/strong> &lt;a href="https://github.com/icl-utk-edu/sabath/blob/main/var/sabath/assets/sabath/models/c/cosmoflow.json">cosmoflow.json&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Datasets&lt;/strong>&lt;/p>
+&lt;p>&lt;a href="https://github.com/icl-utk-edu/sabath/blob/main/var/sabath/assets/sabath/datasets/c/cosmoUniverse_2019_05_4parE_tf_v2.json">cosmoUniverse_2019_05_4parE_tf_v2.json&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://github.com/icl-utk-edu/sabath/blob/main/var/sabath/assets/sabath/datasets/c/cosmoUniverse_2019_05_4parE_tf_v2_mini.json">cosmoUniverse_2019_05_4parE_tf_v2_mini.json&lt;/a>&lt;/p>
+&lt;hr>
 &lt;h2 id="overview">Overview&lt;/h2>
 &lt;p>This application is based on the original CosmoFlow paper presented at SC18 and continued by the ExaLearn project, and adopted as a benchmark in the MLPerf HPC suite. It involves training a 3D convolutional neural network on N-body cosmology simulation data to predict physical parameters of the universe. The reference implementation for MLPerf HPC v0.5 CosmoFlow uses TensorFlow with the Keras API and Horovod for data-parallel distributed training. The dataset comes from simulations run by ExaLearn, with universe volumes split into cubes of size 128x128x128 with 4 redshift bins. The total dataset volume preprocessed for MLPerf HPC v0.5 in TFRecord format is 5.1 TB. The target objective in MLPerf HPC v0.5 is to train the model to a validation mean-average-error &amp;lt; 0.124. However, the problem size can be scaled down and the training throughput can be used as the primary objective for a small scale or shorter timescale benchmark.&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>&lt;/p>
 &lt;h2 id="references">References&lt;/h2>
@@ -298,6 +306,12 @@ Medicine for Cancer.” [Online]. Available:
 &lt;/li>
 &lt;/ol>
 &lt;/div></description></item><item><title>Docs: mniWeatherML</title><link>/docs/surogates/miniweatherml/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/surogates/miniweatherml/</guid><description>
+&lt;hr>
+&lt;h2 id="metadata">Metadata&lt;/h2>
+&lt;hr>
+&lt;p>&lt;strong>Model&lt;/strong> &lt;a href="https://github.com/icl-utk-edu/sabath/blob/main/var/sabath/assets/sabath/models/m/miniWeatherML.json">miniWeatherML.json&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Datasets&lt;/strong> &lt;a href="https://github.com/icl-utk-edu/sabath/blob/main/var/sabath/assets/sabath/datasets/m/miniWeatherML.json">miniWeatherML.json&lt;/a>&lt;/p>
+&lt;hr>
 &lt;h2 id="overview">Overview&lt;/h2>
 &lt;p>MiniWeatherML is a playground for learning and developing Machine Learning (ML) surrogate models and workflows. It is based on a simplified weather model simulating flows such as supercells that are realistic enough to be challenging and simple enough for rapid prototyping in:&lt;/p>
 &lt;ul>
