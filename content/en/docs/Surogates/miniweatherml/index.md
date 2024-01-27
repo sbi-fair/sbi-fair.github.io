@@ -10,6 +10,18 @@ resources:
     title: "Image #:counter"
 ---
 
+---
+
+## Metadata
+
+---
+
+**Model** [miniWeatherML.json](https://github.com/icl-utk-edu/sabath/blob/main/var/sabath/assets/sabath/models/m/miniWeatherML.json)
+
+**Datasets** [miniWeatherML.json](https://github.com/icl-utk-edu/sabath/blob/main/var/sabath/assets/sabath/datasets/m/miniWeatherML.json)
+
+---
+
 ## Overview
 
 MiniWeatherML is a playground for learning and developing Machine Learning (ML) surrogate models and workflows. It is based on a simplified weather model simulating flows such as supercells that are realistic enough to be challenging and simple enough for rapid prototyping in:
