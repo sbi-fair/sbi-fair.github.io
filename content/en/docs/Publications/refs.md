@@ -1,18 +1,3 @@
----
-title: "Publications"
-linkTitle: "Publications"
-weight: 30
-menu:
-  main:
-    weight: 30
-description: >
-  We list here the Publications of this project
----
-
-{{% pageinfo %}}
-The collection of publications related to this project.
-{{% /pageinfo %}}
-
 <span class="csl-left-margin">\[1\] </span><span
 class="csl-right-inline">[Quadri-partite quantum-assisted VAE as a
 calorimeter
