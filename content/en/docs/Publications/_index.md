@@ -13,6 +13,14 @@ description: >
 The collection of publications related to this project.
 {{% /pageinfo %}}
 
+1. RINAS: Training with Dataset Shuffling Can Be General and Fast
+   Tianle Zhong, Jiechen Zhao, Xindi Guo, Qiang Su, Geoffrey Fox
+   <https://arxiv.org/abs/2312.02368>
+
+1. RTP: Rethinking Tensor Parallelism with Memory Deduplication
+   Cheng Luo, Tianle Zhong, Geoffrey Fox
+   <https://arxiv.org/abs/2311.01635>
+
 1. Quadri-partite Quantum-Assisted VAE as a calorimeter surrogate
    J Quetzalcoatl Toledo-Marin, Roger Melko, Maximilian Swiatlowski, 
    Wojciech Fedorko, Geoffrey Fox, Sebastian Gonzalez, Hao Jia, Tiago Vale,
