@@ -1,0 +1,15 @@
+---
+title: "Publications"
+linkTitle: "Publications"
+weight: 30
+menu:
+  main:
+    weight: 30
+description: >
+  We list here the Publications of this project
+---
+
+{{% pageinfo %}}
+The collection of publications related to this project.
+{{% /pageinfo %}}
+
