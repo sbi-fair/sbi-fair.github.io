@@ -54,13 +54,16 @@ of the real space image.
 &lt;/ol>
 &lt;/div></description></item><item><title>Docs: Calorimeter surrogates</title><link>/docs/surrogates/calorimeter/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/surrogates/calorimeter/</guid><description>
 &lt;h2 id="overview">Overview&lt;/h2>
-&lt;p>The Kaggle calorimeter challenge &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> uses generative AI to produce a surrogate for the Monte Carlo calculation of a calorimeter response to an incident particle (ATLAS data at LHC calculated with GEANT4). Variational Auto Encoders, GANs, Normalizing Flows, and Diffusion Models. We also have a surrogate using a Quantum Computer (DWAVE) annealer to generate random samples. We have identified four different surrogates that are available openly from Kaggle and later submissions.&lt;/p>
+&lt;p>The Kaggle calorimeter challenge &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup> uses generative AI to produce a surrogate for the Monte Carlo calculation of a calorimeter response to an incident particle (ATLAS data at LHC calculated with GEANT4). Variational Auto Encoders, GANs, Normalizing Flows, and Diffusion Models. We also have a surrogate using a Quantum Computer (DWAVE) annealer to generate random samples. We have identified four different surrogates that are available openly from Kaggle and later submissions.&lt;/p>
 &lt;h2 id="references">References&lt;/h2>
 &lt;div class="footnotes" role="doc-endnotes">
 &lt;hr>
 &lt;ol>
 &lt;li id="fn:1">
 &lt;p>&lt;a href="https://docs.google.com/document/d/19g0Avj9SYbVH7qSxoVUnnFKeGMuBdD9JCHVmBQB466M/edit?usp=sharing">https://docs.google.com/document/d/19g0Avj9SYbVH7qSxoVUnnFKeGMuBdD9JCHVmBQB466M/edit?usp=sharing&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2">
+&lt;p>&lt;a href="https://calochallenge.github.io/homepage/">https://calochallenge.github.io/homepage/&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/div></description></item><item><title>Docs: Virtual tissue</title><link>/docs/surrogates/virtualtissue/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/surrogates/virtualtissue/</guid><description>
