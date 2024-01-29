@@ -3,9 +3,7 @@ title: "Calorimeter surrogates"
 linkTitle: "Calorimeter"
 weight: 13
 description: >
-  We explore the relationship between certain network configurations and the performance of distributed Machine
-  Learning systems. We build upon the Open Surrogate Model Inference (OSMI) Benchmark, a distributed inference
-  benchmark for analyzing the performance of machine-learned surrogate models
+  The Kaggle calorimeter challenge uses generative AI to produce a surrogate for the Monte Carlo calculation of a calorimeter response to an incident particle (ATLAS data at LHC calculated with GEANT4).
 resources:
   - src: "**.{png,jpg}"
     title: "Image #:counter"
@@ -13,15 +11,9 @@ resources:
 
 ## Overview
 
-This surrogate set is based on a Workshop CaloChalange, May 30-31, 2023, Rome
+The Kaggle calorimeter challenge [^1] uses generative AI to produce a surrogate for the Monte Carlo calculation of a calorimeter response to an incident particle (ATLAS data at LHC calculated with GEANT4). Variational Auto Encoders, GANs, Normalizing Flows, and Diffusion Models. We also have a surrogate using a Quantum Computer (DWAVE) annealer to generate random samples. We have identified four different surrogates that are available openly from Kaggle and later submissions.
 
-The workshop is organised to discuss the results of the calochallenge, this year's ML competition in high energy physics focussing on fast calorimeter simulation using generative models.
 
-Every contributor will have the opportunity to present the method developed. Plenty of time will be devoted to discussions about the benefits and limitations of the different approaches.
-
-* [Participants](https://agenda.infn.it/event/34036/registrations/participants)
-
-A summare is provided in.[^1]
 
 ## References
 
