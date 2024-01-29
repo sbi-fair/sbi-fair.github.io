@@ -56,7 +56,6 @@ The collection of publications related to this project.
    Ramanathan, Rick Stevens https://arxiv.org/abs/2106.07036 Submitted
    to NeuriPS 2021. Federal Funding Acknowledgement: Yes.  
 
- 
 #. Hybrid Reusable Computational Analytics Workflow Management with Cloudmesh, 
    Gregor von Laszewski and J. P. Fleischer and Geoffrey C. Fox, 2022,
    arXiv, <https://arxiv.org/abs/2210.16941>
