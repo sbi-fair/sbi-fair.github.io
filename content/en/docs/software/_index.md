@@ -1,6 +1,8 @@
 ---
 title: "Software"
 linkTitle: "Software"
+description: >
+  Some software that we developed 
 weight: 45
 menu:
   main:
