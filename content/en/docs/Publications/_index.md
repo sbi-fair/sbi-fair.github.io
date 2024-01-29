@@ -13,6 +13,13 @@ description: >
 The collection of publications related to this project.
 {{% /pageinfo %}}
 
+1. Quadri-partite Quantum-Assisted VAE as a calorimeter surrogate
+   J Quetzalcoatl Toledo-Marin, Roger Melko, Maximilian Swiatlowski, 
+   Wojciech Fedorko, Geoffrey Fox, Sebastian Gonzalez, Hao Jia, Tiago Vale,
+   Semhimul Hoque, Abhishek Abhishek, Soren Andersen
+   Bulletin of the American Physical Society, American Physical Society
+   <https://meetings.aps.org/Meeting/MAR24/Session/Y50.5>
+
 1. Huerta, E. A. and Blaiszik, Ben and Brinson, L. Catherine and
    Bouchard, Kristofer E. and Diaz, Daniel and Doglioni, Caterina and
    Duarte, Javier M. and Emani, Murali and Foster, Ian and Fox,
