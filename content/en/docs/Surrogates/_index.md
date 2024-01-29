@@ -1,6 +1,8 @@
 ---
 title: "Surrogates"
 linkTitle: "Surrogates"
+description: >
+  A list of surrogates we look at
 weight: 40
 menu:
   main:
