@@ -17,11 +17,18 @@ jobs:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
+
+      - name: Pandoc Download
+        run: wget https://github.com/jgm/pandoc/releases/download/3.1.11.1/pandoc-3.1.11.1-1-amd64.deb
+
       - name: Steup Pandoc
-        run: sudo apt-get -y install pandoc
+        run: sudo dpkg -i pandoc-3.1.11.1-1-amd64.deb
       
-      - name: Steup Pandoc citeproc
-        run: sudo apt-get -y install pandoc-citeproc
+      #- name: Steup Pandoc
+      #  run: sudo apt-get -y install pandoc
+      
+      #- name: Steup Pandoc citeproc
+      #  run: sudo apt-get -y install pandoc-citeproc
 
       #- name: Create bib
       #  run: cd content/en/docs/Publications; make 
