@@ -18,7 +18,7 @@ jobs:
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
       - name: Steup Pandoc
-        run: apt-get -y install pandoc
+        run: sudo apt-get -y install pandoc
         
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
