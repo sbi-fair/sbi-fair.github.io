@@ -19,6 +19,9 @@ jobs:
 
       - name: Steup Pandoc
         run: sudo apt-get -y install pandoc
+      
+      - name: Steup Pandoc citeproc
+        run: sudo apt-get -y install pandoc-citeproc
 
       - name: Create bib
         run: cd content/en/docs/Publications; make 
