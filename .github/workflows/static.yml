@@ -19,6 +19,9 @@ jobs:
 
       - name: Steup Pandoc
         run: sudo apt-get -y install pandoc
+
+      - name: Create bib
+        run: cd content/en/docs/Publications; make 
         
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
