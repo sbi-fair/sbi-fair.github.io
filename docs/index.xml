@@ -654,7 +654,92 @@ Apr. 2019 [Online]. Available:
 &lt;/div></description></item><item><title>Docs: Performance Surrogate</title><link>/docs/surrogates/performance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/surrogates/performance/</guid><description>
 &lt;h2 id="overview">Overview&lt;/h2>
 &lt;p>Please contact Piotre&lt;/p>
-&lt;h2 id="references">References&lt;/h2></description></item><item><title>Docs: Meeting Notes 01-08-2024</title><link>/docs/notes/2024-01-08/</link><pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate><guid>/docs/notes/2024-01-08/</guid><description>
+&lt;h2 id="references">References&lt;/h2></description></item><item><title>Docs: Meeting Notes 02-05-2024</title><link>/docs/notes/2024-02-05/</link><pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate><guid>/docs/notes/2024-02-05/</guid><description>
+&lt;h2 id="notes">Notes&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://docs.google.com/document/d/1E-eP45yqDofctCfzCb4QWiDmfYwXvXKGde6ex1c1fWg/edit">https://docs.google.com/document/d/1E-eP45yqDofctCfzCb4QWiDmfYwXvXKGde6ex1c1fWg/edit&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="virginia">Virginia&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>Virginia started a list of surrogates that would help prepare any poster necessary
+&lt;a href="https://docs.google.com/presentation/d/1LonfbydMlQyLBv5vh8tjATv9BxdN7GmjuU8RFyuK5aw/edit#slide=id.g2acfd0f37ff_1_151">https://docs.google.com/presentation/d/1LonfbydMlQyLBv5vh8tjATv9BxdN7GmjuU8RFyuK5aw/edit#slide=id.g2acfd0f37ff_1_151&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Virginia status is &lt;a href="https://docs.google.com/presentation/d/1LonfbydMlQyLBv5vh8tjATv9BxdN7GmjuU8RFyuK5aw/edit#slide=id.g2acfd0f37ff_1_100">https://docs.google.com/presentation/d/1LonfbydMlQyLBv5vh8tjATv9BxdN7GmjuU8RFyuK5aw/edit#slide=id.g2acfd0f37ff_1_100&lt;/a> and other slides here plus &lt;a href="https://docs.google.com/presentation/d/1fqKphJlK4Q_zE1wIAxHs73c4LHFjAKzjXIiMSS_opnw/edit?usp=sharing">https://docs.google.com/presentation/d/1fqKphJlK4Q_zE1wIAxHs73c4LHFjAKzjXIiMSS_opnw/edit?usp=sharing&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Web page &lt;a href="https://sbi-fair.github.io/">https://sbi-fair.github.io/&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="rutgers">Rutgers&lt;/h2>
+&lt;p>&lt;a href="https://docs.google.com/presentation/d/1AYvzpd4-UbAs_bRDVq4Amq9y-Z3njU3Jq5hgEXQMyEM/edit?usp=sharing">ASCR-PI-Meeting-Feb-2024-Rutgers&lt;/a>&lt;/p>
+&lt;h2 id="indiana">Indiana&lt;/h2>
+&lt;ul>
+&lt;li>Indiana has 2 surrogates.&lt;/li>
+&lt;li>&lt;a href="http://localhost:1313/docs/surrogates/ions-in-nanoconfinement/">Ions in nano confinement&lt;/a>.This code allows users to simulate ions confined between material surfaces that are nanometers apart, and extract the associated ionic structure.&lt;/li>
+&lt;/ul>
+&lt;p>time evolution: &lt;a href="https://github.com/softmaterialslab/RNN-MD">GitHub&lt;/a>: Code for our paper &amp;ldquo;Simulating Molecular Dynamics with Large Timesteps using Recurrent Neural Networks&amp;rdquo;&lt;/p>
+&lt;p>See powerpoint &lt;a href="https://docs.google.com/presentation/d/1uX1YrNGbcqmhcnT92GdzxIrKmM7qZprH/edit?usp=drive_link">sbi_Jadhao_2024.pptx&lt;/a>&lt;/p>
+&lt;h2 id="anl">ANL&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://docs.google.com/presentation/d/18ytZOELRRzYTBBFnPdZX_rqWnGB3pl4n/edit?usp=drive_link">PPT SBI_Slides2024_ANL.pptx&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="utk">UTK&lt;/h2>
+&lt;p>&lt;a href="https://docs.google.com/presentation/d/1SVGkNOhuC2OoAfeT-icABZvlm1zWIxO4IlwQb0_dJcw/edit?usp=sharing">SABATH Harness&lt;/a>&lt;/p>
+&lt;h2 id="other">Other&lt;/h2>
+&lt;p>Last Joint Presentation SBI DOE Presentation November 28 &lt;a href="https://docs.google.com/presentation/d/1d6sX3017Mz4lMqmjhAtgAKp0lgHS8f6W/edit?usp=sharing&amp;amp;ouid=114300777188823967496&amp;amp;rtpof=true&amp;amp;sd=true">2022.pptx&lt;/a>&lt;/p>
+&lt;p>The poster is FoxG_FAIR Surrogate Benchmarks .pptx or Abstract 250 words&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://docs.google.com/presentation/d/1ZrinfPiT6JALmB6n29dXfvlyj05kViPg/edit?usp=drive_link&amp;amp;ouid=114300777188823967496&amp;amp;rtpof=true&amp;amp;sd=true">https://docs.google.com/presentation/d/1ZrinfPiT6JALmB6n29dXfvlyj05kViPg/edit?usp=drive_link&amp;amp;ouid=114300777188823967496&amp;amp;rtpof=true&amp;amp;sd=true&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://drive.google.com/file/d/1nsX1r_uZ6jdzB__mPWyUTqmIkvVCUpWA/view?usp=drive_link">FoxG_FAIR Surrogate Benchmarks.pdf&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>Replacing traditional HPC computations with deep learning surrogates can dramatically improve the performance of simulations. We need to build repositories for AI models, datasets, and results that are easily used with FAIR metadata. These must cover a broad spectrum of use cases and system issues. The need for heterogeneous architectures means new software and performance issues. Further surrogate performance models are needed. The SBI (Surrogate Benchmark Initiative) collaboration between Argonne National Lab, Indiana University, Rutgers, University of Tennessee, and Virginia (lead) with MLCommons addresses these issues. The collaboration accumulates existing and generates new surrogates and hosts them (a total of around 20) in repositories. Selected surrogates become MLCommons benchmarks. The surrogates are managed by a FAIR metadata system, SABATH, developed by Tennessee and implemented for our repositories by Virginia.
+The surrogate domains are Bragg coherent diffraction imaging, ptychographic imaging, Fully ionized plasma fluid model closures, molecular dynamics(2),&lt;br>
+turbulence in computational fluid dynamics, cosmology, Kaggle calorimeter challenge(4), virtual tissue simulations(2), and performance tuning. Rutgers built a taxonomy using previous work and protein-ligand docking, which will be quantified using six mini-apps representing the system structure for different surrogate uses. Argonne has studied the data-loading and I/O structure for deep learning using inter-epoch and intra-batch reordering to improve data reuse. Their system addresses communication with the aggregation of small messages. They also study second-order optimizers using compression balancing accuracy and compression level. Virginia has used I/O parallelization to further improve performance. Indiana looked at ways of reducing the needed training set size for a given surrogate accuracy.&lt;/p>
+&lt;p>[1] Web Page for Surrogate Benchmark Initiative SBI: FAIR Surrogate Benchmarks Supporting AI and Simulation Research. Web Page, January 2024. URL: &lt;a href="https://sbi-fair.github.io/">https://sbi-fair.github.io/&lt;/a>.
+[2] E. A. Huerta, Ben Blaiszik, L. Catherine Brinson, Kristofer E. Bouchard, Daniel Diaz, Cate- rina Doglioni, Javier M. Duarte, Murali Emani, Ian Foster, Geoffrey Fox, Philip Harris, Lukas Heinrich, Shantenu Jha, Daniel S. Katz, Volodymyr Kindratenko, Christine R. Kirk- patrick, Kati Lassila-Perini, Ravi K. Madduri, Mark S. Neubauer, Fotis E. Psomopoulos, Avik Roy, Oliver R ̈ubel, Zhizhen Zhao, and Ruike Zhu. Fair for ai: An interdisciplinary and international community building perspective. Scientific Data, 10(1):487, 2023. URL: &lt;a href="https://doi.org/10.1038/s41597-023-02298-6">https://doi.org/10.1038/s41597-023-02298-6&lt;/a>.
+Note: More references can be found on the Web site&lt;/p>
+&lt;p>Latex version &lt;a href="https://www.overleaf.com/project/65b7e7262188975739dae845">https://www.overleaf.com/project/65b7e7262188975739dae845&lt;/a> with PDF FoxG_FAIR Surrogate Benchmarks _abstract.pdf &lt;a href="https://drive.google.com/file/d/1ytrrii09tKKS2AAVuUTKGw8tmM2Xf8-N/view?usp=drive_link">https://drive.google.com/file/d/1ytrrii09tKKS2AAVuUTKGw8tmM2Xf8-N/view?usp=drive_link&lt;/a>&lt;/p>
+&lt;p>Topics&lt;/p>
+&lt;p>Fitting of hardware and software to surrogates
+Uncertainty Quantification of the surrogate estimates
+Minimize Training Data Size needed to get reliable surrogates for a given accuracy choice.
+Develop and test surrogate Performance Models
+Findable, Accessible, Interoperable, and Reusable FAIR data ecosystem for HPC surrogates
+SBI collaborates with Industry and a leading machine learning benchmarking activity &amp;ndash; MLPerf/MLCommons&lt;/p>
+&lt;p>Rutgers 2 slides
+Detailed example: AI-accelerated Protein-Ligand Docking
+Taxonomy and 6 mini-apps&lt;/p>
+&lt;p>Tennessee 6 slides
+SABATH structure and UTK use
+Cosmoflow in detail&lt;/p>
+&lt;p>Argonne 7 slides
+5 slides High-Performance Data Loading Framework for Distributed DNN Training with Maximize data reuse:
+Inter-Epoch Reordering (InterER) has minimal impact on the accuracy.
+Intra-Batch Reordering (IntraBR) that has no impact on the accuracy.
+I/O balancing
+A strategy that aggregates small reads into a chunk read.&lt;/p>
+&lt;p>2 slides Scalable Communication Framework for Second-Order Optimizers using compression balancing accuracy and compression amount&lt;/p>
+&lt;p>Indiana
+Goal 1: Develop surrogates for nanoscale molecular dynamics (MD) simulations
+Surrogate for MD simulations of confined electrolyte ions
+Surrogate for time evolution operators in MD simulations&lt;/p>
+&lt;p>Goal 2: Investigate surrogate accuracy dependence on training dataset size&lt;/p>
+&lt;p>Virginia
+Work on I/O and Communicaion optimization
+Done Two Argonne one IU and one MLCommons&lt;/p>
+&lt;p>To do
+Onr argonne Fully ionized plasma fluid model closures
+Calorimeter Challenge: 3 (NF:CaloFlow, Diffusion:CaloDiffusion, CaloScore v2, VAEQVAE
+Last IU
+UTK Cosmoflow Performance
+Virtual Tissue (2)
+6 Rutgers&lt;/p></description></item><item><title>Docs: Meeting Notes 01-08-2024</title><link>/docs/notes/2024-01-08/</link><pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate><guid>/docs/notes/2024-01-08/</guid><description>
 &lt;p>&lt;strong>Present:&lt;/strong> Geoffrey Fox, Gregor von Laszewski, Przemek Porebski, Piotr Luszczek, Shantenu Jha&lt;/p>
 &lt;p>&lt;strong>Apologies&lt;/strong> Vikram Jadhao&lt;/p>
 &lt;ul>
