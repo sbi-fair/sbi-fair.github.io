@@ -1,7 +1,6 @@
 ---
 title: "Links"
-linkTitle: "01-08-2024"
-date: 2024-01-08
+linkTitle: "Links"
 weight: 1
 description: >
   Links
