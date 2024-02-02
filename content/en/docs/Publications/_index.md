@@ -19,7 +19,7 @@ The collection of publications related to this project.
 class="csl-right-inline">G. Fox, P. Beckman, S. Jha, P. Luszczek, and V.
 Jadhao, “Surrogate benchmark initiative SBI: FAIR surrogate benchmarks
 supporting AI and simulation research.” Feb. 2024. Available:
-<http://sbi-fair.github.io/pub/doe_abstract.pdf></span>
+<https://github.com/sbi-fair/sbi-fair.github.io/raw/main/pub/doe_abstract.pdf></span>
 
 <span class="csl-left-margin">\[2\] </span><span
 class="csl-right-inline">T. Zhong, J. Zhao, X. Guo, Q. Su, and G. Fox,
