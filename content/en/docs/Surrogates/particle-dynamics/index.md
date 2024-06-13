@@ -44,7 +44,7 @@ the right is the LSTM network with modest error up to t = 106 even for
 {{< /imgproc >}}
 
 
-## Refernces
+## References
 
 [^52]: JCS Kadupitiya, Geoffrey C. Fox, Vikram Jadhao, “GitHub
        repository for Simulating Molecular Dynamics with Large
