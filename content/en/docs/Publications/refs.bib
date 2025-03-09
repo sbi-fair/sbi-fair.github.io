@@ -1,0 +1,338 @@
+@InProceedings{doe-abstract,
+  title =	 {Surrogate Benchmark Initiative SBI: FAIR Surrogate
+                  Benchmarks Supporting AI and Simulation Research},
+  author =	 {Geoffrey Fox and Pete Beckman and Shantenu Jha and
+                  Piotr Luszczek and Vikram Jadhao},
+  url =
+                  {https://github.com/sbi-fair/sbi-fair.github.io/raw/main/pub/doe_abstract.pdf},
+  month =	 feb,
+  year =	 2024,
+  booktitle =	 {ASCR Computer Science (CS) Principal Investigators
+                  (PI) Meeting},
+  pages =	 1,
+  address =	 {Atlanta, GA},
+  organization = {U.S. Department of Energy (DOE), Office of Science
+                  (SC)},
+  overleaf =
+                  {https://www.overleaf.com/project/65b7e7262188975739dae845}
+}
+
+@misc{zhong2023rinas,
+  title =	 {RINAS: Training with Dataset Shuffling Can Be
+                  General and Fast},
+  author =	 {Tianle Zhong and Jiechen Zhao and Xindi Guo and
+                  Qiang Su and Geoffrey Fox},
+  year =	 2023,
+  eprint =	 {2312.02368},
+  archivePrefix ={arXiv},
+  primaryClass = {cs.DB}
+}
+
+@misc{luo2023rtp,
+  title =	 {RTP: Rethinking Tensor Parallelism with Memory
+                  Deduplication},
+  author =	 {Cheng Luo and Tianle Zhong and Geoffrey Fox},
+  year =	 2023,
+  eprint =	 {2311.01635},
+  archivePrefix ={arXiv},
+  primaryClass = {cs.DC}
+}
+
+@InProceedings{quadri,
+  author =	 {},
+  title =	 {Quadri-partite Quantum-Assisted VAE as a calorimeter
+                  surrogate},
+  booktitle =	 {Bulletin of the American Physical Society},
+  series =	 {APS March Meeting},
+  publisher =	 {American Physical Society Sites},
+  url =
+                  {https://meetings.aps.org/Meeting/MAR24/Session/Y50.5}
+}
+
+@misc{toledomarín2021deep,
+  title =	 {Deep learning approaches to surrogates for solving
+                  the diffusion equation for mechanistic real-world
+                  simulations},
+  author =	 {J. Quetzalcóatl Toledo-Marín and Geoffrey Fox and
+                  James P. Sluka and James A. Glazier},
+  year =	 2021,
+  eprint =	 {2102.05527},
+  archivePrefix ={arXiv},
+  primaryClass = {cond-mat.soft}
+}
+
+@ARTICLE{10.3389/fphys.2021.667828,
+  AUTHOR =	 {Toledo-Marín, J. Quetzalcóatl and Fox, Geoffrey and
+                  Sluka, James P. and Glazier, James A.},
+  TITLE =	 {Deep Learning Approaches to Surrogates for Solving
+                  the Diffusion Equation for Mechanistic Real-World
+                  Simulations},
+  JOURNAL =	 {Frontiers in Physiology},
+  VOLUME =	 12,
+  YEAR =	 2021,
+  URL =
+                  {https://www.frontiersin.org/articles/10.3389/fphys.2021.667828},
+  DOI =		 {10.3389/fphys.2021.667828},
+  ISSN =	 {1664-042X},
+  ABSTRACT =	 {In many mechanistic medical, biological, physical,
+                  and engineered spatiotemporal dynamic models the
+                  numerical solution of partial differential equations
+                  (PDEs), especially for diffusion, fluid flow and
+                  mechanical relaxation, can make simulations
+                  impractically slow. Biological models of tissues and
+                  organs often require the simultaneous calculation of
+                  the spatial variation of concentration of dozens of
+                  diffusing chemical species. One clinical example
+                  where rapid calculation of a diffusing field is of
+                  use is the estimation of oxygen gradients in the
+                  retina, based on imaging of the retinal vasculature,
+                  to guide surgical interventions in diabetic
+                  retinopathy. Furthermore, the ability to predict
+                  blood perfusion and oxygenation may one day guide
+                  clinical interventions in diverse settings, i.e.,
+                  from stent placement in treating heart disease to
+                  BOLD fMRI interpretation in evaluating cognitive
+                  function (Xie et al., <xref ref-type="bibr"
+                  rid="B40">2019</xref>; Lee et al., <xref
+                  ref-type="bibr" rid="B23">2020</xref>). Since the
+                  quasi-steady-state solutions required for
+                  fast-diffusing chemical species like oxygen are
+                  particularly computationally costly, we consider the
+                  use of a neural network to provide an approximate
+                  solution to the steady-state diffusion
+                  equation. Machine learning surrogates, neural
+                  networks trained to provide approximate solutions to
+                  such complicated numerical problems, can often
+                  provide speed-ups of several orders of magnitude
+                  compared to direct calculation. Surrogates of PDEs
+                  could enable use of larger and more detailed models
+                  than are possible with direct calculation and can
+                  make including such simulations in real-time or
+                  near-real time workflows practical. Creating a
+                  surrogate requires running the direct calculation
+                  tens of thousands of times to generate training data
+                  and then training the neural network, both of which
+                  are computationally expensive. Often the practical
+                  applications of such models require thousands to
+                  millions of replica simulations, for example for
+                  parameter identification and uncertainty
+                  quantification, each of which gains speed from
+                  surrogate use and rapidly recovers the up-front
+                  costs of surrogate generation. We use a
+                  Convolutional Neural Network to approximate the
+                  stationary solution to the diffusion equation in the
+                  case of two equal-diameter, circular, constant-value
+                  sources located at random positions in a
+                  two-dimensional square domain with absorbing
+                  boundary conditions. Such a configuration
+                  caricatures the chemical concentration field of a
+                  fast-diffusing species like oxygen in a tissue with
+                  two parallel blood vessels in a cross section
+                  perpendicular to the two blood vessels. To improve
+                  convergence during training, we apply a training
+                  approach that uses roll-back to reject stochastic
+                  changes to the network that increase the loss
+                  function. The trained neural network approximation
+                  is about 1000 times faster than the direct
+                  calculation for individual replicas. Because
+                  different applications will have different criteria
+                  for acceptable approximation accuracy, we discuss a
+                  variety of loss functions and accuracy estimators
+                  that can help select the best network for a
+                  particular application. We briefly discuss some of
+                  the issues we encountered with overfitting,
+                  mismapping of the field values and the geometrical
+                  conditions that lead to large absolute and relative
+                  errors in the approximate solution.}
+}
+
+@article{kadupitiya2020machine,
+  title =	 {Machine learning surrogates for molecular dynamics
+                  simulations of soft materials},
+  author =	 {Kadupitiya, JCS and Sun, Fanbo and Fox, Geoffrey and
+                  Jadhao, Vikram},
+  journal =	 {Journal of Computational Science},
+  volume =	 42,
+  pages =	 101107,
+  year =	 2020,
+  publisher =	 {Elsevier},
+  url =		 {https://par.nsf.gov/servlets/purl/10188151}
+}
+
+@inproceedings{jadhao2020integrating,
+  title =	 {Integrating machine learning with hpc-driven
+                  simulations for enhanced student learning},
+  author =	 {Jadhao, Vikram and Kadupitiya, JCS},
+  booktitle =	 {2020 IEEE/ACM Workshop on Education for
+                  High-Performance Computing (EduHPC)},
+  pages =	 {25--34},
+  year =	 2020,
+  organization = {IEEE},
+  url =		 {https://api.semanticscholar.org/CorpusID:221376417}
+}
+
+@misc{clyde2021proteinligand,
+  title =	 {Protein-Ligand Docking Surrogate Models: A
+                  SARS-CoV-2 Benchmark for Deep Learning Accelerated
+                  Virtual Screening},
+  author =	 {Austin Clyde and Thomas Brettin and Alexander Partin
+                  and Hyunseung Yoo and Yadu Babuji and Ben Blaiszik
+                  and Andre Merzky and Matteo Turilli and Shantenu Jha
+                  and Arvind Ramanathan and Rick Stevens},
+  year =	 2021,
+  eprint =	 {2106.07036},
+  archivePrefix ={arXiv},
+  primaryClass = {q-bio.BM},
+  url =		 {https://arxiv.org/abs/2106.07036}
+}
+
+@article{huerta,
+  author =	 {Huerta, E. A. and Blaiszik, Ben and Brinson,
+                  L. Catherine and Bouchard, Kristofer E. and Diaz,
+                  Daniel and Doglioni, Caterina and Duarte, Javier
+                  M. and Emani, Murali and Foster, Ian and Fox,
+                  Geoffrey and Harris, Philip and Heinrich, Lukas and
+                  Jha, Shantenu and Katz, Daniel S. and Kindratenko,
+                  Volodymyr and Kirkpatrick, Christine R. and
+                  Lassila-Perini, Kati and Madduri, Ravi K. and
+                  Neubauer, Mark S. and Psomopoulos, Fotis E. and Roy,
+                  Avik and R{\"u}bel, Oliver and Zhao, Zhizhen and
+                  Zhu, Ruike},
+  journal =	 {Scientific Data},
+  number =	 1,
+  pages =	 487,
+  title =	 {FAIR for AI: An interdisciplinary and international
+                  community building perspective},
+  volume =	 10,
+  year =	 2023,
+  url =		 {https://doi.org/10.1038/s41597-023-02298-6}
+}
+
+@misc{vonlaszewski2022hybrid,
+  title =	 {Hybrid Reusable Computational Analytics Workflow
+                  Management with Cloudmesh},
+  author =	 {von Laszewski, Gregor and J. P. Fleischer and
+                  Geoffrey C. Fox},
+  year =	 2022,
+  eprint =	 {2210.16941},
+  archivePrefix ={arXiv},
+  primaryClass = {cs.DC}
+}
+
+@misc{chennamsetti2023mlcommons,
+  title =	 {MLCommons Cloud Masking Benchmark with Early
+                  Stopping},
+  author =	 {Varshitha Chennamsetti and von Laszewski, Gregor and
+                  Ruochen Gu and Laiba Mehnaz and Juri Papay and
+                  Samuel Jackson and Jeyan Thiyagalingam and Sergey
+                  V. Samsonau and Geoffrey C. Fox},
+  year =	 2023,
+  eprint =	 {2401.08636},
+  archivePrefix ={arXiv},
+  primaryClass = {cs.DC}
+}
+
+@misc{vonlaszewski2023overview,
+  title =	 {An Overview of MLCommons Cloud Mask Benchmark:
+                  Related Research and Data},
+  author =	 {von Laszewski, Gregor and Ruochen Gu},
+  year =	 2023,
+  eprint =	 {2312.04799},
+  archivePrefix ={arXiv},
+  primaryClass = {cs.DC}
+}
+
+@misc{vonlaszewski2023whitepaper,
+  title =	 {Whitepaper on Reusable Hybrid and Multi-Cloud
+                  Analytics Service Framework},
+  author =	 {von Laszewski, Gregor and Wo Chang and Russell
+                  Reinsch and Olivera Kotevska and Ali Karimi and
+                  Abdul Rahman Sattar and Garry Mazzaferro and
+                  Geoffrey C. Fox},
+  year =	 2023,
+  eprint =	 {2310.17013},
+  archivePrefix ={arXiv},
+  primaryClass = {cs.DC}
+}
+
+@inproceedings{las-2023-escience,
+  address =	 {Limassol, Cyprus},
+  author =	 {von Laszewski, Gregor and Fleischer, J.P. and Fox,
+                  Geoffrey C. and Juri Papay and Sam Jackson and Jeyan
+                  Thiyagalingam},
+  booktitle =	 {eScience'23},
+  month =	 {October},
+  organization = {Second Workshop on Reproducible Workflows, Data, and
+                  Security (ReWorDS 2022)},
+  title =	 {Templated Hybrid Reusable Computational Analytics
+                  Workflow Management with Cloudmesh, Applied to the
+                  Deep Learning MLCommons Cloudmask Application},
+  url =
+                  {https://github.com/cyberaide/paper-cloudmesh-cc-ieee-5-pages/raw/main/vonLaszewski-cloudmesh-cc.pdf},
+  year =	 2023
+}
+
+@article{las-2023-mlcommons-edu-eq,
+  author =	 {von Laszewski, Gregor and Fleischer, J.P. and
+                  Knuuti, R. and Fox, G.C. and Kolessar, J. and
+                  Butler, T.S. and Fox, J.},
+  journal =	 {Frontiers in High Performance Computing,},
+  month =	 {October},
+  number =	 1233877,
+  pages =	 31,
+  title =	 {Opportunities for enhancing MLCommons efforts while
+                  leveraging insights from educational MLCommons
+                  earthquake benchmarks efforts},
+  url =		 {https://doi.org/10.3389/fhpcp.2023.1233877},
+  volume =	 1,
+  year =	 2023
+}
+
+@misc{www-clodmesh-repos,
+  author =	 {von Laszewski, Gregor},
+  title =	 {Cloudmesh},
+  howpublished = {Web Page},
+  url =		 {https://github.com/orgs/cloudmesh/repositories},
+  month =	 jan,
+  year =	 2024
+}
+
+@inproceedings{las-2022-icbicc,
+  address =	 {Chengdu, China},
+  annote =	 {Over the last several years, the computation
+                  landscape for conducting data analytics has
+                  completely changed. While in the past, a lot of the
+                  activities have been undertaken in isolation by
+                  companies, and research institutions, today's
+                  infrastructure constitutes a wealth of analytics
+                  services offered by a variety of providers that
+                  offer opportunities for reuse, interactions while
+                  leveraging service collaboration, and service
+                  cooperation. In this talk, we project our vision to
+                  develop an analytics services framework to integrate
+                  reusable hybrid multi-services across different
+                  cloud infrastructure and service providers as well
+                  as on-premise infrastructure and services. It
+                  includes (a) analytics services that explicitly
+                  target the intersection of hybrid multi-provider
+                  analytics services, (b) the integration of sensor
+                  networks into the service data, (c) the integration
+                  of advanced modelling services as part of analytical
+                  tasks such as earthquake prediction, and (d) the
+                  coordination of these services. We showcase how our
+                  vision can integrate leveraging service composition
+                  with cooperation and competition analytics
+                  services. We demonstrate the activities while
+                  utilizing benchmark analytics services as used by
+                  the MLCommons science benchmark working group.},
+  author =	 {von Laszewski, Gregor},
+  booktitle =	 {4th International Conference on Big data, IoT, and
+                  Cloud Computing (ICBICC 2022)},
+  month =	 {December},
+  note =	 {Keynote},
+  publisher =	 {IASED},
+  title =	 {Reusable Hybrid and Multi-Cloud Analytics Service
+                  Framework},
+  url =		 {www.icbicc.org},
+  year =	 2022
+}
