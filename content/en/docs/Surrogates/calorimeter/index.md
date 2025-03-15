@@ -11,6 +11,16 @@ resources:
 
 ## Overview
 
+The Kaggle calorimeter challenge uses generative AI to produce a
+surrogate for the Monte Carlo calculation of a calorimeter response to
+an incident particle (ATLAS data at LHC calculated with
+GEANT4). Variational Auto Encoders, GANs, Normalizing Flows, and
+Diffusion Models. We also have a surrogate using a Quantum Computer
+(DWAVE) annealer to generate random samples. We have identified four
+different surrogates that are available openly from Kaggle and later
+submissions.
+
+## Details 
 
 Accurate simulation plays a crucial role in particle physics by
 bridging theoretical models with experimental data to uncover the
