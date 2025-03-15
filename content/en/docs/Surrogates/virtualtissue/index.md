@@ -41,7 +41,13 @@ than the bound do not exist. Furthermore, as most surrogate tasks
 involve a high dimensional landscape, an ever increasing training set
 size is, in principle, needed, however it is not a practical solution.
 
-[^1][^2]
+
+{{< imgproc virtualtissue Fill "949x300" >}}
+Figure 1: Sketch of the NN architecture for virtual tissue surrogate.
+{{< /imgproc >}}
+
+
+[^1],[^2]
 
 ## References
 
