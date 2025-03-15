@@ -29,6 +29,15 @@ resources:
 This application is based on the original CosmoFlow paper presented at SC18 and continued by the ExaLearn project, and adopted as a benchmark in the MLPerf HPC suite. It involves training a 3D convolutional neural network on N-body cosmology simulation data to predict physical parameters of the universe. The reference implementation for MLPerf HPC v0.5 CosmoFlow uses TensorFlow with the Keras API and Horovod for data-parallel distributed training. The dataset comes from simulations run by ExaLearn, with universe volumes split into cubes of size 128x128x128 with 4 redshift bins. The total dataset volume preprocessed for MLPerf HPC v0.5 in TFRecord format is 5.1 TB. The target objective in MLPerf HPC v0.5 is to train the model to a validation mean-average-error < 0.124. However, the problem size can be scaled down and the training throughput can be used as the primary objective for a small scale or shorter timescale benchmark.[^1][^2][^3]
 
 
+
+{{< imgproc cosmoflow Fill "928x900" >}}
+Figure 1: Example simulation of dark matter in the universe used as input to the CosmoFlow network.
+Copied from [NERSC](https://www.nersc.gov/news-publications/nersc-news/science-news/2018/nersc-intel-cray-harness-the-power-of-deep-learning-to-better-understand-the-universe/)
+{{< /imgproc >}}
+
+
+
+
 ## References
 
 

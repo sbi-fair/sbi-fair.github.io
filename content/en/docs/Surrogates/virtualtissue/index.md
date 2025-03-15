@@ -47,11 +47,16 @@ Figure 1: Sketch of the NN architecture for virtual tissue surrogate.
 {{< /imgproc >}}
 
 
-[^1],[^2]
+[^1]<sup>,</sup>[^2]
 
 ## References
 
-[^1]: https://arxiv.org/pdf/2302.03786.pdf is virtual tissue
+[^1]: Analyzing the Performance of Deep Encoder-Decoder Networks as Surrogates for a Diffusion Equation, J. Quetzalcoatl Toledo-Marin, James A. Glazier, Geoffrey Fox
+<https://arxiv.org/pdf/2302.03786.pdf>>
 
-[^2]: There is an earlier surrogate referred to in this arxiv. It was published
-https://www.frontiersin.org/articles/10.3389/fphys.2021.667828/full
+[^2]: There is an earlier surrogate referred to in this arxiv. It was published:
+Toledo-Marín J. Quetzalcóatl , Fox Geoffrey , Sluka James P. , Glazier James A., 
+Deep Learning Approaches to Surrogates for Solving the Diffusion Equation for Mechanistic Real-World Simulations,Frontiers in Physiology, Vol. 12, 2021
+doi: 10.3389/fphys.2021.667828,
+ISSNI 1664-042X,
+<https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2021.667828>

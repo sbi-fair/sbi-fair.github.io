@@ -31,6 +31,16 @@ considerable time on single-GPU systems. This area comes from the
 major Argonne CANDLE [^59] project and other applications (DeepDriveMD)
 will come from this project in the new submissions category. 
 
+ 
+
+
+{{< imgproc candle Fill "1073x735" >}}
+Figure 1: CANcer Distributed Learning Environment
+{{< /imgproc >}}
+
+
+
+
 ## Refernces
 
 [^56]: P. D. Lyne, “Structure-based virtual screening: an overview,”

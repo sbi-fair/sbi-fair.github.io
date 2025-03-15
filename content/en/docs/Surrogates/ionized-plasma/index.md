@@ -38,6 +38,12 @@ early example for SBI with reference implementation and tutorial
 documentation. As a follow-up, the Argonne team will tackle more
 challenging problems. 
 
+
+{{< imgproc plasma Fill "1600x910" >}}
+Figure 1: Simple schematic of varying classes of closure formulations. 
+{{< /imgproc >}}
+
+
 ## References 
 
 [^60]: R. Maulik, N. A. Garland, X.-Z. Tang, and P. Balaprakash,

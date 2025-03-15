@@ -32,12 +32,18 @@ MiniWeatherML is a playground for learning and developing Machine Learning (ML) 
 * End-to-end workflows
 
 
+
+
+
+{{< imgproc weather Fill "500x500" >}}
+Figure 1: CANcer Distributed Learning Environment
+{{< /imgproc >}}
+
 <img src="https://camo.githubusercontent.com/f7d00138e4e45ee24367fc16bc6f7de194c1c5a1ceebb03f85fb0c1cdcc4e314/68747470733a2f2f6d726e6f726d616e2e6769746875622e696f2f737570657263656c6c5f6d696e69576561746865724d4c2e676966">
 
-[^1][^2]
+[^1],[^2]
 
 ## References
 
-[^1]: <https://github.com/mrnorman/miniWeatherML>
-
+[^1]: <https://github.com/mrnorman/miniWeatherML><sup>,</sup>
 [^2]: <https://github.com/mrnorman/miniWeatherML/wiki>
