@@ -85,7 +85,7 @@ have been proposed. However, evaluating
 these models remains challenging because the physical characteristics
 of calorimeter showers differ significantly from traditional image-
 and text-based data.
-[^46]<sup/>-</sup>
+[^46]<sup/>,</sup>
 [^47] conducted a rigorous evaluation of these
 generative models using standard datasets and a diverse set of metrics
 derived from physics, computer vision, and statistics. Although
