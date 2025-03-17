@@ -48,12 +48,12 @@ are exploring generative models commonly used in image and text
 generation—as surrogate models that can generate realistic calorimeter
 showers at a fraction of the computational cost. In recent years,
 several approaches based on Generative Adversarial Networks(GAN)
-[^12]<sup/>-</sup>
-[^16]<sup/>-</sup>
-[^17]<sup/>-</sup>
-[^18]<sup/>-</sup>
-[^19]<sup/>-</sup>
-[^20]<sup/>-</sup>
+[^12]<sup/>,</sup>
+[^16]<sup/>,</sup>
+[^17]<sup/>,</sup>
+[^18]<sup/>,</sup>
+[^19]<sup/>,</sup>
+[^20]<sup/>,</sup>
 Diffusion
 [^37]
 [^38]<sup>,</sup>
@@ -74,7 +74,13 @@ Diffusion
 [^28]<sup>,</sup>
 [^29]
 and Normalizing Flows
-[^30]<sup/>-</sup>[^36]
+[^30]<sup/>,</sup>
+[^31]<sup/>,</sup>
+[^32]<sup/>,</sup>
+[^33]<sup/>,</sup>
+[^34]<sup/>,</sup>
+[^35]<sup/>,</sup>
+[^36]
 have been proposed. However, evaluating
 these models remains challenging because the physical characteristics
 of calorimeter showers differ significantly from traditional image-
@@ -178,8 +184,7 @@ Anna Zaborowska, Fast calorimeter simulation challenge
 2022 - dataset 1,2 and 3 [data set]. zenodo., <https://doi.org/10.5281/zenodo.8099322>, <https://doi.org/10.5281/zenodo.6366271>, <https://doi.org/10.5281/zenodo.6366324> (2022).
 [^9]:  ATLAS Collaboration, ATLAS software and computing HL-LHC roadmap, Tech. Rep. (Technical report, CERN, Geneva. <http://cds.cern.ch/record/2802918>, 2022).
 
-[^46]: **Ahmad, Farzana Yasmin, Vanamala Venkataswamy, and Geoffrey Fox. "A comprehensive evaluation of generative models in calorimeter shower simulation." *arXiv preprint arXiv:2406.12898* (2024). **
-
+[^46]: **Ahmad, Farzana Yasmin, Vanamala Venkataswamy, and Geoffrey Fox. "A comprehensive evaluation of generative models in calorimeter shower simulation." *arXiv preprint arXiv:2406.12898* (2024).**
 [^7]: **Conditioned quantum-assisted deep generative surrogate for particle-calorimeter interactions, J Quetzalcoatl Toledo-Marin, Sebastian Gonzalez, Hao Jia, Ian Lu, Deniz Sogutlu, Abhishek Abhishek, Colin Gay, Eric Paquet, Roger Melko, Geoffrey C Fox, Maximilian Swiatlowski, Wojciech Fedorko, 2024/10/30
 arXiv preprint arXiv:2410.22870, Abstract:
 Particle collisions at accelerators such as the Large Hadron Collider, recorded and analyzed by experiments such as ATLAS and CMS, enable exquisite measurements of the Standard Model and searches for new phenomena. Simulations of collision events at these detectors have played a pivotal role in shaping the design of future experiments and analyzing ongoing ones. However, the quest for accuracy in Large Hadron Collider (LHC) collisions comes at an imposing computational cost, with projections estimating the need for millions of CPU-years annually during the High Luminosity LHC (HL-LHC) run \cite{collaboration2022atlas}. Simulating a single LHC event with \textsc{Geant4} currently devours around 1000 CPU seconds, with simulations of the calorimeter subdetectors in particular imposing substantial computational demands [^9]. To address this challenge, we propose a conditioned quantum-assisted deep generative model. Our model integrates a conditioned variational autoencoder (VAE) on the exterior with a conditioned Restricted Boltzmann Machine (RBM) in the latent space, providing enhanced expressiveness compared to conventional VAEs. The RBM nodes and connections are meticulously engineered to enable the use of qubits and couplers on D-Wave's Pegasus-structured \textit{Advantage} quantum annealer (QA) for sampling. We introduce a novel method for conditioning the quantum-assisted RBM using \textit{flux biases}. We further propose a novel adaptive mapping to estimate the effective inverse temperature in quantum annealers. The effectiveness of our framework is illustrated using Dataset 2 of the CaloChallenge [^8].**

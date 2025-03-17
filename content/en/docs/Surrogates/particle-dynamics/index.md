@@ -19,7 +19,7 @@ range of surrogate designs. Molecular dynamics simulations rely on
 numerical integrators such as Verlet to solve Newton's equations of
 motion. Using a sufficiently small time step to avoid discretization
 errors, Verlet integrators generate a trajectory of particle positions
-as solutions to the equations of motions. In  [^52] [^53] [^54], the IU team
+as solutions to the equations of motions. In  [^52]<sup>,</sup> [^53]<sup>,</sup> [^54], the IU team
 introduces an integrator based on recurrent neural networks that is
 trained on trajectories generated using the Verlet integrator and
 learns to propagate the dynamics of particles with timestep up to 4000
