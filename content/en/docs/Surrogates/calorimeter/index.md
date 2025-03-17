@@ -92,7 +92,7 @@ derived from physics, computer vision, and statistics. Although
 [^46]
 sheds light on the existent correlations between layers, they do not
 quantify correlations between layers and voxels. In this work, we
-propose Correlation Frobenius Distance(CFD), an evaluation metric for
+propose Correlation Frobenius Distance (CFD), an evaluation metric for
 generative models of calorimeter shower simulation. This metric
 measures how the consecutive layers and voxels of generated samples
 are correlated with each other compared to Geant4 samples. CFD helps
