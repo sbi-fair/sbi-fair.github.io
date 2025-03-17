@@ -12,7 +12,8 @@ resources:
 We are happy to announce a poster about the SBI FAIR project.
 
 {{< imgproc poster Fill "928x710" >}}
-POster
+Poster <sbi-fair-poster-finalv2.pdf>
+
 {{< /imgproc >}}
 
 
