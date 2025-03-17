@@ -35,7 +35,7 @@ network architecture and illustrates an important approach to learning
 evolution operators which can be applied across a variety of fields
 including Earthquake science (IU work in progress) and Fusion [^55]. 
 
-{{< imgproc particle Fill "600x300" >}} 
+{{< imgproc particle Fill "936x240" >}} 
 Fig. 4: Average error in position updates for 16 particles interacting
 with an LJ potential, The left figure is standard MD with error
 increasing for ∆t as 10, 40, or 100 times robust choice (0.001). On
