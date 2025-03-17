@@ -20,6 +20,7 @@ Diffusion Models. We also have a surrogate using a Quantum Computer
 different surrogates that are available openly from Kaggle and later
 submissions.
 
+
 {{< imgproc caloremiter Fill "928x710" >}}
 Figure 1: CaloChallenge Dataset.
 {{< /imgproc >}}
