@@ -103,10 +103,10 @@ CFD values indicate that the generated samples better preserve the
 correlations observed in Geant4 simulations. We compared four
 different models (CaloDream
 [^45], CaloScore v2 [^44], CaloDiffusion
-[^28], and CaloINN
+[^38], and CaloINN
 [^34]) on Dataset 2
 [^48] from CaloChallenge 2022
-[^39] for CFD, our observation reveals that CaloDream can capture
+[^49] for CFD, our observation reveals that CaloDream can capture
 correlations between consecutive layers and voxels the
 best. Furthermore, we explored the impact of using full versus mixed
 precision modes during inference for CaloDiffusion.  Our observation
